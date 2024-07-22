@@ -21,6 +21,6 @@ This repository is for generating GachaMetaDB to serve those apps conforming to 
 - Genshin Impact.
 - Star Rail.
 
-> Support for ZZZ (Zenless Zone Zero) is currently not planned yet until Dimbreath has its ExcelConfigData repository made available to the public.
+> Support for ZZZ (Zenless Zone Zero) is currently not planned regardless Dimbreath has made its ExcelConfigData repository (ZenlessData) available to the public. It's just too hard for me to figure out how to spot and organize intels needed to summarize GachaMetaDB from ZenlessData repo. Voluntary PRs are welcomed as long as you keep the generated JSON file structure consistent with existing ones for Genshin and StarRail, regardless the scripting language you familiar with (e.g. Python, etc.).
 
 $ EOF.
