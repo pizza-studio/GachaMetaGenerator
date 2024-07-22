@@ -19,6 +19,8 @@ This repository is for generating GachaMetaDB to serve those apps conforming to 
 ### Supported Games:
 
 - Genshin Impact.
-- Houkai: Star Rail. // `Honkai` is a deliberate typo to help native English speakers pronounce it unweirdly.
+- Star Rail.
+
+> Support for ZZZ (Zenless Zone Zero) is currently not planned yet until Dimbreath has its ExcelConfigData repository made available to the public.
 
 $ EOF.
