@@ -32,7 +32,7 @@ jobs:
               with:
                 token: ${{ secrets.GITHUB_TOKEN }}
                 branch: update-gacha-meta-${{ github.run_number }}
-                base: dev
+                base: main
                 title: "Update Specimen HSR"
                 body: |
                   This PR updates the gacha meta and other assets (see update_other_meta.py for details).
