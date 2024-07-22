@@ -10,7 +10,7 @@ let cmdParameters = CommandLine.arguments.dropFirst(1)
 switch cmdParameters.count {
 case 1:
     guard let firstArgument = cmdParameters.first,
-          let game = GachaMetaDB.SupportedGame(arg: firstArgument)
+          let game = GachaMetaGenerator.SupportedGame(arg: firstArgument)
     else {
         let errText = "!! Please given only one argument between `-GI` and `-HSR`."
         print("{\"errMsg\": \"\(errText)\"}\n")
@@ -18,7 +18,7 @@ case 1:
         exit(1)
     }
     do {
-        let dict = try await GachaMetaDB.fetchAndCompile(for: game)
+        let dict = try await GachaMetaGenerator.fetchAndCompile(for: game)
         let encoder = JSONEncoder()
         encoder.outputFormatting = [.sortedKeys, .prettyPrinted]
         if let encoded = String(data: try encoder.encode(dict), encoding: .utf8) {

@@ -4,7 +4,7 @@
 
 import Foundation
 
-extension GachaMetaDB {
+extension GachaMetaGenerator {
     public enum GachaDictLang: String, CaseIterable, Sendable, Identifiable {
         case langCHS
         case langCHT
@@ -46,7 +46,7 @@ extension GachaMetaDB {
             }
         }
 
-        public static func allCases(for game: GachaMetaDB.SupportedGame) -> [Self] {
+        public static func allCases(for game: GachaMetaGenerator.SupportedGame) -> [Self] {
             switch game {
             case .genshinImpact: return casesForGenshin
             case .starRail: return casesForHSR

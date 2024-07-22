@@ -4,10 +4,10 @@
 
 import Foundation
 
-extension GachaMetaDB {
+extension GachaMetaGenerator {
     // MARK: - GachaItemMeta
 
-    public class GachaItemMeta: Codable {
+    public struct GachaItemMeta: Codable, Identifiable, Sendable {
         // MARK: Lifecycle
 
         public init(id: Int, rank: Int, nameTextMapHash: Int) {

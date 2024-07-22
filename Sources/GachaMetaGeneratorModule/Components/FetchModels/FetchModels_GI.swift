@@ -4,7 +4,7 @@
 
 import Foundation
 
-extension GachaMetaDB {
+extension GachaMetaGenerator {
     class GenshinRawItem: Codable {
         // MARK: Lifecycle
 
@@ -64,7 +64,7 @@ extension GachaMetaDB {
             }
         }
 
-        func toGachaItemMeta() -> GachaMetaDB.GachaItemMeta {
+        func toGachaItemMeta() -> GachaMetaGenerator.GachaItemMeta {
             .init(id: id, rank: rankLevel, nameTextMapHash: nameTextMapHash)
         }
 

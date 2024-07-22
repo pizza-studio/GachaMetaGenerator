@@ -4,11 +4,11 @@
 
 import Foundation
 
-// MARK: - GachaMetaDB
+// MARK: - GachaMetaGenerator
 
-public enum GachaMetaDB {}
+public enum GachaMetaGenerator {}
 
-extension GachaMetaDB {
+extension GachaMetaGenerator {
     public typealias CompilationResult = [String: GachaItemMeta]
 
     public static func fetchAndCompile(
@@ -22,7 +22,7 @@ extension GachaMetaDB {
 
         // MARK: Collecting Items from ExcelConfigData.
 
-        let items = try await withThrowingTaskGroup(
+        var items = try await withThrowingTaskGroup(
             of: [GachaItemMeta].self, returning: [GachaItemMeta].self
         ) { taskGroup in
             taskGroup.addTask { try await game.fetchExcelConfigData(for: .characterData) }
@@ -41,12 +41,17 @@ extension GachaMetaDB {
 
         // MARK: Apply translations.
 
-        items.forEach { currentItem in
+        for theIndex in 0 ..< items.count {
+            var currentItem = items[theIndex]
             GachaDictLang.allCases.forEach { localeID in
                 let hashKey = currentItem.nameTextMapHash.description
                 guard let dict = dictAll[localeID.langID]?[hashKey] else { return }
                 if currentItem.l10nMap == nil { currentItem.l10nMap = [:] }
                 currentItem.l10nMap?[localeID.langID] = dict
+                if let matchedProtagonist = Protagonist(against: currentItem) {
+                    currentItem.l10nMap = matchedProtagonist.nameTranslationDict
+                }
+                items[theIndex] = currentItem
             }
         }
 
@@ -62,9 +67,6 @@ extension GachaMetaDB {
             guard let desc = item.l10nMap?.description else { return }
             guard !desc.contains("测试") else { return }
             let key = item.id.description
-            if let matchedProtagonist = Protagonist(against: item) {
-                item.l10nMap = matchedProtagonist.nameTranslationDict
-            }
             dict[key] = item
         }
 

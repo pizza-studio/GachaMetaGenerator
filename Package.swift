@@ -12,6 +12,10 @@ let package = Package(
             name: "GachaMetaGeneratorModule",
             targets: ["GachaMetaGeneratorModule"]
         ),
+        .library(
+            name: "GachaMetaDB",
+            targets: ["GachaMetaDB"]
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -25,9 +29,21 @@ let package = Package(
         .target(
             name: "GachaMetaGeneratorModule"
         ),
+        .target(
+            name: "GachaMetaDB",
+            dependencies: ["GachaMetaGeneratorModule"],
+            resources: [
+                .process("Resources/OUTPUT-GI.json"),
+                .process("Resources/OUTPUT-HSR.json"),
+            ]
+        ),
         .testTarget(
             name: "GachaMetaGeneratorTests",
             dependencies: ["GachaMetaGeneratorModule"]
+        ),
+        .testTarget(
+            name: "GachaMetaDBTests",
+            dependencies: ["GachaMetaDB"]
         ),
     ]
 )

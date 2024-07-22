@@ -6,7 +6,7 @@ import Foundation
 
 // StarRail has dedicated structs for decoding fetched contents.
 
-extension GachaMetaDB {
+extension GachaMetaGenerator {
     struct NameHashUnit: Codable {
         enum CodingKeys: String, CodingKey {
             case hash = "Hash"
@@ -75,7 +75,7 @@ protocol RawItemFetchModelProtocol {
 }
 
 extension RawItemFetchModelProtocol {
-    func toGachaItemMeta() -> GachaMetaDB.GachaItemMeta {
+    func toGachaItemMeta() -> GachaMetaGenerator.GachaItemMeta {
         .init(id: id, rank: rarity, nameTextMapHash: nameTextMapHash)
     }
 }

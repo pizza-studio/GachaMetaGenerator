@@ -4,7 +4,7 @@
 
 import Foundation
 
-extension GachaMetaDB {
+extension GachaMetaGenerator {
     public enum SupportedGame: CaseIterable {
         case genshinImpact
         case starRail
@@ -27,23 +27,23 @@ extension GachaMetaDB {
             case characterData
         }
 
-        func fetchExcelConfigData(for type: DataURLType) async throws -> [GachaMetaDB.GachaItemMeta] {
+        func fetchExcelConfigData(for type: DataURLType) async throws -> [GachaMetaGenerator.GachaItemMeta] {
             switch (self, type) {
             case (.genshinImpact, .weaponData):
                 let (data, _) = try await URLSession.shared.data(from: getExcelConfigDataURL(for: .weaponData))
-                let response = try JSONDecoder().decode([GachaMetaDB.GenshinRawItem].self, from: data)
+                let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
                 return response.map { $0.toGachaItemMeta() }
             case (.genshinImpact, .characterData):
                 let (data, _) = try await URLSession.shared.data(from: getExcelConfigDataURL(for: .characterData))
-                let response = try JSONDecoder().decode([GachaMetaDB.GenshinRawItem].self, from: data)
+                let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
                 return response.map { $0.toGachaItemMeta() }
             case (.starRail, .weaponData):
                 let (data, _) = try await URLSession.shared.data(from: getExcelConfigDataURL(for: .weaponData))
-                let response = try JSONDecoder().decode([String: GachaMetaDB.WeaponRawItem].self, from: data)
+                let response = try JSONDecoder().decode([String: GachaMetaGenerator.WeaponRawItem].self, from: data)
                 return response.map { $0.value.toGachaItemMeta() }
             case (.starRail, .characterData):
                 let (data, _) = try await URLSession.shared.data(from: getExcelConfigDataURL(for: .characterData))
-                let response = try JSONDecoder().decode([String: GachaMetaDB.AvatarRawItem].self, from: data)
+                let response = try JSONDecoder().decode([String: GachaMetaGenerator.AvatarRawItem].self, from: data)
                 return response.map { $0.value.toGachaItemMeta() }
             }
         }

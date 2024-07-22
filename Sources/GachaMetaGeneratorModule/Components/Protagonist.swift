@@ -4,7 +4,7 @@
 
 import Foundation
 
-extension GachaMetaDB {
+extension GachaMetaGenerator {
     public enum Protagonist {
         // Male Protagonist in HSR
         case ofCaelus
