@@ -1,4 +1,4 @@
-name: Update Specimen GI
+name: Update Specimen
 
 on:
     workflow_dispatch: {}
@@ -16,15 +16,13 @@ jobs:
             - name: Set up Swift
               uses: swift-actions/setup-swift@v2
 
-            - name: Fetch latest commit SHA
-              id: latest_sha
-              run: echo "::set-output name=sha::$(git ls-remote https://github.com/DimbreathBot/AnimeGameData.git HEAD | cut -f1)"
-
             - name: Update Specimen Data
               id: compare_shas
               run: |
                 swift build -c release
+                rm -rf ./Specimen/OUTPUT-HSR.json || true
                 rm -rf ./Specimen/OUTPUT-GI.json || true
+                .build/release/GachaMetaGenerator -HSR > ./Specimen/OUTPUT-HSR.json
                 .build/release/GachaMetaGenerator -GI > ./Specimen/OUTPUT-GI.json
 
             - name: Create Pull Request
@@ -33,9 +31,9 @@ jobs:
                 token: ${{ secrets.GITHUB_TOKEN }}
                 branch: update-gacha-meta-${{ github.run_number }}
                 base: main
-                title: "Update Specimen GI"
+                title: "Update Specimen"
                 body: |
-                  This PR updates the gacha meta and other assets (see update_other_meta.py for details).
+                  This PR updates the gacha meta specimen.
                 delete-branch: true
                 assignees: ShikiSuen
                 reviewers: ShikiSuen
