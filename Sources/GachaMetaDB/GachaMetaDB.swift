@@ -66,7 +66,7 @@ extension GachaMetaDB {
     }
 
     public static func fetchAndCompileLatestDB(for game: SupportedGame) async throws
-        -> GachaMetaDB? {
+        -> GachaMetaDB {
         try await GachaMetaGenerator.fetchAndCompile(for: game)
     }
 }
