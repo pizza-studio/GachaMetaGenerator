@@ -88,7 +88,7 @@ extension GachaMetaGenerator {
         }
 
         func getExcelConfigDataURL(for type: DataURLType) -> URL {
-            var result = Self.repoHeader + repoName
+            var result = repoHeader + repoName
             switch (self, type) {
             case (.genshinImpact, .weaponData): result += "ExcelBinOutput/WeaponExcelConfigData.json"
             case (.genshinImpact, .characterData): result += "ExcelBinOutput/AvatarExcelConfigData.json"
@@ -99,18 +99,21 @@ extension GachaMetaGenerator {
         }
 
         func getLangDataURL(for lang: GachaDictLang) -> URL {
-            URL(string: Self.repoHeader + repoName + "TextMap/\(lang.filename)")!
+            URL(string: repoHeader + repoName + "TextMap/\(lang.filename)")!
         }
 
         // MARK: Private
 
-        private static let repoHeader = """
-        https://raw.githubusercontent.com/
-        """
+        private var repoHeader: String {
+            switch self {
+            case .genshinImpact: return "https://gitlab.com/"
+            case .starRail: return "https://raw.githubusercontent.com/"
+            }
+        }
 
         private var repoName: String {
             switch self {
-            case .genshinImpact: return "DimbreathBot/AnimeGameData/master/"
+            case .genshinImpact: return "Dimbreath/AnimeGameData/-/raw/master/"
             case .starRail: return "Dimbreath/StarRailData/master/"
             }
         }
