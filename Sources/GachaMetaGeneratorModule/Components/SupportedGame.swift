@@ -39,12 +39,12 @@ extension GachaMetaGenerator {
                 return response.map { $0.toGachaItemMeta() }
             case (.starRail, .weaponData):
                 let (data, _) = try await URLSession.shared.data(from: getExcelConfigDataURL(for: .weaponData))
-                let response = try JSONDecoder().decode([String: GachaMetaGenerator.WeaponRawItem].self, from: data)
-                return response.map { $0.value.toGachaItemMeta() }
+                let response = try JSONDecoder().decode([GachaMetaGenerator.WeaponRawItem].self, from: data)
+                return response.map { $0.toGachaItemMeta() }
             case (.starRail, .characterData):
                 let (data, _) = try await URLSession.shared.data(from: getExcelConfigDataURL(for: .characterData))
-                let response = try JSONDecoder().decode([String: GachaMetaGenerator.AvatarRawItem].self, from: data)
-                return response.map { $0.value.toGachaItemMeta() }
+                let response = try JSONDecoder().decode([GachaMetaGenerator.AvatarRawItem].self, from: data)
+                return response.map { $0.toGachaItemMeta() }
             }
         }
 

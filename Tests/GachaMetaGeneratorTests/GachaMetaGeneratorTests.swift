@@ -16,4 +16,34 @@ final class GachaMetaGeneratorTests: XCTestCase {
             }
         }
     }
+
+    func testGeneratingHSR() async throws {
+        let dict = try await GachaMetaGenerator.fetchAndCompile(for: .starRail)
+        let encoder = JSONEncoder()
+        encoder.outputFormatting = [.sortedKeys, .prettyPrinted]
+        if let encoded = String(data: try encoder.encode(dict), encoding: .utf8) {
+            print(encoded)
+            NSLog("All Tasks Done.")
+        } else {
+            let errText = "!! Error on encoding JSON files."
+            print("{\"errMsg\": \"\(errText)\"}\n")
+            assertionFailure(errText)
+            exit(1)
+        }
+    }
+
+    func testGeneratingGI() async throws {
+        let dict = try await GachaMetaGenerator.fetchAndCompile(for: .genshinImpact)
+        let encoder = JSONEncoder()
+        encoder.outputFormatting = [.sortedKeys, .prettyPrinted]
+        if let encoded = String(data: try encoder.encode(dict), encoding: .utf8) {
+            print(encoded)
+            NSLog("All Tasks Done.")
+        } else {
+            let errText = "!! Error on encoding JSON files."
+            print("{\"errMsg\": \"\(errText)\"}\n")
+            assertionFailure(errText)
+            exit(1)
+        }
+    }
 }
