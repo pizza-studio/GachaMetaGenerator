@@ -739,6 +739,66 @@
     "nameTextMapHash" : 348680762,
     "rank" : 5
   },
+  "1218" : {
+    "id" : 1218,
+    "l10nMap" : {
+      "de-de" : "Jiaoqiu",
+      "en-us" : "Jiaoqiu",
+      "es-es" : "Jiaoqiu",
+      "fr-fr" : "Jiaoqiu",
+      "id-id" : "Jiaoqiu",
+      "ja-jp" : "椒丘",
+      "ko-kr" : "초구",
+      "pt-pt" : "Jiaoqiu",
+      "ru-ru" : "Цзяоцю",
+      "th-th" : "Jiaoqiu",
+      "vi-vn" : "Jiaoqiu",
+      "zh-cn" : "椒丘",
+      "zh-tw" : "椒丘"
+    },
+    "nameTextMapHash" : 1558534343,
+    "rank" : 5
+  },
+  "1221" : {
+    "id" : 1221,
+    "l10nMap" : {
+      "de-de" : "Yunli",
+      "en-us" : "Yunli",
+      "es-es" : "Yunli",
+      "fr-fr" : "Yunli",
+      "id-id" : "Yunli",
+      "ja-jp" : "雲璃",
+      "ko-kr" : "운리",
+      "pt-pt" : "Yunli",
+      "ru-ru" : "Юньли",
+      "th-th" : "Yunli",
+      "vi-vn" : "Yunli",
+      "zh-cn" : "云璃",
+      "zh-tw" : "雲璃"
+    },
+    "nameTextMapHash" : -814118655,
+    "rank" : 5
+  },
+  "1224" : {
+    "id" : 1224,
+    "l10nMap" : {
+      "de-de" : "7. März",
+      "en-us" : "March 7th",
+      "es-es" : "Siete de Marzo",
+      "fr-fr" : "March 7th",
+      "id-id" : "March 7th",
+      "ja-jp" : "三月なのか",
+      "ko-kr" : "Mar. 7th",
+      "pt-pt" : "7 de Março",
+      "ru-ru" : "Март 7",
+      "th-th" : "March 7th",
+      "vi-vn" : "March 7th",
+      "zh-cn" : "三月七",
+      "zh-tw" : "三月七"
+    },
+    "nameTextMapHash" : -54603768,
+    "rank" : 4
+  },
   "1301" : {
     "id" : 1301,
     "l10nMap" : {
@@ -1016,7 +1076,7 @@
       "zh-cn" : "穹",
       "zh-tw" : "穹"
     },
-    "nameTextMapHash" : -531793818,
+    "nameTextMapHash" : -2090701432,
     "rank" : 5
   },
   "8002" : {
@@ -1036,7 +1096,7 @@
       "zh-cn" : "星",
       "zh-tw" : "星"
     },
-    "nameTextMapHash" : -935078345,
+    "nameTextMapHash" : -2090701432,
     "rank" : 5
   },
   "8003" : {
@@ -1056,7 +1116,7 @@
       "zh-cn" : "穹",
       "zh-tw" : "穹"
     },
-    "nameTextMapHash" : 631005596,
+    "nameTextMapHash" : -2090701432,
     "rank" : 5
   },
   "8004" : {
@@ -1076,7 +1136,7 @@
       "zh-cn" : "星",
       "zh-tw" : "星"
     },
-    "nameTextMapHash" : 227721069,
+    "nameTextMapHash" : -2090701432,
     "rank" : 5
   },
   "8005" : {
@@ -1096,7 +1156,7 @@
       "zh-cn" : "穹",
       "zh-tw" : "穹"
     },
-    "nameTextMapHash" : 1793805010,
+    "nameTextMapHash" : -2090701432,
     "rank" : 5
   },
   "8006" : {
@@ -1116,7 +1176,7 @@
       "zh-cn" : "星",
       "zh-tw" : "星"
     },
-    "nameTextMapHash" : 1390520483,
+    "nameTextMapHash" : -2090701432,
     "rank" : 5
   },
   "20000" : {
@@ -2459,6 +2519,26 @@
     "nameTextMapHash" : -973364453,
     "rank" : 4
   },
+  "21046" : {
+    "id" : 21046,
+    "l10nMap" : {
+      "de-de" : "Jugend in Erwartung der Entflammung",
+      "en-us" : "Poised to Bloom",
+      "es-es" : "Juventud por florecer",
+      "fr-fr" : "Portrait de la jeune fille en fleurs",
+      "id-id" : "Poised to Bloom",
+      "ja-jp" : "美しき華よ今咲かん",
+      "ko-kr" : "피어나길 기다리는 꽃",
+      "pt-pt" : "Prestes a Florescer",
+      "ru-ru" : "Расцвет юности",
+      "th-th" : "Poised to Bloom",
+      "vi-vn" : "Tuổi Hoa Chờ Nở Rộ",
+      "zh-cn" : "芳华待灼",
+      "zh-tw" : "芳華待灼"
+    },
+    "nameTextMapHash" : -973364450,
+    "rank" : 4
+  },
   "22000" : {
     "id" : 22000,
     "l10nMap" : {
@@ -3097,6 +3177,46 @@
       "zh-tw" : "偏偏希望無價"
     },
     "nameTextMapHash" : -92890044,
+    "rank" : 5
+  },
+  "23029" : {
+    "id" : 23029,
+    "l10nMap" : {
+      "de-de" : "Jene unzähligen Frühlinge",
+      "en-us" : "Those Many Springs",
+      "es-es" : "Esas incontables primaveras",
+      "fr-fr" : "Le temps du printemps",
+      "id-id" : "Those Many Springs",
+      "ja-jp" : "幾度目かの春",
+      "ko-kr" : "그 무수한 봄날",
+      "pt-pt" : "Aquelas Incontáveis Primaveras",
+      "ru-ru" : "Бесчисленные весенние дни",
+      "th-th" : "Those Many Springs",
+      "vi-vn" : "Vô Số Mùa Xuân Ấy",
+      "zh-cn" : "那无数个春天",
+      "zh-tw" : "那無數個春天"
+    },
+    "nameTextMapHash" : -92890045,
+    "rank" : 5
+  },
+  "23030" : {
+    "id" : 23030,
+    "l10nMap" : {
+      "de-de" : "Tanz im Sonnenuntergang",
+      "en-us" : "Dance at Sunset",
+      "es-es" : "Danza crepuscular",
+      "fr-fr" : "Danse au crépuscule",
+      "id-id" : "Dance at Sunset",
+      "ja-jp" : "夕日に舞う",
+      "ko-kr" : "해 질 무렵 시작되는 춤",
+      "pt-pt" : "Dança ao Pôr do Sol",
+      "ru-ru" : "Танец на закате",
+      "th-th" : "Dance at Sunset",
+      "vi-vn" : "Điệu Múa Dưới Hoàng Hôn",
+      "zh-cn" : "落日时起舞",
+      "zh-tw" : "落日時起舞"
+    },
+    "nameTextMapHash" : -1658973977,
     "rank" : 5
   },
   "24000" : {

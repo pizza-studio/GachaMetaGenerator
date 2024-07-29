@@ -4,6 +4,8 @@
 
 import Foundation
 
+// MARK: - GachaMetaGenerator.GachaDictLang
+
 extension GachaMetaGenerator {
     public enum GachaDictLang: String, CaseIterable, Sendable, Identifiable {
         case langCHS
@@ -24,9 +26,9 @@ extension GachaMetaGenerator {
 
         // MARK: Public
 
-        public var id: String { langID }
+        public var id: String { langTag }
 
-        public var langID: String {
+        public var langTag: String {
             switch self {
             case .langCHS: "zh-cn"
             case .langCHT: "zh-tw"
@@ -59,6 +61,10 @@ extension GachaMetaGenerator {
             rawValue.replacingOccurrences(of: "lang", with: "TextMap").appending(".json")
         }
 
+        var ambrTopLangID: String {
+            rawValue.replacingOccurrences(of: "lang", with: "").lowercased()
+        }
+
         // MARK: Private
 
         private static let casesForGenshin: [Self] = Self.allCases
@@ -66,5 +72,22 @@ extension GachaMetaGenerator {
         private static let casesForHSR: [Self] = Self.allCases.filter {
             ![Self.langIT, Self.langTR].contains($0)
         }
+    }
+}
+
+// MARK: - Optional + CaseIterable
+
+extension Optional: CaseIterable where Wrapped == GachaMetaGenerator.GachaDictLang {
+    public static var allCases: [GachaMetaGenerator.GachaDictLang?] {
+        GachaMetaGenerator.GachaDictLang.allCases + [Self.none]
+    }
+
+    public static func allCases(for game: GachaMetaGenerator.SupportedGame) -> [Self] {
+        GachaMetaGenerator.GachaDictLang.allCases(for: game) + [Self.none]
+    }
+
+    public var ambrTopLangID: String {
+        guard let this = self else { return "static" }
+        return this.ambrTopLangID
     }
 }

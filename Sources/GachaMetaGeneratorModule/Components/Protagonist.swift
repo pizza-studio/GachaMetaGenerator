@@ -21,20 +21,21 @@ extension GachaMetaGenerator {
             switch rawValue {
             case 10000005: self = .ofAether
             case 10000007: self = .ofLumine
-            case 8001, 8003, 8005, 8007, 8009, 8011, 8013, 8015: self = .ofCaelus
-            case 8002, 8004, 8006, 8008, 8010, 8012, 8014, 8016: self = .ofStelle
+            case 8001 ... 9000:
+                self = (rawValue % 2 == 0) ? .ofStelle : .ofCaelus
             default: return nil
             }
         }
 
         public init?(against target: GachaItemMeta) {
-            guard let map = target.l10nMap else { return nil }
             // Genshin Impact Protagonist Scenario.
             if target.id > 114514, let genshinProtagonist = Self(rawValue: target.id) {
                 self = genshinProtagonist
             }
+            guard let map = target.l10nMap else { return nil }
             // The rest must be either HSR protagonist or nothing.
             guard map.description.contains(#"{NICKNAME}"#)
+                || map.description.contains("Trailblazer")
             else { return nil }
             self = (target.id % 2 == 0) ? .ofStelle : .ofCaelus
         }
