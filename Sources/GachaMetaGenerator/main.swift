@@ -8,7 +8,7 @@ import GachaMetaGeneratorModule
 let cmdParameters = CommandLine.arguments.dropFirst(1)
 
 switch cmdParameters.count {
-case 1:
+case 1, 2:
     guard let firstArgument = cmdParameters.first,
           let game = GachaMetaGenerator.SupportedGame(arg: firstArgument)
     else {
@@ -18,7 +18,7 @@ case 1:
         exit(1)
     }
     do {
-        let dict = try await GachaMetaGenerator.fetchAndCompile(for: game)
+        let dict = try await GachaMetaGenerator.fetchAndCompileFromAmbrYatta(for: game)
         let encoder = JSONEncoder()
         encoder.outputFormatting = [.sortedKeys, .prettyPrinted]
         if let encoded = String(data: try encoder.encode(dict), encoding: .utf8) {
