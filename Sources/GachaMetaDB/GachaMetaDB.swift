@@ -22,8 +22,8 @@ extension GachaMetaDB {
         !ids.subtracting(Set<String>(keys)).isEmpty
     }
 
-    public func checkIfLangIDSupported(langID: String, game: SupportedGame) -> Bool {
-        Lang.allCases(for: game).first(where: { $0.langID == langID.lowercased() }) != nil
+    public func checkIfLangIDSupported(langTag: String, game: SupportedGame) -> Bool {
+        Lang.allCases(for: game).first(where: { $0.langTag == langTag.lowercased() }) != nil
     }
 
     /// Just query name translations without doing anything else.
@@ -67,7 +67,7 @@ extension GachaMetaDB {
 
     public static func fetchAndCompileLatestDB(for game: SupportedGame) async throws
         -> GachaMetaDB {
-        try await GachaMetaGenerator.fetchAndCompile(for: game)
+        try await GachaMetaGenerator.fetchAndCompileFromAmbrYatta(for: game)
     }
 }
 

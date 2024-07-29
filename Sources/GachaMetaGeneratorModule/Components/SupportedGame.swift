@@ -7,6 +7,8 @@ import Foundation
 import FoundationNetworking
 #endif
 
+// MARK: - GachaMetaGenerator.SupportedGame
+
 extension GachaMetaGenerator {
     public enum SupportedGame: CaseIterable {
         case genshinImpact
@@ -29,96 +31,168 @@ extension GachaMetaGenerator {
             case weaponData
             case characterData
         }
+    }
+}
 
-        func fetchExcelConfigData(for type: DataURLType) async throws -> [GachaMetaGenerator.GachaItemMeta] {
-            switch (self, type) {
-            case (.genshinImpact, .weaponData):
-                let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
-                let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
-                return response.map { $0.toGachaItemMeta() }
-            case (.genshinImpact, .characterData):
-                let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
-                let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
-                return response.map { $0.toGachaItemMeta() }
-            case (.starRail, .weaponData):
-                let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
-                let response = try JSONDecoder().decode([GachaMetaGenerator.WeaponRawItem].self, from: data)
-                return response.map { $0.toGachaItemMeta() }
-            case (.starRail, .characterData):
-                let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
-                let response = try JSONDecoder().decode([GachaMetaGenerator.AvatarRawItem].self, from: data)
-                return response.map { $0.toGachaItemMeta() }
+// MARK: - Dealing with Ambr.top and Yatta.top API Results.
+
+extension GachaMetaGenerator.SupportedGame {
+    /// Only used for dealing with Ambr.top and Yatta.top API Results.
+    ///
+    /// If the lang is given null, then the parameter raw value will be `static`.
+    /// This will let the `name` field become `nameTextMapHash`.
+    func getAmbrYattaAPIURL(for type: DataURLType, lang: GachaMetaGenerator.GachaDictLang?) -> URL {
+        var langTag = lang.ambrTopLangID
+        if lang == .langCHS, self == .starRail { langTag = "cn" }
+        var result = ""
+        switch (self, type) {
+        case (.genshinImpact, .weaponData): result += "https://api.ambr.top/v2/\(langTag)/weapon"
+        case (.genshinImpact, .characterData): result += "https://api.ambr.top/v2/\(langTag)/avatar"
+        case (.starRail, .weaponData): result += "https://api.yatta.top/hsr/v2/\(langTag)/equipment"
+        case (.starRail, .characterData): result += "https://api.yatta.top/hsr/v2/\(langTag)/avatar"
+        }
+        return URL(string: result)!
+    }
+
+    /// Only used for dealing with Ambr.top and Yatta.top API Results.
+    ///
+    /// If the lang is given null, then the parameter raw value will be `static`.
+    /// This will fetch the `nameTextMapHash`.
+    func fetchAmbrYattaData(
+        lang: [GachaMetaGenerator.GachaDictLang?]? = nil
+    ) async throws
+        -> [GachaMetaGenerator.GachaItemMeta] {
+        var buffer = [(items: [GachaMetaGenerator.AmbrYattaFetchedItem], lang: GachaMetaGenerator.GachaDictLang?)]()
+        for dataType in GachaMetaGenerator.SupportedGame.DataURLType.allCases {
+            for locale in GachaMetaGenerator.GachaDictLang?.allCases(for: self) {
+                let url = getAmbrYattaAPIURL(for: dataType, lang: locale)
+                let (data, _) = try await URLSession.shared.asyncData(from: url)
+                do {
+                    let jsonParsed = try JSONDecoder().decode(GachaMetaGenerator.AmbrYattaResponse.self, from: data)
+                    var rawStack = jsonParsed.items
+                    if locale == .langJP {
+                        rubyTest: for i in 0 ..< rawStack.count {
+                            guard rawStack[i].name.contains("{RUBY") else { continue rubyTest }
+                            rawStack[i].name = rawStack[i].name.replacingOccurrences(
+                                of: #"\{RUBY.*?\}"#,
+                                with: "",
+                                options: .regularExpression
+                            )
+                        }
+                    }
+                    buffer.append((items: rawStack, lang: locale))
+                } catch {
+                    // print(error.localizedDescription)
+                    // print(String(data: data, encoding: .utf8)!)
+                    throw (error)
+                }
             }
         }
+        var results = [GachaMetaGenerator.GachaDictLang?: [GachaMetaGenerator.AmbrYattaFetchedItem]]()
+        for result in buffer {
+            results[result.lang, default: []].append(contentsOf: result.items)
+        }
+        return results.assemble() ?? []
+    }
+}
 
-        func fetchRawLangData(
-            lang: [GachaDictLang]? = nil,
-            neededHashIDs: Set<String>
-        ) async throws
-            -> [String: [String: String]] {
-            try await withThrowingTaskGroup(
-                of: (subDict: [String: String], lang: GachaDictLang).self,
-                returning: [String: [String: String]].self
-            ) { taskGroup in
-                lang?.forEach { locale in
-                    taskGroup.addTask {
-                        let url = getLangDataURL(for: locale)
-                        let (data, _) = try await URLSession.shared.asyncData(from: url)
-                        var dict = try JSONDecoder().decode([String: String].self, from: data)
-                        let keysToRemove = Set<String>(dict.keys).subtracting(neededHashIDs)
-                        keysToRemove.forEach { dict.removeValue(forKey: $0) }
-                        if locale == .langJP {
-                            dict.keys.forEach { theKey in
-                                guard dict[theKey]?.contains("{RUBY") ?? false else { return }
-                                if let rawStrToHandle = dict[theKey], rawStrToHandle.contains("{") {
-                                    dict[theKey] = rawStrToHandle.replacingOccurrences(
-                                        of: #"\{RUBY.*?\}"#,
-                                        with: "",
-                                        options: .regularExpression
-                                    )
-                                }
+// MARK: - Dealing with data from Dimbreath's Repository.
+
+extension GachaMetaGenerator.SupportedGame {
+    /// Only used for dealing with Dimbreath's repos.
+    func fetchExcelConfigData(for type: DataURLType) async throws -> [GachaMetaGenerator.GachaItemMeta] {
+        switch (self, type) {
+        case (.genshinImpact, .weaponData):
+            let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
+            let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
+            return response.map { $0.toGachaItemMeta() }
+        case (.genshinImpact, .characterData):
+            let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
+            let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
+            return response.map { $0.toGachaItemMeta() }
+        case (.starRail, .weaponData):
+            let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
+            let response = try JSONDecoder().decode([GachaMetaGenerator.WeaponRawItem].self, from: data)
+            return response.map { $0.toGachaItemMeta() }
+        case (.starRail, .characterData):
+            let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
+            let response = try JSONDecoder().decode([GachaMetaGenerator.AvatarRawItem].self, from: data)
+            return response.map { $0.toGachaItemMeta() }
+        }
+    }
+
+    /// Only used for dealing with Dimbreath's repos.
+    func fetchRawLangData(
+        lang: [GachaMetaGenerator.GachaDictLang]? = nil,
+        neededHashIDs: Set<String>
+    ) async throws
+        -> [String: [String: String]] {
+        try await withThrowingTaskGroup(
+            of: (subDict: [String: String], lang: GachaMetaGenerator.GachaDictLang).self,
+            returning: [String: [String: String]].self
+        ) { taskGroup in
+            lang?.forEach { locale in
+                taskGroup.addTask {
+                    let url = getLangDataURL(for: locale)
+                    let (data, _) = try await URLSession.shared.asyncData(from: url)
+                    var dict = try JSONDecoder().decode([String: String].self, from: data)
+                    let keysToRemove = Set<String>(dict.keys).subtracting(neededHashIDs)
+                    keysToRemove.forEach { dict.removeValue(forKey: $0) }
+                    if locale == .langJP {
+                        dict.keys.forEach { theKey in
+                            guard dict[theKey]?.contains("{RUBY") ?? false else { return }
+                            if let rawStrToHandle = dict[theKey], rawStrToHandle.contains("{") {
+                                dict[theKey] = rawStrToHandle.replacingOccurrences(
+                                    of: #"\{RUBY.*?\}"#,
+                                    with: "",
+                                    options: .regularExpression
+                                )
                             }
                         }
-                        return (subDict: dict, lang: locale)
                     }
+                    return (subDict: dict, lang: locale)
                 }
-                var results = [String: [String: String]]()
-                for try await result in taskGroup {
-                    results[result.lang.langID] = result.subDict
-                }
-                return results
             }
-        }
-
-        func getExcelConfigDataURL(for type: DataURLType) -> URL {
-            var result = repoHeader + repoName
-            switch (self, type) {
-            case (.genshinImpact, .weaponData): result += "ExcelBinOutput/WeaponExcelConfigData.json"
-            case (.genshinImpact, .characterData): result += "ExcelBinOutput/AvatarExcelConfigData.json"
-            case (.starRail, .weaponData): result += "ExcelOutput/EquipmentConfig.json"
-            case (.starRail, .characterData): result += "ExcelOutput/AvatarConfig.json"
+            var results = [String: [String: String]]()
+            for try await result in taskGroup {
+                results[result.lang.langTag] = result.subDict
             }
-            return URL(string: result)!
+            return results
         }
+    }
 
-        func getLangDataURL(for lang: GachaDictLang) -> URL {
-            URL(string: repoHeader + repoName + "TextMap/\(lang.filename)")!
+    /// Only used for dealing with Dimbreath's repos.
+    func getExcelConfigDataURL(for type: DataURLType) -> URL {
+        var result = repoHeader + repoName
+        switch (self, type) {
+        case (.genshinImpact, .weaponData): result += "ExcelBinOutput/WeaponExcelConfigData.json"
+        case (.genshinImpact, .characterData): result += "ExcelBinOutput/AvatarExcelConfigData.json"
+        case (.starRail, .weaponData): result += "ExcelOutput/EquipmentConfig.json"
+        case (.starRail, .characterData): result += "ExcelOutput/AvatarConfig.json"
         }
+        return URL(string: result)!
+    }
 
-        // MARK: Private
+    /// Only used for dealing with Dimbreath's repos.
+    func getLangDataURL(for lang: GachaMetaGenerator.GachaDictLang) -> URL {
+        URL(string: repoHeader + repoName + "TextMap/\(lang.filename)")!
+    }
 
-        private var repoHeader: String {
-            switch self {
-            case .genshinImpact: return "https://gitlab.com/"
-            case .starRail: return "https://raw.githubusercontent.com/"
-            }
+    // MARK: Private
+
+    /// Only used for dealing with Dimbreath's repos.
+    private var repoHeader: String {
+        switch self {
+        case .genshinImpact: return "https://gitlab.com/"
+        case .starRail: return "https://raw.githubusercontent.com/"
         }
+    }
 
-        private var repoName: String {
-            switch self {
-            case .genshinImpact: return "Dimbreath/AnimeGameData/-/raw/master/"
-            case .starRail: return "Dimbreath/StarRailData/master/"
-            }
+    /// Only used for dealing with Dimbreath's repos.
+    private var repoName: String {
+        switch self {
+        case .genshinImpact: return "Dimbreath/AnimeGameData/-/raw/master/"
+        case .starRail: return "Dimbreath/StarRailData/master/"
         }
     }
 }
