@@ -11,7 +11,26 @@ public enum GachaMetaGenerator {}
 extension GachaMetaGenerator {
     public typealias CompilationResult = [String: GachaItemMeta]
 
-    public static func fetchAndCompile(
+    public static func fetchAndCompileFromAmbrYatta(
+        for game: SupportedGame, lang: [GachaDictLang?]? = nil
+    ) async throws
+        -> CompilationResult {
+        var lang = lang ?? []
+        if lang.isEmpty {
+            lang = GachaDictLang?.allCases(for: game)
+        }
+        if !lang.contains(nil) {
+            lang.append(nil)
+        }
+
+        var result = CompilationResult()
+        try await game.fetchAmbrYattaData(lang: lang).forEach {
+            result[$0.id.description] = $0
+        }
+        return result
+    }
+
+    public static func fetchAndCompileFromDimbreath(
         for game: SupportedGame, lang: [GachaDictLang]? = nil
     ) async throws
         -> CompilationResult {
@@ -45,9 +64,9 @@ extension GachaMetaGenerator {
             var currentItem = items[theIndex]
             GachaDictLang.allCases.forEach { localeID in
                 let hashKey = currentItem.nameTextMapHash.description
-                guard let dict = dictAll[localeID.langID]?[hashKey] else { return }
+                guard let dict = dictAll[localeID.langTag]?[hashKey] else { return }
                 if currentItem.l10nMap == nil { currentItem.l10nMap = [:] }
-                currentItem.l10nMap?[localeID.langID] = dict
+                currentItem.l10nMap?[localeID.langTag] = dict
                 if let matchedProtagonist = Protagonist(against: currentItem) {
                     currentItem.l10nMap = matchedProtagonist.nameTranslationDict
                 }
