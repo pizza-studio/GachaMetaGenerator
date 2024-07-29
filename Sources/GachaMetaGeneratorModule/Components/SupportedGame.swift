@@ -3,6 +3,9 @@
 // This code is released under the GPL v3.0 License (SPDX-License-Identifier: AGPL-3.0)
 
 import Foundation
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 
 extension GachaMetaGenerator {
     public enum SupportedGame: CaseIterable {
@@ -30,19 +33,19 @@ extension GachaMetaGenerator {
         func fetchExcelConfigData(for type: DataURLType) async throws -> [GachaMetaGenerator.GachaItemMeta] {
             switch (self, type) {
             case (.genshinImpact, .weaponData):
-                let (data, _) = try await URLSession.shared.data(from: getExcelConfigDataURL(for: .weaponData))
+                let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
                 let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
                 return response.map { $0.toGachaItemMeta() }
             case (.genshinImpact, .characterData):
-                let (data, _) = try await URLSession.shared.data(from: getExcelConfigDataURL(for: .characterData))
+                let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
                 let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
                 return response.map { $0.toGachaItemMeta() }
             case (.starRail, .weaponData):
-                let (data, _) = try await URLSession.shared.data(from: getExcelConfigDataURL(for: .weaponData))
+                let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
                 let response = try JSONDecoder().decode([GachaMetaGenerator.WeaponRawItem].self, from: data)
                 return response.map { $0.toGachaItemMeta() }
             case (.starRail, .characterData):
-                let (data, _) = try await URLSession.shared.data(from: getExcelConfigDataURL(for: .characterData))
+                let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
                 let response = try JSONDecoder().decode([GachaMetaGenerator.AvatarRawItem].self, from: data)
                 return response.map { $0.toGachaItemMeta() }
             }
@@ -60,7 +63,7 @@ extension GachaMetaGenerator {
                 lang?.forEach { locale in
                     taskGroup.addTask {
                         let url = getLangDataURL(for: locale)
-                        let (data, _) = try await URLSession.shared.data(from: url)
+                        let (data, _) = try await URLSession.shared.asyncData(from: url)
                         var dict = try JSONDecoder().decode([String: String].self, from: data)
                         let keysToRemove = Set<String>(dict.keys).subtracting(neededHashIDs)
                         keysToRemove.forEach { dict.removeValue(forKey: $0) }
