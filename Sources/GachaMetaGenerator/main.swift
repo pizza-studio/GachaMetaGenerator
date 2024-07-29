@@ -12,13 +12,16 @@ case 1, 2:
     guard let firstArgument = cmdParameters.first,
           let game = GachaMetaGenerator.SupportedGame(arg: firstArgument)
     else {
-        let errText = "!! Please given only one argument between `-GI` and `-HSR`."
+        let errText = "!! Please give only one argument among `-GI`, `-HSR`, `-GID`, `-HSRD`."
         print("{\"errMsg\": \"\(errText)\"}\n")
         assertionFailure(errText)
         exit(1)
     }
     do {
-        let dict = try await GachaMetaGenerator.fetchAndCompileFromAmbrYatta(for: game)
+        let useDimBreath: Bool = firstArgument.suffix(1).lowercased() == "d"
+        let dict = useDimBreath
+            ? try await GachaMetaGenerator.fetchAndCompileFromDimbreath(for: game)
+            : try await GachaMetaGenerator.fetchAndCompileFromAmbrYatta(for: game)
         let encoder = JSONEncoder()
         encoder.outputFormatting = [.sortedKeys, .prettyPrinted]
         if let encoded = String(data: try encoder.encode(dict), encoding: .utf8) {
@@ -35,7 +38,7 @@ case 1, 2:
         throw (error)
     }
 default:
-    let errText = "!! Wrong number of arguments. Please given only one argument between `-GI` and `-HSR`."
+    let errText = "!! Wrong number of arguments. Please give only one argument among `-GI`, `-HSR`, `-GID`, `-HSRD`."
     print("{\"errMsg\": \"\(errText)\"}\n")
     assertionFailure(errText)
     exit(1)

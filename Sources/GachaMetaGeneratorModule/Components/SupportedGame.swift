@@ -19,8 +19,8 @@ extension GachaMetaGenerator {
         /// Initialize this enum using given commandline argument.
         public init?(arg: String) {
             switch arg.lowercased() {
-            case "-gi", "genshin", "genshinimpact", "gi": self = .genshinImpact
-            case "-hsr", "hsr", "starrail": self = .starRail
+            case "-gi", "-gid", "genshin", "genshinimpact", "gi": self = .genshinImpact
+            case "-hsr", "-hsrd", "hsr", "starrail": self = .starRail
             default: return nil
             }
         }

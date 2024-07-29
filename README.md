@@ -12,8 +12,10 @@ This repository is for generating GachaMetaDB to serve those apps conforming to 
     - Built executable file path is `.build/release/GachaMetaGenerator`.
   - Step 3: Run the compiled executable and pipeline the output contents into a new JSON file.
     - You only need one parameter to specify whether it writes for Genshin or HSR.
-    - GI: `./GachaMetaGenerator -GI > ./OUTPUT-GI.json`.
-      - HSR: `./GachaMetaGenerator -HSR > ./OUTPUT-HSR.json`
+      - GI using Ambr.top API: `./GachaMetaGenerator -GI > ./OUTPUT-GI.json`.
+      - HSR using Yatta.top API: `./GachaMetaGenerator -HSR > ./OUTPUT-HSR.json`
+      - GI using Dimbreath's Repo: `./GachaMetaGenerator -GID > ./OUTPUT-GI.json`.
+      - HSRD using Dimbreath's Repo: `./GachaMetaGenerator -HSRD > ./OUTPUT-HSR.json`
     - The above pipeline commands are proved effective in Bash and ZSH. Be careful that some other shells like `nu` may have different pipeline commands.
 
 ### Supported Games:
