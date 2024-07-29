@@ -4,6 +4,9 @@
 
 @testable import GachaMetaGeneratorModule
 import XCTest
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 
 // MARK: - GachaMetaGeneratorTests
 

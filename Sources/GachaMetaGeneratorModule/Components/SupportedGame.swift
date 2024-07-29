@@ -3,6 +3,9 @@
 // This code is released under the GPL v3.0 License (SPDX-License-Identifier: AGPL-3.0)
 
 import Foundation
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 
 // MARK: - GachaMetaGenerator.SupportedGame
 

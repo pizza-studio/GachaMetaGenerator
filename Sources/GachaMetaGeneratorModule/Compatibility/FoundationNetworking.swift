@@ -5,7 +5,6 @@
 import Foundation
 #if canImport(FoundationNetworking)
 import FoundationNetworking
-typealias FoundationEX = FoundationNetworking
 #endif
 
 /// An extension that provides async support for fetching a URL
