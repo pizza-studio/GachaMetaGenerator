@@ -67,7 +67,7 @@ extension GachaMetaGenerator {
                 guard let dict = dictAll[localeID.langTag]?[hashKey] else { return }
                 if currentItem.l10nMap == nil { currentItem.l10nMap = [:] }
                 currentItem.l10nMap?[localeID.langTag] = dict
-                if let matchedProtagonist = Protagonist(against: currentItem) {
+                if let matchedProtagonist = Protagonist(rawValue: currentItem.id) {
                     currentItem.l10nMap = matchedProtagonist.nameTranslationDict
                 }
                 items[theIndex] = currentItem

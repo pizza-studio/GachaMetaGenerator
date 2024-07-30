@@ -27,19 +27,6 @@ extension GachaMetaGenerator {
             }
         }
 
-        public init?(against target: GachaItemMeta) {
-            // Genshin Impact Protagonist Scenario.
-            if target.id > 114514, let genshinProtagonist = Self(rawValue: target.id) {
-                self = genshinProtagonist
-            }
-            guard let map = target.l10nMap else { return nil }
-            // The rest must be either HSR protagonist or nothing.
-            guard map.description.contains(#"{NICKNAME}"#)
-                || map.description.contains("Trailblazer")
-            else { return nil }
-            self = (target.id % 2 == 0) ? .ofStelle : .ofCaelus
-        }
-
         // MARK: Public
 
         public var nameTranslationDict: [String: String] {
