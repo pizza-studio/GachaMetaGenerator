@@ -32,7 +32,7 @@ extension GachaMetaGenerator {
                             )
                         }
                     } else {
-                        self.id = (try? container.decode(Int.self, forKey: CodingKeys.id)) ?? -1145141919810
+                        self.id = try container.decode(Int.self, forKey: CodingKeys.id)
                     }
                     self.rank = try container.decode(Int.self, forKey: CodingKeys.rank)
                     self.nameTextMapHash = nil
@@ -51,8 +51,6 @@ extension GachaMetaGenerator {
                 let rank: Int
                 var name: String
                 var nameTextMapHash: Int?
-
-                var isValid: Bool { id != -1145141919810 }
             }
 
             let items: [String: FetchedItem]?
