@@ -66,6 +66,7 @@ extension GachaMetaGenerator.SupportedGame {
         for dataType in GachaMetaGenerator.SupportedGame.DataURLType.allCases {
             for locale in GachaMetaGenerator.GachaDictLang?.allCases(for: self) {
                 let url = getAmbrYattaAPIURL(for: dataType, lang: locale)
+                try await Task.sleep(nanoseconds: UInt64(0.4 * Double(NSEC_PER_SEC)))
                 let (data, _) = try await URLSession.shared.asyncData(from: url)
                 do {
                     let jsonParsed = try JSONDecoder().decode(GachaMetaGenerator.AmbrYattaResponse.self, from: data)
