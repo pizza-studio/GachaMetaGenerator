@@ -20,7 +20,7 @@ extension GachaMetaGenerator {
         public init?(arg: String) {
             switch arg.lowercased() {
             case "-gi", "-gid", "genshin", "genshinimpact", "gi": self = .genshinImpact
-            case "-hsr", "-hsrd", "hsr", "starrail": self = .starRail
+            case "-hsr", "-hsrd", "-sr", "-srd", "hsr", "sr", "starrail": self = .starRail
             default: return nil
             }
         }
