@@ -77,7 +77,7 @@ extension GachaMetaGenerator {
 
 // MARK: - Optional + CaseIterable
 
-extension Optional: CaseIterable where Wrapped == GachaMetaGenerator.GachaDictLang {
+extension Optional where Wrapped == GachaMetaGenerator.GachaDictLang {
     public static var allCases: [GachaMetaGenerator.GachaDictLang?] {
         GachaMetaGenerator.GachaDictLang.allCases + [Self.none]
     }
