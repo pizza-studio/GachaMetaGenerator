@@ -33,8 +33,7 @@ let package = Package(
             name: "GachaMetaDB",
             dependencies: ["GachaMetaGeneratorModule"],
             resources: [
-                .process("Resources/OUTPUT-GI.json"),
-                .process("Resources/OUTPUT-HSR.json"),
+                .process("Resources/"),
             ]
         ),
         .testTarget(
