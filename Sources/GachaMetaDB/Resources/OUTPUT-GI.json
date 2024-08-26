@@ -681,6 +681,28 @@
     "nameTextMapHash" : 3016493955,
     "rank" : 4
   },
+  "11431" : {
+    "id" : 11431,
+    "l10nMap" : {
+      "de-de" : "Ezpitzal-Flöte",
+      "en-us" : "Flute of Ezpitzal",
+      "es-es" : "Flauta de Ezpitzal",
+      "fr-fr" : "Flûte d'ezpitzal",
+      "id-id" : "Flute of Ezpitzal",
+      "it-it" : "Flauto di Ezpitzal",
+      "ja-jp" : "エズピツァルの笛",
+      "ko-kr" : "에스피찰의 피리",
+      "pt-pt" : "Flauta de Ezpitzal",
+      "ru-ru" : "Флейта Эспицаль",
+      "th-th" : "Flute of Ezpitzal",
+      "tr-tr" : "Ezpitzal Flütü",
+      "vi-vn" : "Sáo Ezpitzal",
+      "zh-cn" : "息燧之笛",
+      "zh-tw" : "息燧之笛"
+    },
+    "nameTextMapHash" : 3434743027,
+    "rank" : 4
+  },
   "11501" : {
     "id" : 11501,
     "l10nMap" : {
@@ -1561,6 +1583,28 @@
     "nameTextMapHash" : 3693117451,
     "rank" : 4
   },
+  "12431" : {
+    "id" : 12431,
+    "l10nMap" : {
+      "de-de" : "Bebenmacher",
+      "en-us" : "Earth Shaker",
+      "es-es" : "Terragitador",
+      "fr-fr" : "Trembleur de terre",
+      "id-id" : "Earth Shaker",
+      "it-it" : "Sisma",
+      "ja-jp" : "アースシェイカー",
+      "ko-kr" : "대지를 울리는 자",
+      "pt-pt" : "Estremecedor da Terra",
+      "ru-ru" : "Сотрясающий землю",
+      "th-th" : "Earth Shaker",
+      "tr-tr" : "Yersarsan",
+      "vi-vn" : "Đao Chấn Động",
+      "zh-cn" : "撼地者",
+      "zh-tw" : "撼地者"
+    },
+    "nameTextMapHash" : 2481464075,
+    "rank" : 4
+  },
   "12501" : {
     "id" : 12501,
     "l10nMap" : {
@@ -1713,6 +1757,28 @@
       "zh-tw" : "裁斷"
     },
     "nameTextMapHash" : 3812523339,
+    "rank" : 5
+  },
+  "12513" : {
+    "id" : 12513,
+    "l10nMap" : {
+      "de-de" : "Zahn des Bergkönigs",
+      "en-us" : "Fang of the Mountain King",
+      "es-es" : "Colmillo del Rey de la Montaña",
+      "fr-fr" : "Croc du roi de la montagne",
+      "id-id" : "Fang of the Mountain King",
+      "it-it" : "Zanna del Re della Montagna",
+      "ja-jp" : "山の王の長牙",
+      "ko-kr" : "산왕의 엄니",
+      "pt-pt" : "Presa do Rei da Montanha",
+      "ru-ru" : "Клык Горного короля",
+      "th-th" : "Fang of the Mountain King",
+      "tr-tr" : "Dağ Kralı'nın Dişi",
+      "vi-vn" : "Nanh Sơn Vương",
+      "zh-cn" : "山王长牙",
+      "zh-tw" : "山王長牙"
+    },
+    "nameTextMapHash" : 1183454019,
     "rank" : 5
   },
   "13101" : {
@@ -2219,6 +2285,28 @@
       "zh-tw" : "勘探鑽機"
     },
     "nameTextMapHash" : 882305891,
+    "rank" : 4
+  },
+  "13431" : {
+    "id" : 13431,
+    "l10nMap" : {
+      "de-de" : "Spuren des Regenbogens",
+      "en-us" : "Footprint of the Rainbow",
+      "es-es" : "Estela Iridiscente",
+      "fr-fr" : "Trace d'arc-en-ciel",
+      "id-id" : "Footprint of the Rainbow",
+      "it-it" : "Orme iridate",
+      "ja-jp" : "虹の行方",
+      "ko-kr" : "무지개의 행적",
+      "pt-pt" : "Trilha do Arco-Íris",
+      "ru-ru" : "След радуги",
+      "th-th" : "Footprint of the Rainbow",
+      "tr-tr" : "Gökkuşağının İzi",
+      "vi-vn" : "Vết Tích Cầu Vồng",
+      "zh-cn" : "虹的行迹",
+      "zh-tw" : "虹的行跡"
+    },
+    "nameTextMapHash" : 415520051,
     "rank" : 4
   },
   "13501" : {
@@ -2991,6 +3079,50 @@
     "nameTextMapHash" : 2722902043,
     "rank" : 4
   },
+  "14427" : {
+    "id" : 14427,
+    "l10nMap" : {
+      "de-de" : "Aschgraues Trinkhorn",
+      "en-us" : "Ash-Graven Drinking Horn",
+      "es-es" : "Cuerno Veteazulado",
+      "fr-fr" : "Corne à boire cendrée",
+      "id-id" : "Ash-Graven Drinking Horn",
+      "it-it" : "Corno cinereo",
+      "ja-jp" : "蒼紋の角杯",
+      "ko-kr" : "푸른 문양 뿔잔",
+      "pt-pt" : "Cálice de Chifre Cinza Escarlate",
+      "ru-ru" : "Пепельный рог",
+      "th-th" : "Ash-Graven Drinking Horn",
+      "tr-tr" : "Kül Oymalı İçki Boynuzu",
+      "vi-vn" : "Sừng Rượu Vân Xanh",
+      "zh-cn" : "苍纹角杯",
+      "zh-tw" : "蒼紋角杯"
+    },
+    "nameTextMapHash" : 422144187,
+    "rank" : 4
+  },
+  "14431" : {
+    "id" : 14431,
+    "l10nMap" : {
+      "de-de" : "Yaxche-Ring",
+      "en-us" : "Ring of Yaxche",
+      "es-es" : "Anillo del Yaxché",
+      "fr-fr" : "Anneau de Yaxche",
+      "id-id" : "Ring of Yaxche",
+      "it-it" : "Anello di Yaxche",
+      "ja-jp" : "ヤシュチェの環",
+      "ko-kr" : "약스체의 고리",
+      "pt-pt" : "Anel de Yaxche",
+      "ru-ru" : "Кольцо Яшче",
+      "th-th" : "Ring of Yaxche",
+      "tr-tr" : "Yaxche Yüzüğü",
+      "vi-vn" : "Vòng Yaxche",
+      "zh-cn" : "木棉之环",
+      "zh-tw" : "木棉之環"
+    },
+    "nameTextMapHash" : 3092853059,
+    "rank" : 4
+  },
   "14501" : {
     "id" : 14501,
     "l10nMap" : {
@@ -3231,6 +3363,28 @@
       "zh-tw" : "鶴鳴餘音"
     },
     "nameTextMapHash" : 3660626387,
+    "rank" : 5
+  },
+  "14516" : {
+    "id" : 14516,
+    "l10nMap" : {
+      "de-de" : "Zeit fürs Wellenreiten",
+      "en-us" : "Surf's Up",
+      "es-es" : "Hora de Surfear",
+      "fr-fr" : "Instant surfant",
+      "id-id" : "Surf's Up",
+      "it-it" : "Vai col surf",
+      "ja-jp" : "サーフィンタイム",
+      "ko-kr" : "서핑 타임",
+      "pt-pt" : "Hora do Surfe",
+      "ru-ru" : "Лови волну",
+      "th-th" : "Surf's Up",
+      "tr-tr" : "Sörf Zamanı",
+      "vi-vn" : "Thời Khắc Lướt Sóng",
+      "zh-cn" : "冲浪时光",
+      "zh-tw" : "衝浪時光"
+    },
+    "nameTextMapHash" : 1673987515,
     "rank" : 5
   },
   "15101" : {
@@ -3891,6 +4045,28 @@
       "zh-tw" : "測距規"
     },
     "nameTextMapHash" : 1055195035,
+    "rank" : 4
+  },
+  "15431" : {
+    "id" : 15431,
+    "l10nMap" : {
+      "de-de" : "Zersprungene Ketten",
+      "en-us" : "Chain Breaker",
+      "es-es" : "Rompecadenas",
+      "fr-fr" : "Brise-chaîne",
+      "id-id" : "Chain Breaker",
+      "it-it" : "Spezzacatene",
+      "ja-jp" : "チェーンブレイカー",
+      "ko-kr" : "사슬 파괴자",
+      "pt-pt" : "Quebrador de Correntes",
+      "ru-ru" : "Разбивающий цепи",
+      "th-th" : "Chain Breaker",
+      "tr-tr" : "Zincirkıran",
+      "vi-vn" : "Phá Xích",
+      "zh-cn" : "碎链",
+      "zh-tw" : "碎鏈"
+    },
+    "nameTextMapHash" : 565052971,
     "rank" : 4
   },
   "15501" : {
@@ -5981,6 +6157,72 @@
       "zh-tw" : "艾梅莉埃"
     },
     "nameTextMapHash" : 1705786122,
+    "rank" : 5
+  },
+  "10000100" : {
+    "id" : 10000100,
+    "l10nMap" : {
+      "de-de" : "Kachina",
+      "en-us" : "Kachina",
+      "es-es" : "Kachina",
+      "fr-fr" : "Kachina",
+      "id-id" : "Kachina",
+      "it-it" : "Kachina",
+      "ja-jp" : "カチーナ",
+      "ko-kr" : "카치나",
+      "pt-pt" : "Kachina",
+      "ru-ru" : "Качина",
+      "th-th" : "Kachina",
+      "tr-tr" : "Kachina",
+      "vi-vn" : "Kachina",
+      "zh-cn" : "卡齐娜",
+      "zh-tw" : "卡齊娜"
+    },
+    "nameTextMapHash" : 2531816890,
+    "rank" : 4
+  },
+  "10000101" : {
+    "id" : 10000101,
+    "l10nMap" : {
+      "de-de" : "Kinich",
+      "en-us" : "Kinich",
+      "es-es" : "Kinich",
+      "fr-fr" : "Kinich",
+      "id-id" : "Kinich",
+      "it-it" : "Kinich",
+      "ja-jp" : "キィニチ",
+      "ko-kr" : "키니치",
+      "pt-pt" : "Kinich",
+      "ru-ru" : "Кинич",
+      "th-th" : "Kinich",
+      "tr-tr" : "Kinich",
+      "vi-vn" : "Kinich",
+      "zh-cn" : "基尼奇",
+      "zh-tw" : "基尼奇"
+    },
+    "nameTextMapHash" : 4172712634,
+    "rank" : 5
+  },
+  "10000102" : {
+    "id" : 10000102,
+    "l10nMap" : {
+      "de-de" : "Mualani",
+      "en-us" : "Mualani",
+      "es-es" : "Mualani",
+      "fr-fr" : "Mualani",
+      "id-id" : "Mualani",
+      "it-it" : "Mualani",
+      "ja-jp" : "ムアラニ",
+      "ko-kr" : "말라니",
+      "pt-pt" : "Mualani",
+      "ru-ru" : "Муалани",
+      "th-th" : "Mualani",
+      "tr-tr" : "Mualani",
+      "vi-vn" : "Mualani",
+      "zh-cn" : "玛拉妮",
+      "zh-tw" : "瑪拉妮"
+    },
+    "nameTextMapHash" : 3949670506,
     "rank" : 5
   }
 }
