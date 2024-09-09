@@ -759,6 +759,26 @@
     "nameTextMapHash" : 1558534343,
     "rank" : 5
   },
+  "1220" : {
+    "id" : 1220,
+    "l10nMap" : {
+      "de-de" : "Feixiao",
+      "en-us" : "Feixiao",
+      "es-es" : "Feixiao",
+      "fr-fr" : "Feixiao",
+      "id-id" : "Feixiao",
+      "ja-jp" : "飛霄",
+      "ko-kr" : "비소",
+      "pt-pt" : "Feixiao",
+      "ru-ru" : "Фэйсяо",
+      "th-th" : "Feixiao",
+      "vi-vn" : "Feixiao",
+      "zh-cn" : "飞霄",
+      "zh-tw" : "飛霄"
+    },
+    "nameTextMapHash" : 1914764700,
+    "rank" : 5
+  },
   "1221" : {
     "id" : 1221,
     "l10nMap" : {
@@ -778,6 +798,46 @@
     },
     "nameTextMapHash" : -814118655,
     "rank" : 5
+  },
+  "1222" : {
+    "id" : 1222,
+    "l10nMap" : {
+      "de-de" : "Lingsha",
+      "en-us" : "Lingsha",
+      "es-es" : "Lingsha",
+      "fr-fr" : "Lingsha",
+      "id-id" : "Lingsha",
+      "ja-jp" : "霊砂",
+      "ko-kr" : "영사",
+      "pt-pt" : "Lingsha",
+      "ru-ru" : "Линша",
+      "th-th" : "Lingsha",
+      "vi-vn" : "Lingsha",
+      "zh-cn" : "灵砂",
+      "zh-tw" : "靈砂"
+    },
+    "nameTextMapHash" : 751965286,
+    "rank" : 5
+  },
+  "1223" : {
+    "id" : 1223,
+    "l10nMap" : {
+      "de-de" : "Moze",
+      "en-us" : "Moze",
+      "es-es" : "Moze",
+      "fr-fr" : "Moze",
+      "id-id" : "Moze",
+      "ja-jp" : "モゼ",
+      "ko-kr" : "맥택",
+      "pt-pt" : "Moze",
+      "ru-ru" : "Моцзэ",
+      "th-th" : "Moze",
+      "vi-vn" : "Moze",
+      "zh-cn" : "貊泽",
+      "zh-tw" : "貊澤"
+    },
+    "nameTextMapHash" : -1976918069,
+    "rank" : 4
   },
   "1224" : {
     "id" : 1224,
@@ -2539,6 +2599,26 @@
     "nameTextMapHash" : -973364450,
     "rank" : 4
   },
+  "21047" : {
+    "id" : 21047,
+    "l10nMap" : {
+      "de-de" : "Die Nacht der langen Schatten",
+      "en-us" : "Shadowed by Night",
+      "es-es" : "La sombra de la noche",
+      "fr-fr" : "Nuit des ombres",
+      "id-id" : "Shadowed by Night",
+      "ja-jp" : "夜は影のように付き纏う",
+      "ko-kr" : "그림자처럼 뒤따르는 밤",
+      "pt-pt" : "Sombreado pela Noite",
+      "ru-ru" : "Скрытый в ночной тени",
+      "th-th" : "Shadowed by Night",
+      "vi-vn" : "Bóng Tối Đồng Hành",
+      "zh-cn" : "黑夜如影随行",
+      "zh-tw" : "黑夜如影隨行"
+    },
+    "nameTextMapHash" : -973364451,
+    "rank" : 4
+  },
   "22000" : {
     "id" : 22000,
     "l10nMap" : {
@@ -3217,6 +3297,46 @@
       "zh-tw" : "落日時起舞"
     },
     "nameTextMapHash" : -1658973977,
+    "rank" : 5
+  },
+  "23031" : {
+    "id" : 23031,
+    "l10nMap" : {
+      "de-de" : "Ich wage die Jagd",
+      "en-us" : "I Venture Forth to Hunt",
+      "es-es" : "Me voy de caza",
+      "fr-fr" : "La chasse est ouverte",
+      "id-id" : "I Venture Forth to Hunt",
+      "ja-jp" : "我が征く巡狩の道",
+      "ko-kr" : "정복하고 사냥하리",
+      "pt-pt" : "Eu Me Aventuro para Caçar",
+      "ru-ru" : "Я отправляюсь на охоту",
+      "th-th" : "I Venture Forth to Hunt",
+      "vi-vn" : "Ta Sẽ, Tuần Tra Săn Bắn",
+      "zh-cn" : "我将，巡征追猎",
+      "zh-tw" : "我將，巡徵追獵"
+    },
+    "nameTextMapHash" : -1658973978,
+    "rank" : 5
+  },
+  "23032" : {
+    "id" : 23032,
+    "l10nMap" : {
+      "de-de" : "Nur ein Duft bleibt zurück",
+      "en-us" : "Scent Alone Stays True",
+      "es-es" : "Solo la fragancia perdura",
+      "fr-fr" : "Essence de l'encens",
+      "id-id" : "Scent Alone Stays True",
+      "ja-jp" : "昔日の香りは今も猶",
+      "ko-kr" : "오직 향만이 변함없이",
+      "pt-pt" : "Só a Fragrância Permanece",
+      "ru-ru" : "Останется лишь аромат",
+      "th-th" : "Scent Alone Stays True",
+      "vi-vn" : "Mùi Hương Vẹn Nguyên",
+      "zh-cn" : "唯有香如故",
+      "zh-tw" : "唯有香如故"
+    },
+    "nameTextMapHash" : -1658973975,
     "rank" : 5
   },
   "24000" : {
