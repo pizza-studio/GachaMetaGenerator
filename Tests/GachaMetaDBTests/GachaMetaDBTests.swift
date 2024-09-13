@@ -7,14 +7,14 @@ import XCTest
 
 final class GachaMetaDBTests: XCTestCase {
     func testJSONAccess() throws {
-        let jsonGI = try GachaMetaDB.getBundledDefault(for: .genshinImpact)
-        let jsonHSR = try GachaMetaDB.getBundledDefault(for: .starRail)
+        let jsonGI = try GachaMeta.MetaDB.getBundledDefault(for: .genshinImpact)
+        let jsonHSR = try GachaMeta.MetaDB.getBundledDefault(for: .starRail)
         XCTAssertNotNil(jsonGI)
         XCTAssertNotNil(jsonHSR)
     }
 
     func testReverseTableGeneration() throws {
-        let jsonGI = try GachaMetaDB.getBundledDefault(for: .genshinImpact)
+        let jsonGI = try GachaMeta.MetaDB.getBundledDefault(for: .genshinImpact)
         let reverseTableGI = jsonGI?.generateHotReverseQueryDict(for: "en-US")
         XCTAssertNotNil(reverseTableGI)
     }

@@ -8,12 +8,18 @@ import GachaMetaGeneratorModule
 // MARK: - GachaMetaDB
 
 public typealias GachaItemMetadata = GachaMetaGenerator.GachaItemMeta
-public typealias GachaMetaDB = [String: GachaItemMetadata]
+public typealias GachaMetaDB = GachaMeta.MetaDB // Old API Compatibility. Will be removed in Package v3.x update.
+
+// MARK: - GachaMeta
+
+public enum GachaMeta {
+    public typealias MetaDB = [String: GachaItemMetadata]
+}
 
 // MARK: GachaMetaDB.SupportedGame
 
 /// GachaMetaDB
-extension GachaMetaDB {
+extension GachaMeta.MetaDB {
     public typealias SupportedGame = GachaMetaGenerator.SupportedGame
     public typealias Lang = GachaMetaGenerator.GachaDictLang
 
@@ -57,21 +63,21 @@ extension GachaMetaDB {
     }
 }
 
-extension GachaMetaDB {
+extension GachaMeta.MetaDB {
     public static func getBundledDefault(for game: SupportedGame) throws -> [String: GachaItemMetadata]? {
         guard let url = game.bundledResourceURL else { return nil }
         let data = try Data(contentsOf: url)
-        let rawDB = try JSONDecoder().decode(GachaMetaDB.self, from: data)
+        let rawDB = try JSONDecoder().decode(GachaMeta.MetaDB.self, from: data)
         return rawDB
     }
 
     public static func fetchAndCompileLatestDB(for game: SupportedGame) async throws
-        -> GachaMetaDB {
+        -> GachaMeta.MetaDB {
         try await GachaMetaGenerator.fetchAndCompileFromAmbrYatta(for: game)
     }
 }
 
-extension GachaMetaDB.SupportedGame {
+extension GachaMeta.MetaDB.SupportedGame {
     fileprivate var bundledResourceURL: URL? {
         switch self {
         case .starRail:
