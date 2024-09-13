@@ -46,8 +46,8 @@ extension GachaMetaGenerator.SupportedGame {
         if lang == .langCHS, self == .starRail { langTag = "cn" }
         var result = ""
         switch (self, type) {
-        case (.genshinImpact, .weaponData): result += "https://gi.yatta.top/v2/\(langTag)/weapon"
-        case (.genshinImpact, .characterData): result += "https://gi.yatta.top/v2/\(langTag)/avatar"
+        case (.genshinImpact, .weaponData): result += "https://gi.yatta.top/api/v2/\(langTag)/weapon"
+        case (.genshinImpact, .characterData): result += "https://gi.yatta.top/api/v2/\(langTag)/avatar"
         case (.starRail, .weaponData): result += "https://api.yatta.top/hsr/v2/\(langTag)/equipment"
         case (.starRail, .characterData): result += "https://api.yatta.top/hsr/v2/\(langTag)/avatar"
         }
