@@ -549,6 +549,72 @@
     "nameTextMapHash" : 143051931,
     "rank" : 4
   },
+  "11419" : {
+    "id" : 11419,
+    "l10nMap" : {
+      "de-de" : "Berühmtes Schwert der „Isshin-Schule“",
+      "en-us" : "Prized Isshin Blade",
+      "es-es" : "Espada Egregia de Isshin",
+      "fr-fr" : "Chef-d'œuvre Isshin",
+      "id-id" : "Prized Isshin Blade",
+      "it-it" : "Pregiata lama Isshin",
+      "ja-jp" : "「一心伝」名刀",
+      "ko-kr" : "「잇신의 기술」 명검",
+      "pt-pt" : "Espada Famosa da \"Arte Isshin\"",
+      "ru-ru" : "Легендарный клинок Иссин",
+      "th-th" : "ดาบเลื่องชื่อ \"Isshin Art\"",
+      "tr-tr" : "Değerli Isshin Kılıcı",
+      "vi-vn" : "Danh Đao \"Trường Phái Isshin\"",
+      "zh-cn" : "「一心传」名刀",
+      "zh-tw" : "「一心傳」名刀"
+    },
+    "nameTextMapHash" : 1499745907,
+    "rank" : 4
+  },
+  "11420" : {
+    "id" : 11420,
+    "l10nMap" : {
+      "de-de" : "Berühmtes Schwert der „Isshin-Schule“",
+      "en-us" : "Prized Isshin Blade",
+      "es-es" : "Espada Egregia de Isshin",
+      "fr-fr" : "Chef-d'œuvre Isshin",
+      "id-id" : "Prized Isshin Blade",
+      "it-it" : "Pregiata lama Isshin",
+      "ja-jp" : "「一心伝」名刀",
+      "ko-kr" : "「잇신의 기술」 명검",
+      "pt-pt" : "Espada Famosa da \"Arte Isshin\"",
+      "ru-ru" : "Легендарный клинок Иссин",
+      "th-th" : "ดาบเลื่องชื่อ \"Isshin Art\"",
+      "tr-tr" : "Değerli Isshin Kılıcı",
+      "vi-vn" : "Danh Đao \"Trường Phái Isshin\"",
+      "zh-cn" : "「一心传」名刀",
+      "zh-tw" : "「一心傳」名刀"
+    },
+    "nameTextMapHash" : 1538092267,
+    "rank" : 4
+  },
+  "11421" : {
+    "id" : 11421,
+    "l10nMap" : {
+      "de-de" : "Berühmtes Schwert der „Isshin-Schule“",
+      "en-us" : "Prized Isshin Blade",
+      "es-es" : "Espada Egregia de Isshin",
+      "fr-fr" : "Chef-d'œuvre Isshin",
+      "id-id" : "Prized Isshin Blade",
+      "it-it" : "Pregiata lama Isshin",
+      "ja-jp" : "「一心伝」名刀",
+      "ko-kr" : "「잇신의 기술」 명검",
+      "pt-pt" : "Espada Famosa da \"Arte Isshin\"",
+      "ru-ru" : "Легендарный клинок Иссин",
+      "th-th" : "ดาบเลื่องชื่อ \"Isshin Art\"",
+      "tr-tr" : "Değerli Isshin Kılıcı",
+      "vi-vn" : "Danh Đao \"Trường Phái Isshin\"",
+      "zh-cn" : "「一心传」名刀",
+      "zh-tw" : "「一心傳」名刀"
+    },
+    "nameTextMapHash" : 3464027035,
+    "rank" : 4
+  },
   "11422" : {
     "id" : 11422,
     "l10nMap" : {
@@ -681,6 +747,28 @@
     "nameTextMapHash" : 3016493955,
     "rank" : 4
   },
+  "11429" : {
+    "id" : 11429,
+    "l10nMap" : {
+      "de-de" : "Schwert des Narzissenkreuzes",
+      "en-us" : "Sword of Narzissenkreuz",
+      "es-es" : "Espada Cruz de los Narcisos",
+      "fr-fr" : "Lame du Narzissenkreuz",
+      "id-id" : "Sword of Narzissenkreuz",
+      "it-it" : "Spada di Narzissenkreuz",
+      "ja-jp" : "水仙十字の剣",
+      "ko-kr" : "수선화 십자검",
+      "pt-pt" : "Espada da Cruz de Narcissus",
+      "ru-ru" : "Меч Нарциссенкрейца",
+      "th-th" : "Sword of Narzissenkreuz",
+      "tr-tr" : "Nergis Haçı'nın Kılıcı",
+      "vi-vn" : "Lưỡi Kiếm Narzissenkreuz",
+      "zh-cn" : "水仙十字之剑",
+      "zh-tw" : "水仙十字之劍"
+    },
+    "nameTextMapHash" : 594850707,
+    "rank" : 4
+  },
   "11431" : {
     "id" : 11431,
     "l10nMap" : {
@@ -811,6 +899,44 @@
       "zh-tw" : "磐岩結綠"
     },
     "nameTextMapHash" : 1345343763,
+    "rank" : 5
+  },
+  "11506" : {
+    "id" : 11506,
+    "l10nMap" : {
+      "de-de" : "Moosgrüner Fels",
+      "en-us" : "Primordial Jade Cutter",
+      "es-es" : "Cortador de Jade Primordial",
+      "fr-fr" : "Coupeur de jade primordial",
+      "id-id" : "Primordial Jade Cutter",
+      "ja-jp" : "磐岩の緑",
+      "ko-kr" : "이끼 대검",
+      "pt-pt" : "Cortador de Jade Primordial",
+      "ru-ru" : "Древний Нефритовый Резак",
+      "th-th" : "Primordial Jade Cutter",
+      "vi-vn" : "Nham Kết Lục",
+      "zh-tw" : "磐岩結綠"
+    },
+    "nameTextMapHash" : 231836963,
+    "rank" : 5
+  },
+  "11507" : {
+    "id" : 11507,
+    "l10nMap" : {
+      "de-de" : "Gefäß der Leere",
+      "en-us" : "One Side",
+      "es-es" : "Destino Vacío",
+      "fr-fr" : "Destin du néant",
+      "id-id" : "One Side",
+      "ja-jp" : "虚構",
+      "ko-kr" : "공허한 운명",
+      "pt-pt" : "Um Lado",
+      "ru-ru" : "Одна Сторона",
+      "th-th" : "One Side",
+      "vi-vn" : "Hư Vô",
+      "zh-tw" : "憑虛"
+    },
+    "nameTextMapHash" : 3780343147,
     "rank" : 5
   },
   "11509" : {
@@ -1075,6 +1201,28 @@
       "zh-tw" : "白鐵大劍"
     },
     "nameTextMapHash" : 850802171,
+    "rank" : 3
+  },
+  "12304" : {
+    "id" : 12304,
+    "l10nMap" : {
+      "de-de" : "Quarzgroßschwert",
+      "en-us" : "Quartz",
+      "es-es" : "Espada de Cuarzo",
+      "fr-fr" : "Grande épée en quartz",
+      "id-id" : "Quartz",
+      "it-it" : "Quarzo",
+      "ja-jp" : "石英大剣",
+      "ko-kr" : "석영대검",
+      "pt-pt" : "Quartzo",
+      "ru-ru" : "Кварц",
+      "th-th" : "Quartz",
+      "tr-tr" : "Kuvars",
+      "vi-vn" : "Kiếm Thạch Anh",
+      "zh-cn" : "石英大剑",
+      "zh-tw" : "石英大劍"
+    },
+    "nameTextMapHash" : 1516554699,
     "rank" : 3
   },
   "12305" : {
@@ -1693,6 +1841,44 @@
     "nameTextMapHash" : 2792766467,
     "rank" : 5
   },
+  "12505" : {
+    "id" : 12505,
+    "l10nMap" : {
+      "de-de" : "Urzeitliches Jadeschwert",
+      "en-us" : "Primordial Jade Greatsword",
+      "es-es" : "Espada de Jade Inicial",
+      "fr-fr" : "Grande épée de jade primordial",
+      "id-id" : "Primordial Jade Greatsword",
+      "ja-jp" : "美玉魚",
+      "ko-kr" : "고래 비녀",
+      "pt-pt" : "Espada de Jade Primordial",
+      "ru-ru" : "Древний Нефритовый Двуручный Меч",
+      "th-th" : "Primordial Jade Greatsword",
+      "vi-vn" : "Đề Ách Ngư",
+      "zh-tw" : "砥厄魚"
+    },
+    "nameTextMapHash" : 977648923,
+    "rank" : 5
+  },
+  "12506" : {
+    "id" : 12506,
+    "l10nMap" : {
+      "de-de" : "Anderer Verlauf",
+      "en-us" : "The Other Side",
+      "es-es" : "Historia Diferente",
+      "fr-fr" : "Histoire secondaire",
+      "id-id" : "Historia Diferente",
+      "ja-jp" : "異史",
+      "ko-kr" : "괴사",
+      "pt-pt" : "O Outro Lado",
+      "ru-ru" : "Другая Сторона",
+      "th-th" : "The Other Side",
+      "vi-vn" : "Dị Sử",
+      "zh-tw" : "異史"
+    },
+    "nameTextMapHash" : 2597527627,
+    "rank" : 5
+  },
   "12510" : {
     "id" : 12510,
     "l10nMap" : {
@@ -1889,6 +2075,28 @@
       "zh-tw" : "黑纓槍"
     },
     "nameTextMapHash" : 4103766499,
+    "rank" : 3
+  },
+  "13304" : {
+    "id" : 13304,
+    "l10nMap" : {
+      "de-de" : "Fahnenmast",
+      "en-us" : "The Flagstaff",
+      "es-es" : "Asta de Bandera",
+      "fr-fr" : "La hampe",
+      "id-id" : "The Flagstaff",
+      "it-it" : "Asta di bandiera",
+      "ja-jp" : "「旗竿」",
+      "ko-kr" : "「깃대」",
+      "pt-pt" : "Mastro da Bandeira",
+      "ru-ru" : "Флагшток",
+      "th-th" : "The Flagstaff",
+      "tr-tr" : "Bayrak Direği",
+      "vi-vn" : "Cột Cờ",
+      "zh-cn" : "「旗杆」",
+      "zh-tw" : "「旗桿」"
+    },
+    "nameTextMapHash" : 500612819,
     "rank" : 3
   },
   "13401" : {
@@ -2397,6 +2605,25 @@
     "nameTextMapHash" : 1997709467,
     "rank" : 5
   },
+  "13506" : {
+    "id" : 13506,
+    "l10nMap" : {
+      "de-de" : "Göttermörder",
+      "en-us" : "Deicide",
+      "es-es" : "Cazador de Dioses",
+      "fr-fr" : "Déicide",
+      "id-id" : "Deicide",
+      "ja-jp" : "レジサイド",
+      "ko-kr" : "주신 학살창",
+      "pt-pt" : "Deicida",
+      "ru-ru" : "Богоубийство",
+      "th-th" : "Deicide",
+      "vi-vn" : "Sát Chủ",
+      "zh-tw" : "弑主"
+    },
+    "nameTextMapHash" : 3532343811,
+    "rank" : 5
+  },
   "13507" : {
     "id" : 13507,
     "l10nMap" : {
@@ -2659,6 +2886,28 @@
       "zh-tw" : "甲級寶玨"
     },
     "nameTextMapHash" : 3719372715,
+    "rank" : 3
+  },
+  "14306" : {
+    "id" : 14306,
+    "l10nMap" : {
+      "de-de" : "Bernsteinkatalysator",
+      "en-us" : "Amber Bead",
+      "es-es" : "Catalizador de Ámbar",
+      "fr-fr" : "Catalyseur en ambre",
+      "id-id" : "Amber Bead",
+      "it-it" : "Perla d'ambra",
+      "ja-jp" : "琥珀の玥",
+      "ko-kr" : "호박월",
+      "pt-pt" : "Catalisador de Âmbar",
+      "ru-ru" : "Янтарная жемчужина",
+      "th-th" : "Amber Bead",
+      "tr-tr" : "Kehribar Boncuk",
+      "vi-vn" : "Hổ Phách Nguyệt",
+      "zh-cn" : "琥珀玥",
+      "zh-tw" : "琥珀玥"
+    },
+    "nameTextMapHash" : 302691299,
     "rank" : 3
   },
   "14401" : {
@@ -3167,6 +3416,25 @@
     "nameTextMapHash" : 1455107995,
     "rank" : 5
   },
+  "14503" : {
+    "id" : 14503,
+    "l10nMap" : {
+      "de-de" : "Ballade des Verlusts",
+      "en-us" : "Lost Ballade",
+      "es-es" : "Balada Perdida",
+      "fr-fr" : "Ballade perdue",
+      "id-id" : "Lost Ballade",
+      "ja-jp" : "散逸した叙事詩",
+      "ko-kr" : "산실된 서사시",
+      "pt-pt" : "Poema Perdido",
+      "ru-ru" : "Утерянная Баллада",
+      "th-th" : "Lost Ballade",
+      "vi-vn" : "Bài Thơ Kể Chuyện",
+      "zh-tw" : "散佚的敘事詩"
+    },
+    "nameTextMapHash" : 452043283,
+    "rank" : 5
+  },
   "14504" : {
     "id" : 14504,
     "l10nMap" : {
@@ -3539,6 +3807,28 @@
       "zh-tw" : "信使"
     },
     "nameTextMapHash" : 4139294531,
+    "rank" : 3
+  },
+  "15306" : {
+    "id" : 15306,
+    "l10nMap" : {
+      "de-de" : "Ebenholzbogen",
+      "en-us" : "Ebony Bow",
+      "es-es" : "Arco de Ébano",
+      "fr-fr" : "Arc en ébène",
+      "id-id" : "Ebony Bow",
+      "it-it" : "Arco d'ebano",
+      "ja-jp" : "黒檀の弓",
+      "ko-kr" : "흑단궁",
+      "pt-pt" : "Arco de Ébano",
+      "ru-ru" : "Эбеновый лук",
+      "th-th" : "Ebony Bow",
+      "tr-tr" : "Fildişi Yay",
+      "vi-vn" : "Cung Hắc Đàn",
+      "zh-cn" : "黑檀弓",
+      "zh-tw" : "黑檀弓"
+    },
+    "nameTextMapHash" : 2242027395,
     "rank" : 3
   },
   "15401" : {
@@ -4135,6 +4425,63 @@
     "nameTextMapHash" : 3112679155,
     "rank" : 5
   },
+  "15504" : {
+    "id" : 15504,
+    "l10nMap" : {
+      "de-de" : "Kunwus Drachenschlächter",
+      "en-us" : "Kunwu's Wyrmbane",
+      "es-es" : "Cazador de Dragones de Kunwu",
+      "fr-fr" : "Wyrmbane de Kunwu",
+      "id-id" : "Kunwu's Wyrmbane",
+      "ja-jp" : "昆吾の堕龍",
+      "ko-kr" : "곤오추룡",
+      "pt-pt" : "Caça-Dragões de Kunwu",
+      "ru-ru" : "Убийца Драконов Кунву",
+      "th-th" : "Kunwu's Wyrmbane",
+      "vi-vn" : "Rồng Kunwu",
+      "zh-tw" : "昆吾墜龍"
+    },
+    "nameTextMapHash" : 565329475,
+    "rank" : 5
+  },
+  "15505" : {
+    "id" : 15505,
+    "l10nMap" : {
+      "de-de" : "Urzeitlicher Jadebogen",
+      "en-us" : "Primordial Jade Vista",
+      "es-es" : "Vista de Jade Primordial",
+      "fr-fr" : "Vue de jade primordial",
+      "id-id" : "Primordial Jade Vista",
+      "ja-jp" : "高価なオーブ",
+      "ko-kr" : "현려천균",
+      "pt-pt" : "Vista da Jade Primordial",
+      "ru-ru" : "Древняя Нефритовая Виста",
+      "th-th" : "Primordial Jade Vista",
+      "vi-vn" : "Cung Huyền Lê",
+      "zh-tw" : "懸黎千鈞"
+    },
+    "nameTextMapHash" : 1994081075,
+    "rank" : 5
+  },
+  "15506" : {
+    "id" : 15506,
+    "l10nMap" : {
+      "de-de" : "Zerbrochener Spiegel",
+      "en-us" : "Mirror Breaker",
+      "es-es" : "Espejo Roto",
+      "fr-fr" : "Briseur de mirroire",
+      "id-id" : "Mirror Breaker",
+      "ja-jp" : "壊れた鏡",
+      "ko-kr" : "부서진 거울",
+      "pt-pt" : "Quebrador de Espelhos",
+      "ru-ru" : "Разбитое зеркало",
+      "th-th" : "Mirror Breaker",
+      "vi-vn" : "Gương Vỡ",
+      "zh-tw" : "破鏡"
+    },
+    "nameTextMapHash" : 2824690859,
+    "rank" : 5
+  },
   "15507" : {
     "id" : 15507,
     "l10nMap" : {
@@ -4266,6 +4613,28 @@
     },
     "nameTextMapHash" : 1257396043,
     "rank" : 5
+  },
+  "10000001" : {
+    "id" : 10000001,
+    "l10nMap" : {
+      "de-de" : "Kate",
+      "en-us" : "Kate",
+      "es-es" : "Kate",
+      "fr-fr" : "Kate",
+      "id-id" : "Kate",
+      "it-it" : "Kate",
+      "ja-jp" : "ケイト",
+      "ko-kr" : "케이트",
+      "pt-pt" : "Kate",
+      "ru-ru" : "Кейт",
+      "th-th" : "Kate",
+      "tr-tr" : "Kate",
+      "vi-vn" : "Kate",
+      "zh-cn" : "凯特",
+      "zh-tw" : "凱特"
+    },
+    "nameTextMapHash" : 1857915418,
+    "rank" : 4
   },
   "10000002" : {
     "id" : 10000002,
