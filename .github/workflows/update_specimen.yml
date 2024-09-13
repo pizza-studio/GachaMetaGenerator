@@ -22,8 +22,8 @@ jobs:
                 swift build -c release
                 rm -rf ./Sources/GachaMetaDB/Resources/OUTPUT-HSR.json || true
                 rm -rf ./Sources/GachaMetaDB/Resources/OUTPUT-GI.json || true
-                .build/release/GachaMetaGenerator -HSRD > ./Sources/GachaMetaDB/Resources/OUTPUT-HSR.json
-                .build/release/GachaMetaGenerator -GID > ./Sources/GachaMetaDB/Resources/OUTPUT-GI.json
+                .build/release/GachaMetaGenerator -HSR > ./Sources/GachaMetaDB/Resources/OUTPUT-HSR.json
+                .build/release/GachaMetaGenerator -GI > ./Sources/GachaMetaDB/Resources/OUTPUT-GI.json
 
             - name: Create Pull Request
               uses: peter-evans/create-pull-request@v3
