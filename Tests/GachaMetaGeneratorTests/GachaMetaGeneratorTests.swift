@@ -56,28 +56,28 @@ final class GachaMetaGeneratorTests: XCTestCase {
 // MARK: - Ambr Yatta API Tests.
 
 extension GachaMetaGeneratorTests {
-    func testGeneratingHSRFromAmbrYattaAPI() async throws {
-        let dataHSR = try await GachaMetaGenerator.SupportedGame.starRail.fetchAmbrYattaData()
+    func testGeneratingHSRFromYattaAPI() async throws {
+        let dataHSR = try await GachaMetaGenerator.SupportedGame.starRail.fetchYattaData()
         print(try dataHSR.encodedJSONString() ?? "FAILED.")
         XCTAssertNotNil(!dataHSR.isEmpty)
     }
 
-    func testGeneratingGIFromAmbrYattaAPI() async throws {
-        let dataGI = try await GachaMetaGenerator.SupportedGame.genshinImpact.fetchAmbrYattaData()
+    func testGeneratingGIFromYattaAPI() async throws {
+        let dataGI = try await GachaMetaGenerator.SupportedGame.genshinImpact.fetchYattaData()
         print(try dataGI.encodedJSONString() ?? "FAILED.")
         XCTAssertNotNil(!dataGI.isEmpty)
     }
 
-    func testDecodingAmbrYattaData() async throws {
+    func testDecodingYattaData() async throws {
         for game in GachaMetaGenerator.SupportedGame.allCases {
             for dataType in GachaMetaGenerator.SupportedGame.DataURLType.allCases {
                 for lang in GachaMetaGenerator.GachaDictLang?.allCases(for: game) {
                     print("------------------------------------")
-                    let url = game.getAmbrYattaAPIURL(for: dataType, lang: lang)
+                    let url = game.getYattaAPIURL(for: dataType, lang: lang)
                     print(url.absoluteString)
                     let (data, _) = try await URLSession.shared.asyncData(from: url)
                     do {
-                        let jsonParsed = try JSONDecoder().decode(GachaMetaGenerator.AmbrYattaResponse.self, from: data)
+                        let jsonParsed = try JSONDecoder().decode(GachaMetaGenerator.YattaResponse.self, from: data)
                         XCTAssertFalse(jsonParsed.data?.items?.isEmpty ?? true)
                     } catch {
                         print(error.localizedDescription)

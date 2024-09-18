@@ -34,42 +34,42 @@ extension GachaMetaGenerator {
     }
 }
 
-// MARK: - Dealing with Ambr.top and Yatta.top API Results.
+// MARK: - Dealing with Yatta.moe API Results.
 
 extension GachaMetaGenerator.SupportedGame {
-    /// Only used for dealing with Ambr.top and Yatta.top API Results.
+    /// Only used for dealing with Yatta.moe API Results.
     ///
     /// If the lang is given null, then the parameter raw value will be `static`.
     /// This will let the `name` field become `nameTextMapHash`.
-    func getAmbrYattaAPIURL(for type: DataURLType, lang: GachaMetaGenerator.GachaDictLang?) -> URL {
+    func getYattaAPIURL(for type: DataURLType, lang: GachaMetaGenerator.GachaDictLang?) -> URL {
         var langTag = lang.ambrTopLangID
         if lang == .langCHS, self == .starRail { langTag = "cn" }
         var result = ""
         switch (self, type) {
-        case (.genshinImpact, .weaponData): result += "https://gi.yatta.top/api/v2/\(langTag)/weapon"
-        case (.genshinImpact, .characterData): result += "https://gi.yatta.top/api/v2/\(langTag)/avatar"
-        case (.starRail, .weaponData): result += "https://api.yatta.top/hsr/v2/\(langTag)/equipment"
-        case (.starRail, .characterData): result += "https://api.yatta.top/hsr/v2/\(langTag)/avatar"
+        case (.genshinImpact, .weaponData): result += "https://gi.yatta.moe/api/v2/\(langTag)/weapon"
+        case (.genshinImpact, .characterData): result += "https://gi.yatta.moe/api/v2/\(langTag)/avatar"
+        case (.starRail, .weaponData): result += "https://sr.yatta.moe/api/v2/\(langTag)/equipment"
+        case (.starRail, .characterData): result += "https://sr.yatta.moe/api/v2/\(langTag)/avatar"
         }
         return URL(string: result)!
     }
 
-    /// Only used for dealing with Ambr.top and Yatta.top API Results.
+    /// Only used for dealing with Yatta.moe API Results.
     ///
     /// If the lang is given null, then the parameter raw value will be `static`.
     /// This will fetch the `nameTextMapHash`.
-    func fetchAmbrYattaData(
+    func fetchYattaData(
         lang: [GachaMetaGenerator.GachaDictLang?]? = nil
     ) async throws
         -> [GachaMetaGenerator.GachaItemMeta] {
-        var buffer = [(items: [GachaMetaGenerator.AmbrYattaFetchedItem], lang: GachaMetaGenerator.GachaDictLang?)]()
+        var buffer = [(items: [GachaMetaGenerator.YattaFetchedItem], lang: GachaMetaGenerator.GachaDictLang?)]()
         for dataType in GachaMetaGenerator.SupportedGame.DataURLType.allCases {
             for locale in GachaMetaGenerator.GachaDictLang?.allCases(for: self) {
-                let url = getAmbrYattaAPIURL(for: dataType, lang: locale)
+                let url = getYattaAPIURL(for: dataType, lang: locale)
                 try await Task.sleep(nanoseconds: UInt64(0.4 * Double(1_000_000_000)))
                 let (data, _) = try await URLSession.shared.asyncData(from: url)
                 do {
-                    let jsonParsed = try JSONDecoder().decode(GachaMetaGenerator.AmbrYattaResponse.self, from: data)
+                    let jsonParsed = try JSONDecoder().decode(GachaMetaGenerator.YattaResponse.self, from: data)
                     var rawStack = jsonParsed.items
                     if locale == .langJP {
                         rubyTest: for i in 0 ..< rawStack.count {
@@ -89,7 +89,7 @@ extension GachaMetaGenerator.SupportedGame {
                 }
             }
         }
-        var results = [GachaMetaGenerator.GachaDictLang?: [GachaMetaGenerator.AmbrYattaFetchedItem]]()
+        var results = [GachaMetaGenerator.GachaDictLang?: [GachaMetaGenerator.YattaFetchedItem]]()
         for result in buffer {
             results[result.lang, default: []].append(contentsOf: result.items)
         }

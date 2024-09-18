@@ -11,7 +11,7 @@ public enum GachaMetaGenerator {}
 extension GachaMetaGenerator {
     public typealias CompilationResult = [String: GachaItemMeta]
 
-    public static func fetchAndCompileFromAmbrYatta(
+    public static func fetchAndCompileFromYatta(
         for game: SupportedGame, lang: [GachaDictLang?]? = nil
     ) async throws
         -> CompilationResult {
@@ -24,7 +24,7 @@ extension GachaMetaGenerator {
         }
 
         var result = CompilationResult()
-        try await game.fetchAmbrYattaData(lang: lang).forEach {
+        try await game.fetchYattaData(lang: lang).forEach {
             result[$0.id.description] = $0
         }
         return result

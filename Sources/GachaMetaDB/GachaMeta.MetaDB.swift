@@ -73,7 +73,7 @@ extension GachaMeta.MetaDB {
 
     public static func fetchAndCompileLatestDB(for game: SupportedGame) async throws
         -> GachaMeta.MetaDB {
-        try await GachaMetaGenerator.fetchAndCompileFromAmbrYatta(for: game)
+        try await GachaMetaGenerator.fetchAndCompileFromYatta(for: game)
     }
 }
 

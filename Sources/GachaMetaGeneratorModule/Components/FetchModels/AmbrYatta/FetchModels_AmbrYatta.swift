@@ -5,9 +5,9 @@
 import Foundation
 
 extension GachaMetaGenerator {
-    typealias AmbrYattaFetchedItem = AmbrYattaResponse.FetchedModel.FetchedItem
+    typealias YattaFetchedItem = YattaResponse.FetchedModel.FetchedItem
 
-    struct AmbrYattaResponse: Codable {
+    struct YattaResponse: Codable {
         struct FetchedModel: Codable {
             /// We use this shared struct for both sides
             /// since only these 3 fields are useful in this project.
@@ -61,21 +61,21 @@ extension GachaMetaGenerator {
     }
 }
 
-extension GachaMetaGenerator.AmbrYattaResponse {
-    var items: [GachaMetaGenerator.AmbrYattaFetchedItem] {
+extension GachaMetaGenerator.YattaResponse {
+    var items: [GachaMetaGenerator.YattaFetchedItem] {
         Array((data?.items ?? [:]).values).sorted {
             $0.id < $1.id
         }
     }
 }
 
-extension GachaMetaGenerator.AmbrYattaFetchedItem {
+extension GachaMetaGenerator.YattaFetchedItem {
     func toGachaItemMeta() -> GachaMetaGenerator.GachaItemMeta {
         .init(id: id, rank: rank, nameTextMapHash: nameTextMapHash ?? -114514)
     }
 }
 
-extension [GachaMetaGenerator.GachaDictLang?: [GachaMetaGenerator.AmbrYattaFetchedItem]] {
+extension [GachaMetaGenerator.GachaDictLang?: [GachaMetaGenerator.YattaFetchedItem]] {
     /// 这里假设所有语言下的 FetchedItem 都是雷同的，且必须有 static 的查询结果。
     func assemble() -> [GachaMetaGenerator.GachaItemMeta]? {
         guard let staticStack = self[nil] else { return nil }

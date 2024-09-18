@@ -21,7 +21,7 @@ case 1, 2:
         let useDimBreath: Bool = firstArgument.suffix(1).lowercased() == "d"
         let dict = useDimBreath
             ? try await GachaMetaGenerator.fetchAndCompileFromDimbreath(for: game)
-            : try await GachaMetaGenerator.fetchAndCompileFromAmbrYatta(for: game)
+            : try await GachaMetaGenerator.fetchAndCompileFromYatta(for: game)
         let encoder = JSONEncoder()
         encoder.outputFormatting = [.sortedKeys, .prettyPrinted]
         if let encoded = String(data: try encoder.encode(dict), encoding: .utf8) {
