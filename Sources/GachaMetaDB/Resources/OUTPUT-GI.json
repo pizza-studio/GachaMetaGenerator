@@ -681,6 +681,28 @@
     "nameTextMapHash" : 3016493955,
     "rank" : 4
   },
+  "11430" : {
+    "id" : 11430,
+    "l10nMap" : {
+      "de-de" : "Robuster Knochen",
+      "en-us" : "Sturdy Bone",
+      "es-es" : "Hueso Recio",
+      "fr-fr" : "Os robuste",
+      "id-id" : "Sturdy Bone",
+      "it-it" : "Osso tenace",
+      "ja-jp" : "ストロング・ボーン",
+      "ko-kr" : "견고한 골검",
+      "pt-pt" : "Osso Robusto",
+      "ru-ru" : "Крепкая кость",
+      "th-th" : "Sturdy Bone",
+      "tr-tr" : "Sağlam Kemik",
+      "vi-vn" : "Xương Cứng",
+      "zh-cn" : "弥坚骨",
+      "zh-tw" : "彌堅骨"
+    },
+    "nameTextMapHash" : 495182275,
+    "rank" : 4
+  },
   "11431" : {
     "id" : 11431,
     "l10nMap" : {
@@ -965,6 +987,28 @@
       "zh-tw" : "赦罪"
     },
     "nameTextMapHash" : 1009471939,
+    "rank" : 5
+  },
+  "11516" : {
+    "id" : 11516,
+    "l10nMap" : {
+      "de-de" : "Lied der Gipfelpatrouille",
+      "en-us" : "Peak Patrol Song",
+      "es-es" : "Himno de las Cumbres",
+      "fr-fr" : "Chanson de patrouille de sommet",
+      "id-id" : "Peak Patrol Song",
+      "it-it" : "Canzone della Pattuglia delle Sommità",
+      "ja-jp" : "岩峰を巡る歌",
+      "ko-kr" : "바위산을 맴도는 노래",
+      "pt-pt" : "Canção da Patrulha do Pico",
+      "ru-ru" : "Песнь патруля пиков",
+      "th-th" : "Peak Patrol Song",
+      "tr-tr" : "Tepe Devriyesi Şarkısı",
+      "vi-vn" : "Khúc Ca Núi Đá",
+      "zh-cn" : "岩峰巡歌",
+      "zh-tw" : "岩峰巡歌"
+    },
+    "nameTextMapHash" : 3432339555,
     "rank" : 5
   },
   "12101" : {
@@ -1581,6 +1625,28 @@
       "zh-tw" : "便攜動力鋸"
     },
     "nameTextMapHash" : 3693117451,
+    "rank" : 4
+  },
+  "12430" : {
+    "id" : 12430,
+    "l10nMap" : {
+      "de-de" : "Fruchtbarer Haken",
+      "en-us" : "Fruitful Hook",
+      "es-es" : "Gancho del Triunfo",
+      "fr-fr" : "Crochet fructueux",
+      "id-id" : "Fruitful Hook",
+      "it-it" : "Gancio fruttuoso",
+      "ja-jp" : "実りの鉤鉈",
+      "ko-kr" : "수확의 갈고리",
+      "pt-pt" : "Gancho Frutífero",
+      "ru-ru" : "Плодотворный крюк",
+      "th-th" : "Fruitful Hook",
+      "tr-tr" : "Meyve Kancası",
+      "vi-vn" : "Móc Trĩu Quả",
+      "zh-cn" : "硕果钩",
+      "zh-tw" : "碩果鉤"
+    },
+    "nameTextMapHash" : 688237043,
     "rank" : 4
   },
   "12431" : {
@@ -2285,6 +2351,28 @@
       "zh-tw" : "勘探鑽機"
     },
     "nameTextMapHash" : 882305891,
+    "rank" : 4
+  },
+  "13430" : {
+    "id" : 13430,
+    "l10nMap" : {
+      "de-de" : "Bergschützer-Bolzen",
+      "en-us" : "Mountain-Bracing Bolt",
+      "es-es" : "Púa Sustentamontañas",
+      "fr-fr" : "Clou soutenant les montagnes",
+      "id-id" : "Mountain-Bracing Bolt",
+      "it-it" : "Chiodo reggimonti",
+      "ja-jp" : "鎮山の釘",
+      "ko-kr" : "산을 고정하는 못",
+      "pt-pt" : "Prego Esmagador de Montanhas",
+      "ru-ru" : "Крепящий горы шип",
+      "th-th" : "Mountain-Bracing Bolt",
+      "tr-tr" : "Dağ Sürgüsü",
+      "vi-vn" : "Mũi Đinh Trấn Núi",
+      "zh-cn" : "镇山之钉",
+      "zh-tw" : "鎮山之釘"
+    },
+    "nameTextMapHash" : 1965515667,
     "rank" : 4
   },
   "13431" : {
@@ -6223,6 +6311,28 @@
       "zh-tw" : "瑪拉妮"
     },
     "nameTextMapHash" : 3949670506,
+    "rank" : 5
+  },
+  "10000103" : {
+    "id" : 10000103,
+    "l10nMap" : {
+      "de-de" : "Xilonen",
+      "en-us" : "Xilonen",
+      "es-es" : "Xilonen",
+      "fr-fr" : "Xilonen",
+      "id-id" : "Xilonen",
+      "it-it" : "Xilonen",
+      "ja-jp" : "シロネン",
+      "ko-kr" : "실로닌",
+      "pt-pt" : "Xilonen",
+      "ru-ru" : "Шилонен",
+      "th-th" : "Xilonen",
+      "tr-tr" : "Xilonen",
+      "vi-vn" : "Xilonen",
+      "zh-cn" : "希诺宁",
+      "zh-tw" : "希諾寧"
+    },
+    "nameTextMapHash" : 2515292882,
     "rank" : 5
   }
 }
