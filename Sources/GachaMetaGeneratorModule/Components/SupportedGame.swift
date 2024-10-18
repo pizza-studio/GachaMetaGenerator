@@ -176,7 +176,11 @@ extension GachaMetaGenerator.SupportedGame {
 
     /// Only used for dealing with Dimbreath's repos.
     func getLangDataURL(for lang: GachaMetaGenerator.GachaDictLang) -> URL {
-        URL(string: repoHeader + repoName + "TextMap/\(lang.filename)")!
+        var urlStr = repoHeader + repoName + "TextMap/\(lang.filename)"
+        if self == .starRail {
+            urlStr = urlStr.replacingOccurrences(of: "CHS", with: "CN")
+        }
+        return URL(string: urlStr)!
     }
 
     // MARK: Private
@@ -193,7 +197,7 @@ extension GachaMetaGenerator.SupportedGame {
     private var repoName: String {
         switch self {
         case .genshinImpact: return "Dimbreath/AnimeGameData/-/raw/master/"
-        case .starRail: return "EggLinks/DanhengServer-Resources/master/"
+        case .starRail: return "EggLinks/DanhengServer-Resources/main/"
         }
     }
 }
