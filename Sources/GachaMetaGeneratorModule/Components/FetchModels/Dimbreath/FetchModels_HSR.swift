@@ -25,6 +25,8 @@ extension GachaMetaGenerator {
             self.nameTextMapHash = (try container.decode(NameHashUnit.self, forKey: .nameTextMapHash)).hash
             let rawRarityText = try container.decode(String.self, forKey: .rarity)
             self.rarity = Int(rawRarityText.last?.description ?? "3") ?? 3
+            self.rankIDList = try container.decode([Int].self, forKey: .rankIDList)
+            self.skillList = try container.decode([Int].self, forKey: .skillList)
         }
 
         // MARK: Public
@@ -33,11 +35,32 @@ extension GachaMetaGenerator {
             case id = "AvatarID"
             case nameTextMapHash = "AvatarName"
             case rarity = "Rarity"
+            case rankIDList = "RankIDList"
+            case skillList = "SkillList"
         }
 
         public let id: Int
         public let nameTextMapHash: Int
         public let rarity: Int
+        public let rankIDList: [Int]
+        public let skillList: [Int]
+
+        public var isValid: Bool {
+            switch id {
+            case 6000 ..< 8000, 8900...: return false
+            default: break
+            }
+            let wrongRankIDs = rankIDList.filter {
+                (700000 ..< 800000).contains($0)
+            }
+            guard wrongRankIDs.isEmpty else { return false }
+
+            let wrongSkills = skillList.filter {
+                (7000000 ..< 8000000).contains($0)
+            }
+            guard wrongSkills.isEmpty else { return false }
+            return true
+        }
     }
 
     /// Starrail only.
@@ -50,6 +73,7 @@ extension GachaMetaGenerator {
             self.nameTextMapHash = (try container.decode(NameHashUnit.self, forKey: .nameTextMapHash)).hash
             let rawRarityText = try container.decode(String.self, forKey: .rarity)
             self.rarity = Int(rawRarityText.last?.description ?? "3") ?? 3
+            self.skillID = try container.decode(Int.self, forKey: .skillID)
         }
 
         // MARK: Public
@@ -58,11 +82,20 @@ extension GachaMetaGenerator {
             case id = "EquipmentID"
             case nameTextMapHash = "EquipmentName"
             case rarity = "Rarity"
+            case skillID = "SkillID"
         }
 
         public let id: Int
         public let nameTextMapHash: Int
         public let rarity: Int
+        public let skillID: Int
+
+        public var isValid: Bool {
+            switch skillID {
+            case 7000000 ..< 8000000: false
+            default: true
+            }
+        }
     }
 }
 
