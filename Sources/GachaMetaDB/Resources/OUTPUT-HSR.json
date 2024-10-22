@@ -1119,6 +1119,26 @@
     "nameTextMapHash" : -34400789,
     "rank" : 5
   },
+  "1317" : {
+    "id" : 1317,
+    "l10nMap" : {
+      "de-de" : "Rappa",
+      "en-us" : "Rappa",
+      "es-es" : "Rappa",
+      "fr-fr" : "Rappa",
+      "id-id" : "Rappa",
+      "ja-jp" : "乱破",
+      "ko-kr" : "라파",
+      "pt-pt" : "Rappa",
+      "ru-ru" : "Раппа",
+      "th-th" : "Rappa",
+      "vi-vn" : "Rappa",
+      "zh-cn" : "乱破",
+      "zh-tw" : "亂破"
+    },
+    "nameTextMapHash" : -1197200203,
+    "rank" : 5
+  },
   "8001" : {
     "id" : 8001,
     "l10nMap" : {
@@ -2619,6 +2639,26 @@
     "nameTextMapHash" : -973364451,
     "rank" : 4
   },
+  "21048" : {
+    "id" : 21048,
+    "l10nMap" : {
+      "de-de" : "Traummontage",
+      "en-us" : "Dream's Montage",
+      "es-es" : "Montaje de sueños",
+      "fr-fr" : "Montage du rêve",
+      "id-id" : "Dream's Montage",
+      "ja-jp" : "夢のモンタージュ",
+      "ko-kr" : "꿈의 몽타주",
+      "pt-pt" : "Montagem do Sonho",
+      "ru-ru" : "Монтаж грёз",
+      "th-th" : "Dream's Montage",
+      "vi-vn" : "Dựng Phim Trong Mơ",
+      "zh-cn" : "梦的蒙太奇",
+      "zh-tw" : "夢的蒙太奇"
+    },
+    "nameTextMapHash" : -973364456,
+    "rank" : 4
+  },
   "22000" : {
     "id" : 22000,
     "l10nMap" : {
@@ -2677,6 +2717,26 @@
       "zh-tw" : "為了明日的旅途"
     },
     "nameTextMapHash" : -516377537,
+    "rank" : 4
+  },
+  "22003" : {
+    "id" : 22003,
+    "l10nMap" : {
+      "de-de" : "Ninja-Aufzeichnung: Klangjagd",
+      "en-us" : "Ninja Record: Sound Hunt",
+      "es-es" : "Grabación ninja: Cacería del Sonido",
+      "fr-fr" : "Registre ninja : Chasse au son",
+      "id-id" : "Ninja Record: Sound Hunt",
+      "ja-jp" : "忍事録・音律狩猟",
+      "ko-kr" : "인사록•음률 사냥",
+      "pt-pt" : "Registro Ninja: Caça ao Som",
+      "ru-ru" : "Запись ниндзя: Музыкальная охота",
+      "th-th" : "Ninja Record: Sound Hunt",
+      "vi-vn" : "Nhẫn Sự Lục-Săn Bắn Âm Luật",
+      "zh-cn" : "忍事录•音律狩猎",
+      "zh-tw" : "忍事錄•音律狩獵"
+    },
+    "nameTextMapHash" : -516377538,
     "rank" : 4
   },
   "23000" : {
@@ -3337,6 +3397,26 @@
       "zh-tw" : "唯有香如故"
     },
     "nameTextMapHash" : -1658973975,
+    "rank" : 5
+  },
+  "23033" : {
+    "id" : 23033,
+    "l10nMap" : {
+      "de-de" : "Ninja-Kodex: Blendender Schattenbrecher",
+      "en-us" : "Ninjutsu Inscription: Dazzling Evilbreaker",
+      "es-es" : "Pergamino ninja: Azote deslumbrante del mal",
+      "fr-fr" : "Écritures ninjutsu : Justice éblouissante",
+      "id-id" : "Ninjutsu Inscription: Dazzling Evilbreaker",
+      "ja-jp" : "忍法帖・繚乱破魔",
+      "ko-kr" : "인법첩•요란 파마",
+      "pt-pt" : "Inscrição do Ninjutsu: Destruição Deslumbrante do Mal",
+      "ru-ru" : "Свиток ниндзя: Очищение хаосом",
+      "th-th" : "Ninjutsu Inscription: Dazzling Evilbreaker",
+      "vi-vn" : "Bí Kíp Nhẫn Pháp-Dazzling Phá Ma",
+      "zh-cn" : "忍法帖•缭乱破魔",
+      "zh-tw" : "忍法帖•繚亂破魔"
+    },
+    "nameTextMapHash" : -1658973976,
     "rank" : 5
   },
   "24000" : {
