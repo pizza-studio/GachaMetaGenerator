@@ -61,7 +61,7 @@ extension GachaMetaGenerator {
             rawValue.replacingOccurrences(of: "lang", with: "TextMap").appending(".json")
         }
 
-        var ambrTopLangID: String {
+        var yattaLangID: String {
             rawValue.replacingOccurrences(of: "lang", with: "").lowercased()
         }
 
@@ -86,8 +86,8 @@ extension Optional where Wrapped == GachaMetaGenerator.GachaDictLang {
         GachaMetaGenerator.GachaDictLang.allCases(for: game) + [Self.none]
     }
 
-    public var ambrTopLangID: String {
+    public var yattaLangID: String {
         guard let this = self else { return "static" }
-        return this.ambrTopLangID
+        return this.yattaLangID
     }
 }

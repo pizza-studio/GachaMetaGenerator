@@ -42,7 +42,7 @@ extension GachaMetaGenerator.SupportedGame {
     /// If the lang is given null, then the parameter raw value will be `static`.
     /// This will let the `name` field become `nameTextMapHash`.
     func getYattaAPIURL(for type: DataURLType, lang: GachaMetaGenerator.GachaDictLang?) -> URL {
-        var langTag = lang.ambrTopLangID
+        var langTag = lang.yattaLangID
         if lang == .langCHS, self == .starRail { langTag = "cn" }
         var result = ""
         switch (self, type) {
