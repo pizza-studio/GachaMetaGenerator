@@ -134,24 +134,30 @@ extension GachaMetaGenerator.SupportedGame {
         ) { taskGroup in
             lang?.forEach { locale in
                 taskGroup.addTask {
-                    let url = getLangDataURL(for: locale)
-                    let (data, _) = try await URLSession.shared.asyncData(from: url)
-                    var dict = try JSONDecoder().decode([String: String].self, from: data)
-                    let keysToRemove = Set<String>(dict.keys).subtracting(neededHashIDs)
-                    keysToRemove.forEach { dict.removeValue(forKey: $0) }
-                    if locale == .langJP {
-                        dict.keys.forEach { theKey in
-                            guard dict[theKey]?.contains("{RUBY") ?? false else { return }
-                            if let rawStrToHandle = dict[theKey], rawStrToHandle.contains("{") {
-                                dict[theKey] = rawStrToHandle.replacingOccurrences(
-                                    of: #"\{RUBY.*?\}"#,
-                                    with: "",
-                                    options: .regularExpression
-                                )
+                    let urls = getLangDataURLs(for: locale)
+                    var finalDict = [String: String]()
+                    for url in urls {
+                        let (data, _) = try await URLSession.shared.asyncData(from: url)
+                        var dict = try JSONDecoder().decode([String: String].self, from: data)
+                        let keysToRemove = Set<String>(dict.keys).subtracting(neededHashIDs)
+                        keysToRemove.forEach { dict.removeValue(forKey: $0) }
+                        if locale == .langJP {
+                            dict.keys.forEach { theKey in
+                                guard dict[theKey]?.contains("{RUBY") ?? false else { return }
+                                if let rawStrToHandle = dict[theKey], rawStrToHandle.contains("{") {
+                                    dict[theKey] = rawStrToHandle.replacingOccurrences(
+                                        of: #"\{RUBY.*?\}"#,
+                                        with: "",
+                                        options: .regularExpression
+                                    )
+                                }
                             }
                         }
+                        dict.forEach { key, value in
+                            finalDict[key] = value
+                        }
                     }
-                    return (subDict: dict, lang: locale)
+                    return (subDict: finalDict, lang: locale)
                 }
             }
             var results = [String: [String: String]]()
@@ -175,8 +181,10 @@ extension GachaMetaGenerator.SupportedGame {
     }
 
     /// Only used for dealing with Dimbreath's repos.
-    func getLangDataURL(for lang: GachaMetaGenerator.GachaDictLang) -> URL {
-        URL(string: repoHeader + repoName + "TextMap/\(lang.filename)")!
+    func getLangDataURLs(for lang: GachaMetaGenerator.GachaDictLang) -> [URL] {
+        lang.filenamesForChunks(for: self).map { filename in
+            URL(string: repoHeader + repoName + "TextMap/\(filename)")!
+        }
     }
 
     // MARK: Private

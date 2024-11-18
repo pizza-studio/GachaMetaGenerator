@@ -17,7 +17,7 @@ final class GachaMetaGeneratorTests: XCTestCase {
                 print(game.getExcelConfigDataURL(for: dataType).absoluteString)
             }
             GachaMetaGenerator.GachaDictLang.allCases(for: game).forEach { lang in
-                print(game.getLangDataURL(for: lang).absoluteString)
+                print(game.getLangDataURLs(for: lang).map(\.absoluteString))
             }
         }
     }
