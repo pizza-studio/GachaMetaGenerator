@@ -725,6 +725,28 @@
     "nameTextMapHash" : 3434743027,
     "rank" : 4
   },
+  "11432" : {
+    "id" : 11432,
+    "l10nMap" : {
+      "de-de" : "Unheil von Eshu",
+      "en-us" : "Calamity of Eshu",
+      "es-es" : "Calamidad de Eshu",
+      "fr-fr" : "La calamité d'Eshu",
+      "id-id" : "Calamity of Eshu",
+      "it-it" : "Calamità di Eshu",
+      "ja-jp" : "厄水の災い",
+      "ko-kr" : "에슈의 재앙",
+      "pt-pt" : "Calamidade de Eshu",
+      "ru-ru" : "Бедствие Эшу",
+      "th-th" : "Calamity of Eshu",
+      "tr-tr" : "Eshu'nun Felaketi",
+      "vi-vn" : "Tai Họa Eshu",
+      "zh-cn" : "厄水之祸",
+      "zh-tw" : "厄水之禍"
+    },
+    "nameTextMapHash" : 590019915,
+    "rank" : 4
+  },
   "11501" : {
     "id" : 11501,
     "l10nMap" : {
@@ -3189,6 +3211,28 @@
     "nameTextMapHash" : 422144187,
     "rank" : 4
   },
+  "14430" : {
+    "id" : 14430,
+    "l10nMap" : {
+      "de-de" : "Wellenreitender Wirbel",
+      "en-us" : "Waveriding Whirl",
+      "es-es" : "Volver de las Olas",
+      "fr-fr" : "Tourbillon sur les vagues",
+      "id-id" : "Waveriding Whirl",
+      "it-it" : "Vortice del Cavalcaonde",
+      "ja-jp" : "波乗りの旋回",
+      "ko-kr" : "돌아오는 파도",
+      "pt-pt" : "Redemoinho das Ondas",
+      "ru-ru" : "Вихрь на волнах",
+      "th-th" : "Waveriding Whirl",
+      "tr-tr" : "Dalgaların Girdabı",
+      "vi-vn" : "Vòng Xoáy Cưỡi Sóng",
+      "zh-cn" : "乘浪的回旋",
+      "zh-tw" : "乘浪的迴旋"
+    },
+    "nameTextMapHash" : 1445287979,
+    "rank" : 4
+  },
   "14431" : {
     "id" : 14431,
     "l10nMap" : {
@@ -4135,6 +4179,28 @@
     "nameTextMapHash" : 1055195035,
     "rank" : 4
   },
+  "15430" : {
+    "id" : 15430,
+    "l10nMap" : {
+      "de-de" : "Mit Blumen gebundene Federn",
+      "en-us" : "Flower-Wreathed Feathers",
+      "es-es" : "Penacho Engalanado",
+      "fr-fr" : "Plumard de fleurs",
+      "id-id" : "Flower-Wreathed Feathers",
+      "it-it" : "Piume coronate di fiori",
+      "ja-jp" : "花飾りの羽",
+      "ko-kr" : "꽃장식 깃",
+      "pt-pt" : "Penas Cercadas de Flores",
+      "ru-ru" : "Украшенные цветами перья",
+      "th-th" : "Flower-Wreathed Feathers",
+      "tr-tr" : "Çiçek Bezeli Tüyler",
+      "vi-vn" : "Lông Vũ Thêu Hoa",
+      "zh-cn" : "缀花之翎",
+      "zh-tw" : "綴花之翎"
+    },
+    "nameTextMapHash" : 4019353779,
+    "rank" : 4
+  },
   "15431" : {
     "id" : 15431,
     "l10nMap" : {
@@ -4353,6 +4419,28 @@
       "zh-tw" : "白雨心弦"
     },
     "nameTextMapHash" : 1257396043,
+    "rank" : 5
+  },
+  "15514" : {
+    "id" : 15514,
+    "l10nMap" : {
+      "de-de" : "Karmesinrotes Federkleid des Astralgeiers",
+      "en-us" : "Astral Vulture's Crimson Plumage",
+      "es-es" : "Pluma Carmesí Buitreastral",
+      "fr-fr" : "Plumage cramoisi du vautour astral",
+      "id-id" : "Astral Vulture's Crimson Plumage",
+      "it-it" : "Piuma cremisi dell'avvoltoio astrale",
+      "ja-jp" : "星鷲の紅き羽",
+      "ko-kr" : "붉은 깃 별독수리",
+      "pt-pt" : "Plumagem Escarlate do Abutre Astral",
+      "ru-ru" : "Алое перо звёздного грифа",
+      "th-th" : "Astral Vulture's Crimson Plumage",
+      "tr-tr" : "Astral Akbabanın Kızıl Tüyü",
+      "vi-vn" : "Xích Vũ Tinh Tựu",
+      "zh-cn" : "星鹫赤羽",
+      "zh-tw" : "星鷲赤羽"
+    },
+    "nameTextMapHash" : 1363661611,
     "rank" : 5
   },
   "10000002" : {
@@ -6334,5 +6422,49 @@
     },
     "nameTextMapHash" : 2515292882,
     "rank" : 5
+  },
+  "10000104" : {
+    "id" : 10000104,
+    "l10nMap" : {
+      "de-de" : "Chasca",
+      "en-us" : "Chasca",
+      "es-es" : "Chasca",
+      "fr-fr" : "Chasca",
+      "id-id" : "Chasca",
+      "it-it" : "Chasca",
+      "ja-jp" : "チャスカ",
+      "ko-kr" : "차스카",
+      "pt-pt" : "Chasca",
+      "ru-ru" : "Часка",
+      "th-th" : "Chasca",
+      "tr-tr" : "Chasca",
+      "vi-vn" : "Chasca",
+      "zh-cn" : "恰斯卡",
+      "zh-tw" : "恰斯卡"
+    },
+    "nameTextMapHash" : 3746229466,
+    "rank" : 5
+  },
+  "10000105" : {
+    "id" : 10000105,
+    "l10nMap" : {
+      "de-de" : "Ororon",
+      "en-us" : "Ororon",
+      "es-es" : "Ororon",
+      "fr-fr" : "Ororon",
+      "id-id" : "Ororon",
+      "it-it" : "Ororon",
+      "ja-jp" : "オロルン",
+      "ko-kr" : "올로룬",
+      "pt-pt" : "Ororon",
+      "ru-ru" : "Оророн",
+      "th-th" : "Ororon",
+      "tr-tr" : "Ororon",
+      "vi-vn" : "Ororon",
+      "zh-cn" : "欧洛伦",
+      "zh-tw" : "歐洛倫"
+    },
+    "nameTextMapHash" : 1198350762,
+    "rank" : 4
   }
 }
