@@ -859,6 +859,26 @@
     "nameTextMapHash" : -54603768,
     "rank" : 4
   },
+  "1225" : {
+    "id" : 1225,
+    "l10nMap" : {
+      "de-de" : "Fugue",
+      "en-us" : "Fugue",
+      "es-es" : "Fugue",
+      "fr-fr" : "Pérégrine",
+      "id-id" : "Fugue",
+      "ja-jp" : "帰忘の流離人",
+      "ko-kr" : "망귀인",
+      "pt-pt" : "Fugue",
+      "ru-ru" : "Фуга",
+      "th-th" : "ผู้จากจรลืมหวน",
+      "vi-vn" : "Fugue",
+      "zh-cn" : "忘归人",
+      "zh-tw" : "忘歸人"
+    },
+    "nameTextMapHash" : 1511480173,
+    "rank" : 5
+  },
   "1301" : {
     "id" : 1301,
     "l10nMap" : {
@@ -1078,6 +1098,26 @@
     },
     "nameTextMapHash" : -1956715090,
     "rank" : 4
+  },
+  "1313" : {
+    "id" : 1313,
+    "l10nMap" : {
+      "de-de" : "Sonntag",
+      "en-us" : "Sunday",
+      "es-es" : "Sunday",
+      "fr-fr" : "Sunday",
+      "id-id" : "Sunday",
+      "ja-jp" : "サンデー",
+      "ko-kr" : "선데이",
+      "pt-pt" : "Sunday",
+      "ru-ru" : "Воскресенье",
+      "th-th" : "Sunday",
+      "vi-vn" : "Sunday",
+      "zh-cn" : "星期日",
+      "zh-tw" : "星期日"
+    },
+    "nameTextMapHash" : 772168265,
+    "rank" : 5
   },
   "1314" : {
     "id" : 1314,
@@ -3417,6 +3457,46 @@
       "zh-tw" : "忍法帖•繚亂破魔"
     },
     "nameTextMapHash" : -1658973976,
+    "rank" : 5
+  },
+  "23034" : {
+    "id" : 23034,
+    "l10nMap" : {
+      "de-de" : "Flug zurück zur Erde",
+      "en-us" : "A Grounded Ascent",
+      "es-es" : "De vuelta a la tierra",
+      "fr-fr" : "Ascension terrestre",
+      "id-id" : "A Grounded Ascent",
+      "ja-jp" : "大地より天を目指して",
+      "ko-kr" : "대지로 돌아온 비행",
+      "pt-pt" : "Uma Ascensão Aterrada",
+      "ru-ru" : "Приземлённый полёт",
+      "th-th" : "A Grounded Ascent",
+      "vi-vn" : "Chuyến Bay Trở Về Mặt Đất",
+      "zh-cn" : "回到大地的飞行",
+      "zh-tw" : "回到大地的飛行"
+    },
+    "nameTextMapHash" : -1658973981,
+    "rank" : 5
+  },
+  "23035" : {
+    "id" : 23035,
+    "l10nMap" : {
+      "de-de" : "Rückkehr auf langem Wege",
+      "en-us" : "Long Road Leads Home",
+      "es-es" : "El largo camino a casa",
+      "fr-fr" : "Long est le chemin retour",
+      "id-id" : "Long Road Leads Home",
+      "ja-jp" : "長途はやがて帰途へと続く",
+      "ko-kr" : "먼 길 끝의 귀로",
+      "pt-pt" : "A Longa Estrada Leva para Casa",
+      "ru-ru" : "Дом в конце долгого пути",
+      "th-th" : "Long Road Leads Home",
+      "vi-vn" : "Đường Dài Vẫn Có Lối Về",
+      "zh-cn" : "长路终有归途",
+      "zh-tw" : "長路終有歸途"
+    },
+    "nameTextMapHash" : -1658973982,
     "rank" : 5
   },
   "24000" : {
