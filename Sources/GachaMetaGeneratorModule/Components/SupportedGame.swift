@@ -62,9 +62,13 @@ extension GachaMetaGenerator.SupportedGame {
         lang: [GachaMetaGenerator.GachaDictLang?]? = nil
     ) async throws
         -> [GachaMetaGenerator.GachaItemMeta] {
+        var lang = lang ?? []
+        if lang.isEmpty {
+            lang = GachaMetaGenerator.GachaDictLang?.allCases(for: self)
+        }
         var buffer = [(items: [GachaMetaGenerator.YattaFetchedItem], lang: GachaMetaGenerator.GachaDictLang?)]()
         for dataType in GachaMetaGenerator.SupportedGame.DataURLType.allCases {
-            for locale in GachaMetaGenerator.GachaDictLang?.allCases(for: self) {
+            for locale in lang {
                 let url = getYattaAPIURL(for: dataType, lang: locale)
                 try await Task.sleep(nanoseconds: UInt64(0.4 * Double(1_000_000_000)))
                 let (data, _) = try await URLSession.shared.asyncData(from: url)

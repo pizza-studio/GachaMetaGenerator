@@ -12,19 +12,11 @@ extension GachaMetaGenerator {
     public typealias CompilationResult = [String: GachaItemMeta]
 
     public static func fetchAndCompileFromYatta(
-        for game: SupportedGame, lang: [GachaDictLang?]? = nil
+        for game: SupportedGame
     ) async throws
         -> CompilationResult {
-        var lang = lang ?? []
-        if lang.isEmpty {
-            lang = GachaDictLang?.allCases(for: game)
-        }
-        if !lang.contains(nil) {
-            lang.append(nil)
-        }
-
         var result = CompilationResult()
-        try await game.fetchYattaData(lang: lang).forEach {
+        try await game.fetchYattaData().forEach {
             result[$0.id.description] = $0
         }
         return result

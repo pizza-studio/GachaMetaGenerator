@@ -57,7 +57,7 @@ final class GachaMetaGeneratorTests: XCTestCase {
 
 extension GachaMetaGeneratorTests {
     func testGeneratingHSRFromYattaAPI() async throws {
-        let dataHSR = try await GachaMetaGenerator.SupportedGame.starRail.fetchYattaData()
+        let dataHSR = try await GachaMetaGenerator.fetchAndCompileFromYatta(for: .starRail)
         print(try dataHSR.encodedJSONString() ?? "FAILED.")
         XCTAssertNotNil(!dataHSR.isEmpty)
     }
