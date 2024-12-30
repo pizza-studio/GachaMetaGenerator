@@ -16,7 +16,7 @@ extension GachaMetaGenerator {
     }
 
     /// Starrail only.
-    public class AvatarRawItem: Codable, RawItemFetchModelProtocol {
+    public class HSRAvatarRawItem: Codable, RawItemFetchModelProtocol {
         // MARK: Lifecycle
 
         public required init(from decoder: any Decoder) throws {
@@ -64,7 +64,7 @@ extension GachaMetaGenerator {
     }
 
     /// Starrail only.
-    public class WeaponRawItem: Codable, RawItemFetchModelProtocol {
+    public class HSRWeaponRawItem: Codable, RawItemFetchModelProtocol {
         // MARK: Lifecycle
 
         public required init(from decoder: any Decoder) throws {
