@@ -1869,6 +1869,28 @@
     "nameTextMapHash" : 1183454019,
     "rank" : 5
   },
+  "12514" : {
+    "id" : 12514,
+    "l10nMap" : {
+      "de-de" : "Die tausend flammenden Sonnen",
+      "en-us" : "A Thousand Blazing Suns",
+      "es-es" : "Mil Soles Abrasadores",
+      "fr-fr" : "Mille soleils brûlants",
+      "id-id" : "A Thousand Blazing Suns",
+      "it-it" : "Mille soli ardenti",
+      "ja-jp" : "千烈の日輪",
+      "ko-kr" : "타오르는 천 개의 태양",
+      "pt-pt" : "Mil Sóis Ardentes",
+      "ru-ru" : "Тысяча ослепительных солнц",
+      "th-th" : "A Thousand Blazing Suns",
+      "tr-tr" : "Alevli Bin Güneş",
+      "vi-vn" : "Thiên Dương Rực Lửa",
+      "zh-cn" : "焚曜千阳",
+      "zh-tw" : "焚曜千陽"
+    },
+    "nameTextMapHash" : 1876377995,
+    "rank" : 5
+  },
   "13101" : {
     "id" : 13101,
     "l10nMap" : {
@@ -3517,6 +3539,28 @@
       "zh-tw" : "衝浪時光"
     },
     "nameTextMapHash" : 1673987515,
+    "rank" : 5
+  },
+  "14517" : {
+    "id" : 14517,
+    "l10nMap" : {
+      "de-de" : "Wacht des Sternenopfers",
+      "en-us" : "Starcaller's Watch",
+      "es-es" : "Vigía de las Estrellas",
+      "fr-fr" : "Veillée d'appel d'étoiles",
+      "id-id" : "Starcaller's Watch",
+      "it-it" : "Veglia del Chiamastelle",
+      "ja-jp" : "祭星者の眺め",
+      "ko-kr" : "별지기의 시선",
+      "pt-pt" : "Observatório do Chamador de Estrelas",
+      "ru-ru" : "Бдение взывающего к звёздам",
+      "th-th" : "Starcaller's Watch",
+      "tr-tr" : "Yıldız Çağıranın Nöbeti",
+      "vi-vn" : "Ánh Nhìn Tư Tế",
+      "zh-cn" : "祭星者之望",
+      "zh-tw" : "祭星者之望"
+    },
+    "nameTextMapHash" : 2466897131,
     "rank" : 5
   },
   "15101" : {
@@ -6465,6 +6509,72 @@
       "zh-tw" : "歐洛倫"
     },
     "nameTextMapHash" : 1198350762,
+    "rank" : 4
+  },
+  "10000106" : {
+    "id" : 10000106,
+    "l10nMap" : {
+      "de-de" : "Mavuika",
+      "en-us" : "Mavuika",
+      "es-es" : "Mavuika",
+      "fr-fr" : "Mavuika",
+      "id-id" : "Mavuika",
+      "it-it" : "Mavuika",
+      "ja-jp" : "マーヴィカ",
+      "ko-kr" : "마비카",
+      "pt-pt" : "Mavuika",
+      "ru-ru" : "Мавуика",
+      "th-th" : "Mavuika",
+      "tr-tr" : "Mavuika",
+      "vi-vn" : "Mavuika",
+      "zh-cn" : "玛薇卡",
+      "zh-tw" : "瑪薇卡"
+    },
+    "nameTextMapHash" : 113398050,
+    "rank" : 5
+  },
+  "10000107" : {
+    "id" : 10000107,
+    "l10nMap" : {
+      "de-de" : "Citlali",
+      "en-us" : "Citlali",
+      "es-es" : "Citlalí",
+      "fr-fr" : "Citlali",
+      "id-id" : "Citlali",
+      "it-it" : "Citlali",
+      "ja-jp" : "シトラリ",
+      "ko-kr" : "시틀라리",
+      "pt-pt" : "Citlali",
+      "ru-ru" : "Ситлали",
+      "th-th" : "Citlali",
+      "tr-tr" : "Citlali",
+      "vi-vn" : "Citlali",
+      "zh-cn" : "茜特菈莉",
+      "zh-tw" : "茜特菈莉"
+    },
+    "nameTextMapHash" : 1197975042,
+    "rank" : 5
+  },
+  "10000108" : {
+    "id" : 10000108,
+    "l10nMap" : {
+      "de-de" : "Lan Yan",
+      "en-us" : "Lan Yan",
+      "es-es" : "Lan Yan",
+      "fr-fr" : "Lan Yan",
+      "id-id" : "Lan Yan",
+      "it-it" : "Lan Yan",
+      "ja-jp" : "藍硯",
+      "ko-kr" : "남연",
+      "pt-pt" : "Lan Yan",
+      "ru-ru" : "Лань Янь",
+      "th-th" : "Lan Yan",
+      "tr-tr" : "Lan Yan",
+      "vi-vn" : "Lan Yan",
+      "zh-cn" : "蓝砚",
+      "zh-tw" : "藍硯"
+    },
+    "nameTextMapHash" : 1888132250,
     "rank" : 4
   }
 }
