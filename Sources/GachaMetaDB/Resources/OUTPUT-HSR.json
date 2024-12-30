@@ -1179,6 +1179,126 @@
     "nameTextMapHash" : -1197200203,
     "rank" : 5
   },
+  "8001" : {
+    "id" : 8001,
+    "l10nMap" : {
+      "de-de" : "Caelus",
+      "en-us" : "Caelus",
+      "es-es" : "Caelus",
+      "fr-fr" : "Caelus",
+      "id-id" : "Caelus",
+      "ja-jp" : "穹",
+      "ko-kr" : "카일루스",
+      "pt-pt" : "Caelus",
+      "ru-ru" : "Келус",
+      "th-th" : "Caelus",
+      "vi-vn" : "Caelus",
+      "zh-cn" : "穹",
+      "zh-tw" : "穹"
+    },
+    "nameTextMapHash" : -531793818,
+    "rank" : 5
+  },
+  "8002" : {
+    "id" : 8002,
+    "l10nMap" : {
+      "de-de" : "Stella",
+      "en-us" : "Stelle",
+      "es-es" : "Estela",
+      "fr-fr" : "Stelle",
+      "id-id" : "Stelle",
+      "ja-jp" : "星",
+      "ko-kr" : "스텔레",
+      "pt-pt" : "Stelle",
+      "ru-ru" : "Стелла",
+      "th-th" : "Stelle",
+      "vi-vn" : "Stelle",
+      "zh-cn" : "星",
+      "zh-tw" : "星"
+    },
+    "nameTextMapHash" : -935078345,
+    "rank" : 5
+  },
+  "8003" : {
+    "id" : 8003,
+    "l10nMap" : {
+      "de-de" : "Caelus",
+      "en-us" : "Caelus",
+      "es-es" : "Caelus",
+      "fr-fr" : "Caelus",
+      "id-id" : "Caelus",
+      "ja-jp" : "穹",
+      "ko-kr" : "카일루스",
+      "pt-pt" : "Caelus",
+      "ru-ru" : "Келус",
+      "th-th" : "Caelus",
+      "vi-vn" : "Caelus",
+      "zh-cn" : "穹",
+      "zh-tw" : "穹"
+    },
+    "nameTextMapHash" : 631005596,
+    "rank" : 5
+  },
+  "8004" : {
+    "id" : 8004,
+    "l10nMap" : {
+      "de-de" : "Stella",
+      "en-us" : "Stelle",
+      "es-es" : "Estela",
+      "fr-fr" : "Stelle",
+      "id-id" : "Stelle",
+      "ja-jp" : "星",
+      "ko-kr" : "스텔레",
+      "pt-pt" : "Stelle",
+      "ru-ru" : "Стелла",
+      "th-th" : "Stelle",
+      "vi-vn" : "Stelle",
+      "zh-cn" : "星",
+      "zh-tw" : "星"
+    },
+    "nameTextMapHash" : 227721069,
+    "rank" : 5
+  },
+  "8005" : {
+    "id" : 8005,
+    "l10nMap" : {
+      "de-de" : "Caelus",
+      "en-us" : "Caelus",
+      "es-es" : "Caelus",
+      "fr-fr" : "Caelus",
+      "id-id" : "Caelus",
+      "ja-jp" : "穹",
+      "ko-kr" : "카일루스",
+      "pt-pt" : "Caelus",
+      "ru-ru" : "Келус",
+      "th-th" : "Caelus",
+      "vi-vn" : "Caelus",
+      "zh-cn" : "穹",
+      "zh-tw" : "穹"
+    },
+    "nameTextMapHash" : 1793805010,
+    "rank" : 5
+  },
+  "8006" : {
+    "id" : 8006,
+    "l10nMap" : {
+      "de-de" : "Stella",
+      "en-us" : "Stelle",
+      "es-es" : "Estela",
+      "fr-fr" : "Stelle",
+      "id-id" : "Stelle",
+      "ja-jp" : "星",
+      "ko-kr" : "스텔레",
+      "pt-pt" : "Stelle",
+      "ru-ru" : "Стелла",
+      "th-th" : "Stelle",
+      "vi-vn" : "Stelle",
+      "zh-cn" : "星",
+      "zh-tw" : "星"
+    },
+    "nameTextMapHash" : 1390520483,
+    "rank" : 5
+  },
   "20000" : {
     "id" : 20000,
     "l10nMap" : {
@@ -3477,126 +3597,6 @@
       "zh-tw" : "不息的演算"
     },
     "nameTextMapHash" : 330597463,
-    "rank" : 5
-  },
-  "8001" : {
-    "id" : 8001,
-    "l10nMap" : {
-      "de-de" : "Caelus",
-      "en-us" : "Caelus",
-      "es-es" : "Caelus",
-      "fr-fr" : "Caelus",
-      "id-id" : "Caelus",
-      "ja-jp" : "穹",
-      "ko-kr" : "카일루스",
-      "pt-pt" : "Caelus",
-      "ru-ru" : "Келус",
-      "th-th" : "Caelus",
-      "vi-vn" : "Caelus",
-      "zh-cn" : "穹",
-      "zh-tw" : "穹"
-    },
-    "nameTextMapHash" : -2090701432,
-    "rank" : 5
-  },
-  "8002" : {
-    "id" : 8002,
-    "l10nMap" : {
-      "de-de" : "Stella",
-      "en-us" : "Stelle",
-      "es-es" : "Estela",
-      "fr-fr" : "Stelle",
-      "id-id" : "Stelle",
-      "ja-jp" : "星",
-      "ko-kr" : "스텔레",
-      "pt-pt" : "Stelle",
-      "ru-ru" : "Стелла",
-      "th-th" : "Stelle",
-      "vi-vn" : "Stelle",
-      "zh-cn" : "星",
-      "zh-tw" : "星"
-    },
-    "nameTextMapHash" : -2090701432,
-    "rank" : 5
-  },
-  "8003" : {
-    "id" : 8003,
-    "l10nMap" : {
-      "de-de" : "Caelus",
-      "en-us" : "Caelus",
-      "es-es" : "Caelus",
-      "fr-fr" : "Caelus",
-      "id-id" : "Caelus",
-      "ja-jp" : "穹",
-      "ko-kr" : "카일루스",
-      "pt-pt" : "Caelus",
-      "ru-ru" : "Келус",
-      "th-th" : "Caelus",
-      "vi-vn" : "Caelus",
-      "zh-cn" : "穹",
-      "zh-tw" : "穹"
-    },
-    "nameTextMapHash" : -2090701432,
-    "rank" : 5
-  },
-  "8004" : {
-    "id" : 8004,
-    "l10nMap" : {
-      "de-de" : "Stella",
-      "en-us" : "Stelle",
-      "es-es" : "Estela",
-      "fr-fr" : "Stelle",
-      "id-id" : "Stelle",
-      "ja-jp" : "星",
-      "ko-kr" : "스텔레",
-      "pt-pt" : "Stelle",
-      "ru-ru" : "Стелла",
-      "th-th" : "Stelle",
-      "vi-vn" : "Stelle",
-      "zh-cn" : "星",
-      "zh-tw" : "星"
-    },
-    "nameTextMapHash" : -2090701432,
-    "rank" : 5
-  },
-  "8005" : {
-    "id" : 8005,
-    "l10nMap" : {
-      "de-de" : "Caelus",
-      "en-us" : "Caelus",
-      "es-es" : "Caelus",
-      "fr-fr" : "Caelus",
-      "id-id" : "Caelus",
-      "ja-jp" : "穹",
-      "ko-kr" : "카일루스",
-      "pt-pt" : "Caelus",
-      "ru-ru" : "Келус",
-      "th-th" : "Caelus",
-      "vi-vn" : "Caelus",
-      "zh-cn" : "穹",
-      "zh-tw" : "穹"
-    },
-    "nameTextMapHash" : -2090701432,
-    "rank" : 5
-  },
-  "8006" : {
-    "id" : 8006,
-    "l10nMap" : {
-      "de-de" : "Stella",
-      "en-us" : "Stelle",
-      "es-es" : "Estela",
-      "fr-fr" : "Stelle",
-      "id-id" : "Stelle",
-      "ja-jp" : "星",
-      "ko-kr" : "스텔레",
-      "pt-pt" : "Stelle",
-      "ru-ru" : "Стелла",
-      "th-th" : "Stelle",
-      "vi-vn" : "Stelle",
-      "zh-cn" : "星",
-      "zh-tw" : "星"
-    },
-    "nameTextMapHash" : -2090701432,
     "rank" : 5
   }
 }
