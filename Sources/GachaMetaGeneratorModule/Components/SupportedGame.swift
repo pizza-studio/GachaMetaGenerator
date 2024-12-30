@@ -110,18 +110,18 @@ extension GachaMetaGenerator.SupportedGame {
         case (.genshinImpact, .weaponData):
             let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
             let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
-            return response.map { $0.toGachaItemMeta() }
+            return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.genshinImpact, .characterData):
             let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
             let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
-            return response.map { $0.toGachaItemMeta() }
+            return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.starRail, .weaponData):
             let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
-            let response = try JSONDecoder().decode([GachaMetaGenerator.WeaponRawItem].self, from: data)
+            let response = try JSONDecoder().decode([GachaMetaGenerator.HSRWeaponRawItem].self, from: data)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.starRail, .characterData):
             let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
-            let response = try JSONDecoder().decode([GachaMetaGenerator.AvatarRawItem].self, from: data)
+            let response = try JSONDecoder().decode([GachaMetaGenerator.HSRAvatarRawItem].self, from: data)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         }
     }

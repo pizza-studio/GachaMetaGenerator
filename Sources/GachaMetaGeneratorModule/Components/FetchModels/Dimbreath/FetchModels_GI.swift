@@ -57,10 +57,18 @@ extension GachaMetaGenerator {
         let nameTextMapHash: Int
         var l10nMap: [String: String]?
 
-        func isCharacter(for game: SupportedGame) -> Bool {
-            switch game {
-            case .genshinImpact: return id > 114514
-            case .starRail: return id <= 9999
+        var isCharacter: Bool {
+            id > 114514
+        }
+
+        var isValid: Bool {
+            if isCharacter {
+                guard id.description.prefix(2) != "11" else { return false }
+                guard id < 10000900 else { return false }
+                guard !Self.forbiddenNameTextMapHashes.contains(nameTextMapHash) else { return false }
+                return true
+            } else {
+                return true // Temporarily assume that all weapons are vaid.
             }
         }
 
@@ -72,5 +80,15 @@ extension GachaMetaGenerator {
 
         /// This variable is only useful during decoding process.
         fileprivate var qualityType: GIQualityType?
+
+        // MARK: Private
+
+        private static let forbiddenNameTextMapHashes: [Int] = [
+            1499745907, 1538092267, 3464027035, 594850707,
+            231836963, 3780343147, 1516554699, 977648923,
+            2597527627, 500612819, 3532343811, 302691299,
+            452043283, 2242027395, 565329475, 1994081075,
+            2824690859, 1857915418, 3293134650, 853394138,
+        ]
     }
 }
