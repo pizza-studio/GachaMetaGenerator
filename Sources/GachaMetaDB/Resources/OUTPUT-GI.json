@@ -4526,7 +4526,7 @@
       "tr-tr" : "Lisa",
       "vi-vn" : "Lisa",
       "zh-cn" : "丽莎",
-      "zh-tw" : "麗莎"
+      "zh-tw" : "旅行者"
     },
     "nameTextMapHash" : 3344622722,
     "rank" : 4
@@ -4570,7 +4570,7 @@
       "tr-tr" : "Barbara",
       "vi-vn" : "Barbara",
       "zh-cn" : "芭芭拉",
-      "zh-tw" : "芭芭拉"
+      "zh-tw" : "旅行者"
     },
     "nameTextMapHash" : 3775299170,
     "rank" : 4
@@ -4592,7 +4592,7 @@
       "tr-tr" : "Kaeya",
       "vi-vn" : "Kaeya",
       "zh-cn" : "凯亚",
-      "zh-tw" : "凱亞"
+      "zh-tw" : "旅行者"
     },
     "nameTextMapHash" : 4119663210,
     "rank" : 4
@@ -4614,7 +4614,7 @@
       "tr-tr" : "Diluc",
       "vi-vn" : "Diluc",
       "zh-cn" : "迪卢克",
-      "zh-tw" : "迪盧克"
+      "zh-tw" : "芭芭拉"
     },
     "nameTextMapHash" : 3608180322,
     "rank" : 5
@@ -4636,7 +4636,7 @@
       "tr-tr" : "Razor",
       "vi-vn" : "Razor",
       "zh-cn" : "雷泽",
-      "zh-tw" : "雷澤"
+      "zh-tw" : "凱亞"
     },
     "nameTextMapHash" : 4160147242,
     "rank" : 4
@@ -4658,7 +4658,7 @@
       "tr-tr" : "Amber",
       "vi-vn" : "Amber",
       "zh-cn" : "安柏",
-      "zh-tw" : "安柏"
+      "zh-tw" : "迪盧克"
     },
     "nameTextMapHash" : 1966438658,
     "rank" : 4
@@ -4680,7 +4680,7 @@
       "tr-tr" : "Venti",
       "vi-vn" : "Venti",
       "zh-cn" : "温迪",
-      "zh-tw" : "溫迪"
+      "zh-tw" : "雷澤"
     },
     "nameTextMapHash" : 2466140362,
     "rank" : 5
@@ -4702,7 +4702,7 @@
       "tr-tr" : "Xiangling",
       "vi-vn" : "Xiangling",
       "zh-cn" : "香菱",
-      "zh-tw" : "香菱"
+      "zh-tw" : "安柏"
     },
     "nameTextMapHash" : 1130996346,
     "rank" : 4
@@ -4724,7 +4724,7 @@
       "tr-tr" : "Beidou",
       "vi-vn" : "Beidou",
       "zh-cn" : "北斗",
-      "zh-tw" : "北斗"
+      "zh-tw" : "溫迪"
     },
     "nameTextMapHash" : 2646367730,
     "rank" : 4
@@ -4746,7 +4746,7 @@
       "tr-tr" : "Xingqiu",
       "vi-vn" : "Xingqiu",
       "zh-cn" : "行秋",
-      "zh-tw" : "行秋"
+      "zh-tw" : "香菱"
     },
     "nameTextMapHash" : 4197635682,
     "rank" : 4
@@ -4768,7 +4768,7 @@
       "tr-tr" : "Xiao",
       "vi-vn" : "Xiao",
       "zh-cn" : "魈",
-      "zh-tw" : "魈"
+      "zh-tw" : "北斗"
     },
     "nameTextMapHash" : 1021947690,
     "rank" : 5
@@ -4790,7 +4790,7 @@
       "tr-tr" : "Ningguang",
       "vi-vn" : "Ningguang",
       "zh-cn" : "凝光",
-      "zh-tw" : "凝光"
+      "zh-tw" : "行秋"
     },
     "nameTextMapHash" : 4127888970,
     "rank" : 4
@@ -4812,7 +4812,7 @@
       "tr-tr" : "Klee",
       "vi-vn" : "Klee",
       "zh-cn" : "可莉",
-      "zh-tw" : "可莉"
+      "zh-tw" : "魈"
     },
     "nameTextMapHash" : 3339083250,
     "rank" : 5
@@ -4834,7 +4834,7 @@
       "tr-tr" : "Zhongli",
       "vi-vn" : "Zhongli",
       "zh-cn" : "钟离",
-      "zh-tw" : "鍾離"
+      "zh-tw" : "凝光"
     },
     "nameTextMapHash" : 3862787418,
     "rank" : 5
@@ -4856,7 +4856,7 @@
       "tr-tr" : "Fischl",
       "vi-vn" : "Fischl",
       "zh-cn" : "菲谢尔",
-      "zh-tw" : "菲謝爾"
+      "zh-tw" : "可莉"
     },
     "nameTextMapHash" : 3277782506,
     "rank" : 4
@@ -4878,7 +4878,7 @@
       "tr-tr" : "Bennett",
       "vi-vn" : "Bennett",
       "zh-cn" : "班尼特",
-      "zh-tw" : "班尼特"
+      "zh-tw" : "鍾離"
     },
     "nameTextMapHash" : 968893378,
     "rank" : 4
@@ -4900,7 +4900,7 @@
       "tr-tr" : "Tartaglia",
       "vi-vn" : "Tartaglia",
       "zh-cn" : "达达利亚",
-      "zh-tw" : "達達利亞"
+      "zh-tw" : "菲謝爾"
     },
     "nameTextMapHash" : 3847143266,
     "rank" : 5
@@ -4922,7 +4922,7 @@
       "tr-tr" : "Noelle",
       "vi-vn" : "Noelle",
       "zh-cn" : "诺艾尔",
-      "zh-tw" : "諾艾爾"
+      "zh-tw" : "班尼特"
     },
     "nameTextMapHash" : 1921418842,
     "rank" : 4
@@ -4944,7 +4944,7 @@
       "tr-tr" : "Qiqi",
       "vi-vn" : "Qiqi",
       "zh-cn" : "七七",
-      "zh-tw" : "七七"
+      "zh-tw" : "達達利亞"
     },
     "nameTextMapHash" : 168956722,
     "rank" : 5
@@ -4966,7 +4966,7 @@
       "tr-tr" : "Chongyun",
       "vi-vn" : "Chongyun",
       "zh-cn" : "重云",
-      "zh-tw" : "重雲"
+      "zh-tw" : "諾艾爾"
     },
     "nameTextMapHash" : 2876340530,
     "rank" : 4
@@ -4988,7 +4988,7 @@
       "tr-tr" : "Ganyu",
       "vi-vn" : "Ganyu",
       "zh-cn" : "甘雨",
-      "zh-tw" : "甘雨"
+      "zh-tw" : "七七"
     },
     "nameTextMapHash" : 2679781122,
     "rank" : 5
@@ -5010,7 +5010,7 @@
       "tr-tr" : "Albedo",
       "vi-vn" : "Albedo",
       "zh-cn" : "阿贝多",
-      "zh-tw" : "阿貝多"
+      "zh-tw" : "重雲"
     },
     "nameTextMapHash" : 4108620722,
     "rank" : 5
@@ -5032,7 +5032,7 @@
       "tr-tr" : "Diona",
       "vi-vn" : "Diona",
       "zh-cn" : "迪奥娜",
-      "zh-tw" : "迪奧娜"
+      "zh-tw" : "甘雨"
     },
     "nameTextMapHash" : 1468367538,
     "rank" : 4
@@ -5054,7 +5054,7 @@
       "tr-tr" : "Mona",
       "vi-vn" : "Mona",
       "zh-cn" : "莫娜",
-      "zh-tw" : "莫娜"
+      "zh-tw" : "阿貝多"
     },
     "nameTextMapHash" : 1113306282,
     "rank" : 5
@@ -5076,7 +5076,7 @@
       "tr-tr" : "Keqing",
       "vi-vn" : "Keqing",
       "zh-cn" : "刻晴",
-      "zh-tw" : "刻晴"
+      "zh-tw" : "迪奧娜"
     },
     "nameTextMapHash" : 1864015138,
     "rank" : 5
@@ -5098,7 +5098,7 @@
       "tr-tr" : "Sucrose",
       "vi-vn" : "Sucrose",
       "zh-cn" : "砂糖",
-      "zh-tw" : "砂糖"
+      "zh-tw" : "莫娜"
     },
     "nameTextMapHash" : 1053433018,
     "rank" : 4
@@ -5120,7 +5120,7 @@
       "tr-tr" : "Xinyan",
       "vi-vn" : "Xinyan",
       "zh-cn" : "辛焱",
-      "zh-tw" : "辛焱"
+      "zh-tw" : "刻晴"
     },
     "nameTextMapHash" : 4273845410,
     "rank" : 4
@@ -5142,7 +5142,7 @@
       "tr-tr" : "Rosaria",
       "vi-vn" : "Rosaria",
       "zh-cn" : "罗莎莉亚",
-      "zh-tw" : "蘿莎莉亞"
+      "zh-tw" : "砂糖"
     },
     "nameTextMapHash" : 4260733330,
     "rank" : 4
@@ -5164,7 +5164,7 @@
       "tr-tr" : "Hu Tao",
       "vi-vn" : "Hu Tao",
       "zh-cn" : "胡桃",
-      "zh-tw" : "胡桃"
+      "zh-tw" : "辛焱"
     },
     "nameTextMapHash" : 1940919994,
     "rank" : 5
@@ -5186,7 +5186,7 @@
       "tr-tr" : "Kaedehara Kazuha",
       "vi-vn" : "Kaedehara Kazuha",
       "zh-cn" : "枫原万叶",
-      "zh-tw" : "楓原萬葉"
+      "zh-tw" : "蘿莎莉亞"
     },
     "nameTextMapHash" : 88505754,
     "rank" : 5
@@ -5208,7 +5208,7 @@
       "tr-tr" : "Yanfei",
       "vi-vn" : "Yanfei",
       "zh-cn" : "烟绯",
-      "zh-tw" : "煙緋"
+      "zh-tw" : "胡桃"
     },
     "nameTextMapHash" : 697277554,
     "rank" : 4
@@ -5230,7 +5230,7 @@
       "tr-tr" : "Yoimiya",
       "vi-vn" : "Yoimiya",
       "zh-cn" : "宵宫",
-      "zh-tw" : "宵宮"
+      "zh-tw" : "楓原萬葉"
     },
     "nameTextMapHash" : 2504399314,
     "rank" : 5
@@ -5252,7 +5252,7 @@
       "tr-tr" : "Thoma",
       "vi-vn" : "Thoma",
       "zh-cn" : "托马",
-      "zh-tw" : "托馬"
+      "zh-tw" : "煙緋"
     },
     "nameTextMapHash" : 3555115602,
     "rank" : 4
@@ -5274,7 +5274,7 @@
       "tr-tr" : "Eula",
       "vi-vn" : "Eula",
       "zh-cn" : "优菈",
-      "zh-tw" : "優菈"
+      "zh-tw" : "宵宮"
     },
     "nameTextMapHash" : 3717667418,
     "rank" : 5
@@ -5296,7 +5296,7 @@
       "tr-tr" : "Şogun Raiden",
       "vi-vn" : "Raiden Shogun",
       "zh-cn" : "雷电将军",
-      "zh-tw" : "雷電將軍"
+      "zh-tw" : "托馬"
     },
     "nameTextMapHash" : 3024507506,
     "rank" : 5
@@ -5318,7 +5318,7 @@
       "tr-tr" : "Sayu",
       "vi-vn" : "Sayu",
       "zh-cn" : "早柚",
-      "zh-tw" : "早柚"
+      "zh-tw" : "優菈"
     },
     "nameTextMapHash" : 2388785242,
     "rank" : 4
@@ -5340,7 +5340,7 @@
       "tr-tr" : "Sangonomiya Kokomi",
       "vi-vn" : "Sangonomiya Kokomi",
       "zh-cn" : "珊瑚宫心海",
-      "zh-tw" : "珊瑚宮心海"
+      "zh-tw" : "雷電將軍"
     },
     "nameTextMapHash" : 3914045794,
     "rank" : 5
@@ -5362,7 +5362,7 @@
       "tr-tr" : "Gorou",
       "vi-vn" : "Gorou",
       "zh-cn" : "五郎",
-      "zh-tw" : "五郎"
+      "zh-tw" : "早柚"
     },
     "nameTextMapHash" : 3400133546,
     "rank" : 4
@@ -5384,7 +5384,7 @@
       "tr-tr" : "Kujou Sara",
       "vi-vn" : "Kujou Sara",
       "zh-cn" : "九条裟罗",
-      "zh-tw" : "九條裟羅"
+      "zh-tw" : "珊瑚宮心海"
     },
     "nameTextMapHash" : 1483922610,
     "rank" : 4
@@ -5406,7 +5406,7 @@
       "tr-tr" : "Arataki Itto",
       "vi-vn" : "Arataki Itto",
       "zh-cn" : "荒泷一斗",
-      "zh-tw" : "荒瀧一斗"
+      "zh-tw" : "五郎"
     },
     "nameTextMapHash" : 3068316954,
     "rank" : 5
@@ -5428,7 +5428,7 @@
       "tr-tr" : "Yae Miko",
       "vi-vn" : "Yae Miko",
       "zh-cn" : "八重神子",
-      "zh-tw" : "八重神子"
+      "zh-tw" : "九條裟羅"
     },
     "nameTextMapHash" : 2713453234,
     "rank" : 5
@@ -5450,7 +5450,7 @@
       "tr-tr" : "Shikanoin Heizou",
       "vi-vn" : "Shikanoin Heizou",
       "zh-cn" : "鹿野院平藏",
-      "zh-tw" : "鹿野院平藏"
+      "zh-tw" : "荒瀧一斗"
     },
     "nameTextMapHash" : 646032090,
     "rank" : 4
@@ -5472,7 +5472,7 @@
       "tr-tr" : "Yelan",
       "vi-vn" : "Yelan",
       "zh-cn" : "夜兰",
-      "zh-tw" : "夜蘭"
+      "zh-tw" : "八重神子"
     },
     "nameTextMapHash" : 2848374378,
     "rank" : 5
@@ -5494,7 +5494,7 @@
       "tr-tr" : "Kirara",
       "vi-vn" : "Kirara",
       "zh-cn" : "绮良良",
-      "zh-tw" : "綺良良"
+      "zh-tw" : "鹿野院平藏"
     },
     "nameTextMapHash" : 1456643042,
     "rank" : 4
@@ -5516,7 +5516,7 @@
       "tr-tr" : "Aloy",
       "vi-vn" : "Aloy",
       "zh-cn" : "埃洛伊",
-      "zh-tw" : "亞蘿伊"
+      "zh-tw" : "夜蘭"
     },
     "nameTextMapHash" : 3689108098,
     "rank" : 5
@@ -5538,7 +5538,7 @@
       "tr-tr" : "Shenhe",
       "vi-vn" : "Shenhe",
       "zh-cn" : "申鹤",
-      "zh-tw" : "申鶴"
+      "zh-tw" : "綺良良"
     },
     "nameTextMapHash" : 334242634,
     "rank" : 5
@@ -5560,7 +5560,7 @@
       "tr-tr" : "Yun Jin",
       "vi-vn" : "Yun Jin",
       "zh-cn" : "云堇",
-      "zh-tw" : "雲堇"
+      "zh-tw" : "亞蘿伊"
     },
     "nameTextMapHash" : 655825874,
     "rank" : 4
@@ -5582,7 +5582,7 @@
       "tr-tr" : "Kuki Shinobu",
       "vi-vn" : "Kuki Shinobu",
       "zh-cn" : "久岐忍",
-      "zh-tw" : "久岐忍"
+      "zh-tw" : "申鶴"
     },
     "nameTextMapHash" : 1940821986,
     "rank" : 4
@@ -5604,7 +5604,7 @@
       "tr-tr" : "Kamisato Ayato",
       "vi-vn" : "Kamisato Ayato",
       "zh-cn" : "神里绫人",
-      "zh-tw" : "神里綾人"
+      "zh-tw" : "雲堇"
     },
     "nameTextMapHash" : 1588620330,
     "rank" : 5
@@ -5626,7 +5626,7 @@
       "tr-tr" : "Collei",
       "vi-vn" : "Collei",
       "zh-cn" : "柯莱",
-      "zh-tw" : "柯萊"
+      "zh-tw" : "久岐忍"
     },
     "nameTextMapHash" : 2948362178,
     "rank" : 4
@@ -5648,7 +5648,7 @@
       "tr-tr" : "Dori",
       "vi-vn" : "Dori",
       "zh-cn" : "多莉",
-      "zh-tw" : "多莉"
+      "zh-tw" : "神里綾人"
     },
     "nameTextMapHash" : 388272194,
     "rank" : 4
@@ -5670,7 +5670,7 @@
       "tr-tr" : "Tighnari",
       "vi-vn" : "Tighnari",
       "zh-cn" : "提纳里",
-      "zh-tw" : "提納里"
+      "zh-tw" : "柯萊"
     },
     "nameTextMapHash" : 2506955778,
     "rank" : 5
@@ -5692,7 +5692,7 @@
       "tr-tr" : "Nilou",
       "vi-vn" : "Nilou",
       "zh-cn" : "妮露",
-      "zh-tw" : "妮露"
+      "zh-tw" : "多莉"
     },
     "nameTextMapHash" : 3850149970,
     "rank" : 5
@@ -5714,7 +5714,7 @@
       "tr-tr" : "Cyno",
       "vi-vn" : "Cyno",
       "zh-cn" : "赛诺",
-      "zh-tw" : "賽諾"
+      "zh-tw" : "提納里"
     },
     "nameTextMapHash" : 1049891906,
     "rank" : 5
@@ -5736,7 +5736,7 @@
       "tr-tr" : "Candace",
       "vi-vn" : "Candace",
       "zh-cn" : "坎蒂丝",
-      "zh-tw" : "坎蒂絲"
+      "zh-tw" : "妮露"
     },
     "nameTextMapHash" : 3092975658,
     "rank" : 4
@@ -5758,7 +5758,7 @@
       "tr-tr" : "Nahida",
       "vi-vn" : "Nahida",
       "zh-cn" : "纳西妲",
-      "zh-tw" : "納西妲"
+      "zh-tw" : "賽諾"
     },
     "nameTextMapHash" : 712501082,
     "rank" : 5
@@ -5780,7 +5780,7 @@
       "tr-tr" : "Layla",
       "vi-vn" : "Layla",
       "zh-cn" : "莱依拉",
-      "zh-tw" : "萊依拉"
+      "zh-tw" : "坎蒂絲"
     },
     "nameTextMapHash" : 2889777514,
     "rank" : 4
@@ -5802,7 +5802,7 @@
       "tr-tr" : "Avare",
       "vi-vn" : "Kẻ Lang Thang",
       "zh-cn" : "流浪者",
-      "zh-tw" : "流浪者"
+      "zh-tw" : "納西妲"
     },
     "nameTextMapHash" : 3230559562,
     "rank" : 5
@@ -5824,7 +5824,7 @@
       "tr-tr" : "Faruzan",
       "vi-vn" : "Faruzan",
       "zh-cn" : "珐露珊",
-      "zh-tw" : "琺露珊"
+      "zh-tw" : "萊依拉"
     },
     "nameTextMapHash" : 2387711994,
     "rank" : 4
@@ -5846,7 +5846,7 @@
       "tr-tr" : "Yaoyao",
       "vi-vn" : "Yaoyao",
       "zh-cn" : "瑶瑶",
-      "zh-tw" : "瑤瑤"
+      "zh-tw" : "流浪者"
     },
     "nameTextMapHash" : 1732418482,
     "rank" : 4
@@ -5868,7 +5868,7 @@
       "tr-tr" : "Alhaitham",
       "vi-vn" : "Alhaitham",
       "zh-cn" : "艾尔海森",
-      "zh-tw" : "艾爾海森"
+      "zh-tw" : "琺露珊"
     },
     "nameTextMapHash" : 4002157418,
     "rank" : 5
@@ -5890,7 +5890,7 @@
       "tr-tr" : "Dehya",
       "vi-vn" : "Dehya",
       "zh-cn" : "迪希雅",
-      "zh-tw" : "迪希雅"
+      "zh-tw" : "瑤瑤"
     },
     "nameTextMapHash" : 2360533154,
     "rank" : 5
@@ -5912,7 +5912,7 @@
       "tr-tr" : "Mika",
       "vi-vn" : "Mika",
       "zh-cn" : "米卡",
-      "zh-tw" : "米卡"
+      "zh-tw" : "艾爾海森"
     },
     "nameTextMapHash" : 231911858,
     "rank" : 4
@@ -5934,7 +5934,7 @@
       "tr-tr" : "Kaveh",
       "vi-vn" : "Kaveh",
       "zh-cn" : "卡维",
-      "zh-tw" : "卡維"
+      "zh-tw" : "迪希雅"
     },
     "nameTextMapHash" : 466355514,
     "rank" : 4
@@ -5956,7 +5956,7 @@
       "tr-tr" : "Baizhu",
       "vi-vn" : "Baizhu",
       "zh-cn" : "白术",
-      "zh-tw" : "白朮"
+      "zh-tw" : "米卡"
     },
     "nameTextMapHash" : 2984815066,
     "rank" : 5
@@ -5978,7 +5978,7 @@
       "tr-tr" : "Lynette",
       "vi-vn" : "Lynette",
       "zh-cn" : "琳妮特",
-      "zh-tw" : "琳妮特"
+      "zh-tw" : "卡維"
     },
     "nameTextMapHash" : 1225226258,
     "rank" : 4
@@ -6000,7 +6000,7 @@
       "tr-tr" : "Lyney",
       "vi-vn" : "Lyney",
       "zh-cn" : "林尼",
-      "zh-tw" : "林尼"
+      "zh-tw" : "白朮"
     },
     "nameTextMapHash" : 2472444970,
     "rank" : 5
@@ -6022,7 +6022,7 @@
       "tr-tr" : "Freminet",
       "vi-vn" : "Freminet",
       "zh-cn" : "菲米尼",
-      "zh-tw" : "菲米尼"
+      "zh-tw" : "琳妮特"
     },
     "nameTextMapHash" : 4201964354,
     "rank" : 4
@@ -6044,7 +6044,7 @@
       "tr-tr" : "Wriothesley",
       "vi-vn" : "Wriothesley",
       "zh-cn" : "莱欧斯利",
-      "zh-tw" : "萊歐斯利"
+      "zh-tw" : "林尼"
     },
     "nameTextMapHash" : 370151050,
     "rank" : 5
@@ -6066,7 +6066,7 @@
       "tr-tr" : "Neuvillette",
       "vi-vn" : "Neuvillette",
       "zh-cn" : "那维莱特",
-      "zh-tw" : "那維萊特"
+      "zh-tw" : "菲米尼"
     },
     "nameTextMapHash" : 1504902330,
     "rank" : 5
@@ -6088,7 +6088,7 @@
       "tr-tr" : "Charlotte",
       "vi-vn" : "Charlotte",
       "zh-cn" : "夏洛蒂",
-      "zh-tw" : "夏洛蒂"
+      "zh-tw" : "萊歐斯利"
     },
     "nameTextMapHash" : 3831162130,
     "rank" : 4
@@ -6110,7 +6110,7 @@
       "tr-tr" : "Furina",
       "vi-vn" : "Furina",
       "zh-cn" : "芙宁娜",
-      "zh-tw" : "芙寧娜"
+      "zh-tw" : "那維萊特"
     },
     "nameTextMapHash" : 2180900234,
     "rank" : 5
@@ -6132,7 +6132,7 @@
       "tr-tr" : "Chevreuse",
       "vi-vn" : "Chevreuse",
       "zh-cn" : "夏沃蕾",
-      "zh-tw" : "夏沃蕾"
+      "zh-tw" : "夏洛蒂"
     },
     "nameTextMapHash" : 540313842,
     "rank" : 4
@@ -6154,7 +6154,7 @@
       "tr-tr" : "Navia",
       "vi-vn" : "Navia",
       "zh-cn" : "娜维娅",
-      "zh-tw" : "娜維婭"
+      "zh-tw" : "芙寧娜"
     },
     "nameTextMapHash" : 2877588578,
     "rank" : 5
@@ -6176,7 +6176,7 @@
       "tr-tr" : "Gaming",
       "vi-vn" : "Gaming",
       "zh-cn" : "嘉明",
-      "zh-tw" : "嘉明"
+      "zh-tw" : "夏沃蕾"
     },
     "nameTextMapHash" : 2822240322,
     "rank" : 4
@@ -6198,7 +6198,7 @@
       "tr-tr" : "Xianyun",
       "vi-vn" : "Xianyun",
       "zh-cn" : "闲云",
-      "zh-tw" : "閒雲"
+      "zh-tw" : "娜維婭"
     },
     "nameTextMapHash" : 3648220770,
     "rank" : 5
@@ -6220,7 +6220,7 @@
       "tr-tr" : "Chiori",
       "vi-vn" : "Chiori",
       "zh-cn" : "千织",
-      "zh-tw" : "千織"
+      "zh-tw" : "嘉明"
     },
     "nameTextMapHash" : 1944606922,
     "rank" : 5
@@ -6242,7 +6242,7 @@
       "tr-tr" : "Sigewinne",
       "vi-vn" : "Sigewinne",
       "zh-cn" : "希格雯",
-      "zh-tw" : "希格雯"
+      "zh-tw" : "閒雲"
     },
     "nameTextMapHash" : 781488962,
     "rank" : 5
@@ -6264,7 +6264,7 @@
       "tr-tr" : "Arlecchino",
       "vi-vn" : "Arlecchino",
       "zh-cn" : "阿蕾奇诺",
-      "zh-tw" : "阿蕾奇諾"
+      "zh-tw" : "千織"
     },
     "nameTextMapHash" : 167199474,
     "rank" : 5
@@ -6286,7 +6286,7 @@
       "tr-tr" : "Sethos",
       "vi-vn" : "Sethos",
       "zh-cn" : "赛索斯",
-      "zh-tw" : "賽索斯"
+      "zh-tw" : "希格雯"
     },
     "nameTextMapHash" : 1431322346,
     "rank" : 4
@@ -6308,7 +6308,7 @@
       "tr-tr" : "Clorinde",
       "vi-vn" : "Clorinde",
       "zh-cn" : "克洛琳德",
-      "zh-tw" : "克洛琳德"
+      "zh-tw" : "阿蕾奇諾"
     },
     "nameTextMapHash" : 2745369298,
     "rank" : 5
@@ -6330,7 +6330,7 @@
       "tr-tr" : "Emilie",
       "vi-vn" : "Emilie",
       "zh-cn" : "艾梅莉埃",
-      "zh-tw" : "艾梅莉埃"
+      "zh-tw" : "賽索斯"
     },
     "nameTextMapHash" : 1705786122,
     "rank" : 5
@@ -6352,7 +6352,7 @@
       "tr-tr" : "Kachina",
       "vi-vn" : "Kachina",
       "zh-cn" : "卡齐娜",
-      "zh-tw" : "卡齊娜"
+      "zh-tw" : "克洛琳德"
     },
     "nameTextMapHash" : 2531816890,
     "rank" : 4
@@ -6374,7 +6374,7 @@
       "tr-tr" : "Kinich",
       "vi-vn" : "Kinich",
       "zh-cn" : "基尼奇",
-      "zh-tw" : "基尼奇"
+      "zh-tw" : "艾梅莉埃"
     },
     "nameTextMapHash" : 4172712634,
     "rank" : 5
@@ -6396,7 +6396,7 @@
       "tr-tr" : "Mualani",
       "vi-vn" : "Mualani",
       "zh-cn" : "玛拉妮",
-      "zh-tw" : "瑪拉妮"
+      "zh-tw" : "卡齊娜"
     },
     "nameTextMapHash" : 3949670506,
     "rank" : 5
@@ -6418,7 +6418,7 @@
       "tr-tr" : "Xilonen",
       "vi-vn" : "Xilonen",
       "zh-cn" : "希诺宁",
-      "zh-tw" : "希諾寧"
+      "zh-tw" : "基尼奇"
     },
     "nameTextMapHash" : 2515292882,
     "rank" : 5
@@ -6440,7 +6440,7 @@
       "tr-tr" : "Chasca",
       "vi-vn" : "Chasca",
       "zh-cn" : "恰斯卡",
-      "zh-tw" : "恰斯卡"
+      "zh-tw" : "瑪拉妮"
     },
     "nameTextMapHash" : 3746229466,
     "rank" : 5
@@ -6462,7 +6462,7 @@
       "tr-tr" : "Ororon",
       "vi-vn" : "Ororon",
       "zh-cn" : "欧洛伦",
-      "zh-tw" : "歐洛倫"
+      "zh-tw" : "希諾寧"
     },
     "nameTextMapHash" : 1198350762,
     "rank" : 4
