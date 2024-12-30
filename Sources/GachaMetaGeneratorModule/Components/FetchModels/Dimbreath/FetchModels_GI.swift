@@ -64,6 +64,29 @@ extension GachaMetaGenerator {
             }
         }
 
+        func isValid(for game: SupportedGame) -> Bool {
+            switch game {
+            case .genshinImpact:
+                if isCharacter(for: game) {
+                    guard id.description.prefix(2) != "11" else { return false }
+                    guard id < 10000900 else { return false }
+                    return true
+                } else {
+                    return true // Temporarily assume that all weapons are vaid.
+                }
+            case .starRail:
+                if isCharacter(for: game) {
+                    switch id {
+                    case 6000 ..< 8000, 8900...: return false
+                    default: break
+                    }
+                    return true
+                } else {
+                    return true // Temporarily assume that all weapons are vaid.
+                }
+            }
+        }
+
         func toGachaItemMeta() -> GachaMetaGenerator.GachaItemMeta {
             .init(id: id, rank: rankLevel, nameTextMapHash: nameTextMapHash)
         }
