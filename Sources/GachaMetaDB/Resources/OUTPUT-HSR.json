@@ -1179,6 +1179,46 @@
     "nameTextMapHash" : -1197200203,
     "rank" : 5
   },
+  "1401" : {
+    "id" : 1401,
+    "l10nMap" : {
+      "de-de" : "Große Herta",
+      "en-us" : "The Herta",
+      "es-es" : "Sra. Herta",
+      "fr-fr" : "La Grande Herta",
+      "id-id" : "The Herta",
+      "ja-jp" : "マダム・ヘルタ",
+      "ko-kr" : "더 헤르타",
+      "pt-pt" : "A Herta",
+      "ru-ru" : "Великая Герта",
+      "th-th" : "ท่าน Herta",
+      "vi-vn" : "Đại Herta",
+      "zh-cn" : "大黑塔",
+      "zh-tw" : "大黑塔"
+    },
+    "nameTextMapHash" : -1096443655,
+    "rank" : 5
+  },
+  "1402" : {
+    "id" : 1402,
+    "l10nMap" : {
+      "de-de" : "Aglaea",
+      "en-us" : "Aglaea",
+      "es-es" : "Aglaea",
+      "fr-fr" : "Aglaé",
+      "id-id" : "Aglaea",
+      "ja-jp" : "アグライア",
+      "ko-kr" : "아글라이아",
+      "pt-pt" : "Aglaea",
+      "ru-ru" : "Аглая",
+      "th-th" : "Aglaea",
+      "vi-vn" : "Aglaea",
+      "zh-cn" : "阿格莱雅",
+      "zh-tw" : "阿格萊雅"
+    },
+    "nameTextMapHash" : -1499728182,
+    "rank" : 5
+  },
   "8001" : {
     "id" : 8001,
     "l10nMap" : {
@@ -1297,6 +1337,46 @@
       "zh-tw" : "星"
     },
     "nameTextMapHash" : 1390520483,
+    "rank" : 5
+  },
+  "8007" : {
+    "id" : 8007,
+    "l10nMap" : {
+      "de-de" : "Caelus",
+      "en-us" : "Caelus",
+      "es-es" : "Caelus",
+      "fr-fr" : "Caelus",
+      "id-id" : "Caelus",
+      "ja-jp" : "穹",
+      "ko-kr" : "카일루스",
+      "pt-pt" : "Caelus",
+      "ru-ru" : "Келус",
+      "th-th" : "Caelus",
+      "vi-vn" : "Caelus",
+      "zh-cn" : "穹",
+      "zh-tw" : "穹"
+    },
+    "nameTextMapHash" : -1338362872,
+    "rank" : 5
+  },
+  "8008" : {
+    "id" : 8008,
+    "l10nMap" : {
+      "de-de" : "Stella",
+      "en-us" : "Stelle",
+      "es-es" : "Estela",
+      "fr-fr" : "Stelle",
+      "id-id" : "Stelle",
+      "ja-jp" : "星",
+      "ko-kr" : "스텔레",
+      "pt-pt" : "Stelle",
+      "ru-ru" : "Стелла",
+      "th-th" : "Stelle",
+      "vi-vn" : "Stelle",
+      "zh-cn" : "星",
+      "zh-tw" : "星"
+    },
+    "nameTextMapHash" : 1840859177,
     "rank" : 5
   },
   "20000" : {
@@ -1717,6 +1797,46 @@
       "zh-tw" : "睿見"
     },
     "nameTextMapHash" : 928746877,
+    "rank" : 3
+  },
+  "20021" : {
+    "id" : 20021,
+    "l10nMap" : {
+      "de-de" : "Brennender Schatten",
+      "en-us" : "Shadowburn",
+      "es-es" : "Imágenes quemadas",
+      "fr-fr" : "Brûlombre",
+      "id-id" : "Shadowburn",
+      "ja-jp" : "燃ゆる影",
+      "ko-kr" : "불타는 그림자",
+      "pt-pt" : "Sombrardente",
+      "ru-ru" : "Выжженные тени",
+      "th-th" : "Shadowburn",
+      "vi-vn" : "Thiêu Đốt Ảo Ảnh",
+      "zh-cn" : "焚影",
+      "zh-tw" : "焚影"
+    },
+    "nameTextMapHash" : 928746876,
+    "rank" : 3
+  },
+  "20022" : {
+    "id" : 20022,
+    "l10nMap" : {
+      "de-de" : "Rückblick",
+      "en-us" : "Reminiscence",
+      "es-es" : "Retrospección",
+      "fr-fr" : "Réminiscence",
+      "id-id" : "Reminiscence",
+      "ja-jp" : "辿る記憶",
+      "ko-kr" : "추억 회상",
+      "pt-pt" : "Reminiscência",
+      "ru-ru" : "Образ прошлого",
+      "th-th" : "Reminiscence",
+      "vi-vn" : "Tìm Về Ký Ức",
+      "zh-cn" : "溯忆",
+      "zh-tw" : "溯憶"
+    },
+    "nameTextMapHash" : 928746879,
     "rank" : 3
   },
   "21000" : {
@@ -2699,6 +2819,66 @@
     "nameTextMapHash" : -973364456,
     "rank" : 4
   },
+  "21050" : {
+    "id" : 21050,
+    "l10nMap" : {
+      "de-de" : "Sieg im Handumdrehen",
+      "en-us" : "Victory In a Blink",
+      "es-es" : "Victoria disputada",
+      "fr-fr" : "Victoire éclair",
+      "id-id" : "Victory In a Blink",
+      "ja-jp" : "瞬刻の勝機",
+      "ko-kr" : "찰나에 결정되는 승리",
+      "pt-pt" : "Vitória em Um Piscar de Olhos",
+      "ru-ru" : "Скорая победа",
+      "th-th" : "Victory In a Blink",
+      "vi-vn" : "Chiến Thắng Trong Chớp Mắt",
+      "zh-cn" : "胜利只在朝夕间",
+      "zh-tw" : "勝利只在朝夕間"
+    },
+    "nameTextMapHash" : 1755518907,
+    "rank" : 4
+  },
+  "21051" : {
+    "id" : 21051,
+    "l10nMap" : {
+      "de-de" : "Der Gruß der Genies",
+      "en-us" : "Geniuses' Greetings",
+      "es-es" : "Saludo entre genios",
+      "fr-fr" : "Salutation des génies",
+      "id-id" : "Geniuses' Greetings",
+      "ja-jp" : "天才たちの「挨拶」",
+      "ko-kr" : "천재들의 안부 인사",
+      "pt-pt" : "Saudações dos Gênios",
+      "ru-ru" : "Привет от гениев",
+      "th-th" : "Geniuses' Greetings",
+      "vi-vn" : "Lời Chào Hỏi Của Thiên Tài",
+      "zh-cn" : "天才们的问候",
+      "zh-tw" : "天才們的問候"
+    },
+    "nameTextMapHash" : 1755518906,
+    "rank" : 4
+  },
+  "21052" : {
+    "id" : 21052,
+    "l10nMap" : {
+      "de-de" : "Mehr Schwitzen, weniger Weinen",
+      "en-us" : "Sweat Now, Cry Less",
+      "es-es" : "Más sudor y menos lágrimas",
+      "fr-fr" : "Transpire, tu pleureras moins",
+      "id-id" : "Sweat Now, Cry Less",
+      "ja-jp" : "流すなら涙より汗",
+      "ko-kr" : "땀은 많이, 눈물은 적게",
+      "pt-pt" : "Suar Para Não Chorar",
+      "ru-ru" : "Больше пота, меньше слёз",
+      "th-th" : "Sweat Now, Cry Less",
+      "vi-vn" : "Đổ Mồ Hôi Nhiều, Rơi Nước Mắt Ít",
+      "zh-cn" : "多流汗，少流泪",
+      "zh-tw" : "多流汗，少流淚"
+    },
+    "nameTextMapHash" : 1755518909,
+    "rank" : 4
+  },
   "22000" : {
     "id" : 22000,
     "l10nMap" : {
@@ -3497,6 +3677,46 @@
       "zh-tw" : "長路終有歸途"
     },
     "nameTextMapHash" : -1658973982,
+    "rank" : 5
+  },
+  "23036" : {
+    "id" : 23036,
+    "l10nMap" : {
+      "de-de" : "In Gold gewebte Zeit",
+      "en-us" : "Time Woven Into Gold",
+      "es-es" : "Tiempo urdido en oro",
+      "fr-fr" : "Doré est le fil du temps",
+      "id-id" : "Time Woven Into Gold",
+      "ja-jp" : "光陰を織り黄金と成す",
+      "ko-kr" : "시간을 황금으로 엮어",
+      "pt-pt" : "Tempo Tecido em Ouro",
+      "ru-ru" : "Вплетённое в золото время",
+      "th-th" : "Time Woven Into Gold",
+      "vi-vn" : "Dệt Thời Gian Thành Vàng",
+      "zh-cn" : "将光阴织成黄金",
+      "zh-tw" : "將光陰織成黃金"
+    },
+    "nameTextMapHash" : -1658973979,
+    "rank" : 5
+  },
+  "23037" : {
+    "id" : 23037,
+    "l10nMap" : {
+      "de-de" : "Auf zu unerklärlichen Orten",
+      "en-us" : "Into the Unreachable Veil",
+      "es-es" : "Hacia lo inescrutable",
+      "fr-fr" : "L'impénétrable à portée de main",
+      "id-id" : "Into the Unreachable Veil",
+      "ja-jp" : "触れてはならぬ領域へ",
+      "ko-kr" : "추궁할 수 없는 곳을 향해",
+      "pt-pt" : "Ao Véu Inalcançável",
+      "ru-ru" : "Навстречу неоспоримому",
+      "th-th" : "Into the Unreachable Veil",
+      "vi-vn" : "Hướng Về Điều Không Thể Truy Hỏi",
+      "zh-cn" : "向着不可追问处",
+      "zh-tw" : "向著不可追問處"
+    },
+    "nameTextMapHash" : -1658973980,
     "rank" : 5
   },
   "24000" : {
