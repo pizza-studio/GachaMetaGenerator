@@ -141,6 +141,7 @@ extension GachaMetaGenerator.SupportedGame {
                     let urls = getLangDataURLs(for: locale)
                     var finalDict = [String: String]()
                     for url in urls {
+                        print("// Fetching: \(url.absoluteString)")
                         let (data, _) = try await URLSession.shared.asyncData(from: url)
                         var dict = try JSONDecoder().decode([String: String].self, from: data)
                         let keysToRemove = Set<String>(dict.keys).subtracting(neededHashIDs)
