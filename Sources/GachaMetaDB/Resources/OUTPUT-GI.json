@@ -2441,6 +2441,28 @@
     "nameTextMapHash" : 415520051,
     "rank" : 4
   },
+  "13432" : {
+    "id" : 13432,
+    "l10nMap" : {
+      "de-de" : "Tamayuratei no Ohanashi",
+      "en-us" : "Tamayuratei no Ohanashi",
+      "es-es" : "Charla en el Pabellón",
+      "fr-fr" : "Tamayuratei no Ohanashi",
+      "id-id" : "Tamayuratei no Ohanashi",
+      "it-it" : "Tamayuratei no Ohanashi",
+      "ja-jp" : "玉響停の御噺",
+      "ko-kr" : "쉼터의 이야기꾼",
+      "pt-pt" : "Fofocas Breves do Pavilhão",
+      "ru-ru" : "Тамаюратэй но оханаси",
+      "th-th" : "Tamayuratei no Ohanashi",
+      "tr-tr" : "Tamayuratei no Ohanashi",
+      "vi-vn" : "Tamayuratei no Ohanashi",
+      "zh-cn" : "且住亭御咄",
+      "zh-tw" : "且住亭御咄"
+    },
+    "nameTextMapHash" : 486513155,
+    "rank" : 4
+  },
   "13501" : {
     "id" : 13501,
     "l10nMap" : {
@@ -3561,6 +3583,28 @@
       "zh-tw" : "祭星者之望"
     },
     "nameTextMapHash" : 2466897131,
+    "rank" : 5
+  },
+  "14518" : {
+    "id" : 14518,
+    "l10nMap" : {
+      "de-de" : "Frühjahrsschlaf",
+      "en-us" : "Sunny Morning Sleep-In",
+      "es-es" : "Hibernación Matutina de Año Nuevo",
+      "fr-fr" : "Matinée flânée sous le soleil",
+      "id-id" : "Sunny Morning Sleep-In",
+      "it-it" : "Sonnellino mattutino",
+      "ja-jp" : "寝正月の初晴",
+      "ko-kr" : "나른한 새해",
+      "pt-pt" : "Hibernação Matinal do Ano Novo",
+      "ru-ru" : "Сон солнечным утром",
+      "th-th" : "Sunny Morning Sleep-In",
+      "tr-tr" : "Şafak Uykusu",
+      "vi-vn" : "Hòa Giấc Trong Nắng Mai",
+      "zh-cn" : "寝正月初晴",
+      "zh-tw" : "寢正月初晴"
+    },
+    "nameTextMapHash" : 3790622667,
     "rank" : 5
   },
   "15101" : {
@@ -6576,5 +6620,27 @@
     },
     "nameTextMapHash" : 1888132250,
     "rank" : 4
+  },
+  "10000109" : {
+    "id" : 10000109,
+    "l10nMap" : {
+      "de-de" : "Yumemizuki Mizuki",
+      "en-us" : "Yumemizuki Mizuki",
+      "es-es" : "Yumemizuki Mizuki",
+      "fr-fr" : "Yumemizuki Mizuki",
+      "id-id" : "Yumemizuki Mizuki",
+      "it-it" : "Yumemizuki Mizuki",
+      "ja-jp" : "夢見月瑞希",
+      "ko-kr" : "유메미즈키 미즈키",
+      "pt-pt" : "Yumemizuki Mizuki",
+      "ru-ru" : "Мидзуки",
+      "th-th" : "Yumemizuki Mizuki",
+      "tr-tr" : "Yumemizuki Mizuki",
+      "vi-vn" : "Yumemizuki Mizuki",
+      "zh-cn" : "梦见月瑞希",
+      "zh-tw" : "夢見月瑞希"
+    },
+    "nameTextMapHash" : 3784387538,
+    "rank" : 5
   }
 }
