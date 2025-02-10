@@ -1,3 +1,16 @@
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapCHS.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapDE.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapCHT.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapEN.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapFR.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapID.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapJP.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapKR.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapPT.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapRU.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapES.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapTH.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapVI.json
 {
   "1001" : {
     "id" : 1001,

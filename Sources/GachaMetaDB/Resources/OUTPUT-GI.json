@@ -1,3 +1,19 @@
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapCHS.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapCHT.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapDE.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapEN.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapES.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapFR.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapID.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapIT.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapJP.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapKR.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapPT.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapRU.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapTH_0.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapTR.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapVI.json
+// Fetching: https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMapTH_1.json
 {
   "11101" : {
     "id" : 11101,
