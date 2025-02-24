@@ -8,7 +8,7 @@ extension GachaMetaGenerator {
     class GenshinRawItem: Codable {
         // MARK: Lifecycle
 
-        init(id: Int, rank: Int, nameTextMapHash: Int) {
+        init(id: Int, rank: Int, nameTextMapHash: UInt) {
             self.id = id
             self.rankLevel = rank
             self.nameTextMapHash = nameTextMapHash
@@ -25,7 +25,7 @@ extension GachaMetaGenerator {
                 self.rankLevel = maybeRankLevel ?? 0
             }
             self.qualityType = try container.decodeIfPresent(GIQualityType.self, forKey: .qualityType)
-            self.nameTextMapHash = try container.decode(Int.self, forKey: .nameTextMapHash)
+            self.nameTextMapHash = try container.decode(UInt.self, forKey: .nameTextMapHash)
             self.l10nMap = (try? container.decode([String: String].self, forKey: .l10nMap))
         }
 
@@ -54,7 +54,7 @@ extension GachaMetaGenerator {
 
         let id: Int
         let rankLevel: Int
-        let nameTextMapHash: Int
+        let nameTextMapHash: UInt
         var l10nMap: [String: String]?
 
         var isCharacter: Bool {
@@ -83,7 +83,7 @@ extension GachaMetaGenerator {
 
         // MARK: Private
 
-        private static let forbiddenNameTextMapHashes: [Int] = [
+        private static let forbiddenNameTextMapHashes: [UInt] = [
             1499745907, 1538092267, 3464027035, 594850707,
             231836963, 3780343147, 1516554699, 977648923,
             2597527627, 500612819, 3532343811, 302691299,

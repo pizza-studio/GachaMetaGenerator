@@ -10,7 +10,7 @@ extension GachaMetaGenerator {
     public struct GachaItemMeta: Codable, Identifiable, Sendable {
         // MARK: Lifecycle
 
-        public init(id: Int, rank: Int, nameTextMapHash: Int) {
+        public init(id: Int, rank: Int, nameTextMapHash: UInt) {
             self.id = id
             self.rank = rank
             self.nameTextMapHash = nameTextMapHash
@@ -20,7 +20,7 @@ extension GachaMetaGenerator {
 
         public let id: Int
         public let rank: Int
-        public let nameTextMapHash: Int
+        public let nameTextMapHash: UInt
         public var l10nMap: [String: String]?
 
         public func isCharacter(for game: SupportedGame) -> Bool {

@@ -36,7 +36,7 @@ extension GachaMetaGenerator {
                     }
                     self.rank = try container.decode(Int.self, forKey: CodingKeys.rank)
                     self.nameTextMapHash = nil
-                    let integerName = try? container.decodeIfPresent(Int.self, forKey: CodingKeys.name)
+                    let integerName = try? container.decodeIfPresent(UInt.self, forKey: CodingKeys.name)
                     if let integerName {
                         self.nameTextMapHash = integerName
                         self.name = integerName.description
@@ -50,7 +50,7 @@ extension GachaMetaGenerator {
                 let id: Int
                 let rank: Int
                 var name: String
-                var nameTextMapHash: Int?
+                var nameTextMapHash: UInt?
             }
 
             let items: [String: FetchedItem]?
@@ -71,7 +71,7 @@ extension GachaMetaGenerator.YattaResponse {
 
 extension GachaMetaGenerator.YattaFetchedItem {
     func toGachaItemMeta() -> GachaMetaGenerator.GachaItemMeta {
-        .init(id: id, rank: rank, nameTextMapHash: nameTextMapHash ?? -114514)
+        .init(id: id, rank: rank, nameTextMapHash: nameTextMapHash ?? 0)
     }
 }
 

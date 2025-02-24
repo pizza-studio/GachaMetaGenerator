@@ -12,7 +12,7 @@ extension GachaMetaGenerator {
             case hash = "Hash"
         }
 
-        let hash: Int
+        let hash: UInt
     }
 
     /// Starrail only.
@@ -40,7 +40,7 @@ extension GachaMetaGenerator {
         }
 
         public let id: Int
-        public let nameTextMapHash: Int
+        public let nameTextMapHash: UInt
         public let rarity: Int
         public let rankIDList: [Int]
         public let skillList: [Int]
@@ -86,7 +86,7 @@ extension GachaMetaGenerator {
         }
 
         public let id: Int
-        public let nameTextMapHash: Int
+        public let nameTextMapHash: UInt
         public let rarity: Int
         public let skillID: Int
 
@@ -103,7 +103,7 @@ extension GachaMetaGenerator {
 
 protocol RawItemFetchModelProtocol {
     var id: Int { get }
-    var nameTextMapHash: Int { get }
+    var nameTextMapHash: UInt { get }
     var rarity: Int { get }
 }
 
