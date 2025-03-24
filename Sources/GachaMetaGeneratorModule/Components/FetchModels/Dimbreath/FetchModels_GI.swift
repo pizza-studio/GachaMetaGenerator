@@ -16,10 +16,7 @@ extension GachaMetaGenerator {
 
         required init(from decoder: any Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKeys505.self)
-            self.id = try (
-                container.decodeIfPresent(Int.self, forKey: .idCharacter)
-                    ?? container.decode(Int.self, forKey: .idWeapon)
-            )
+            self.id = try container.decode(Int.self, forKey: .id)
             let maybeRankLevel: Int? = try? container.decode(Int.self, forKey: .rankLevel)
             let maybeQualityType = try? container.decodeIfPresent(GIQualityType.self, forKey: .qualityType)
             if let maybeQualityType {
@@ -55,8 +52,7 @@ extension GachaMetaGenerator {
         }
 
         enum CodingKeys505: String, CodingKey {
-            case idWeapon = "DGMGGMHAGOA"
-            case idCharacter = "ELKKIAIGOBK"
+            case id = "ELKKIAIGOBK"
             case rankLevel = "IMNCLIODOBL"
             case nameTextMapHash = "DNINKKHEILA"
             case qualityType = "ADLDGBEKECJ"
