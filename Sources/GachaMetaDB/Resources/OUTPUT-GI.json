@@ -3607,6 +3607,28 @@
     "nameTextMapHash" : 3790622667,
     "rank" : 5
   },
+  "14519" : {
+    "id" : 14519,
+    "l10nMap" : {
+      "de-de" : "Farbenfrohe Gedanken",
+      "en-us" : "Vivid Notions",
+      "es-es" : "Reflexión Iridiscente",
+      "fr-fr" : "Notions colorées",
+      "id-id" : "Vivid Notions",
+      "it-it" : "Pensieri vivaci",
+      "ja-jp" : "ヴィヴィッド・ハート",
+      "ko-kr" : "빛나는 마음",
+      "pt-pt" : "Coração Resplandecente",
+      "ru-ru" : "Переливающиеся чаяния",
+      "th-th" : "Vivid Notions",
+      "tr-tr" : "Parlak Düşünceler",
+      "vi-vn" : "Tâm Niệm Sắc Màu",
+      "zh-cn" : "溢彩心念",
+      "zh-tw" : "溢彩心念"
+    },
+    "nameTextMapHash" : 2559426851,
+    "rank" : 5
+  },
   "15101" : {
     "id" : 15101,
     "l10nMap" : {
@@ -6641,6 +6663,50 @@
       "zh-tw" : "夢見月瑞希"
     },
     "nameTextMapHash" : 3784387538,
+    "rank" : 5
+  },
+  "10000110" : {
+    "id" : 10000110,
+    "l10nMap" : {
+      "de-de" : "Iansan",
+      "en-us" : "Iansan",
+      "es-es" : "Iansán",
+      "fr-fr" : "Iansan",
+      "id-id" : "Iansan",
+      "it-it" : "Iansan",
+      "ja-jp" : "イアンサ",
+      "ko-kr" : "얀사",
+      "pt-pt" : "Iansan",
+      "ru-ru" : "Иансан",
+      "th-th" : "Iansan",
+      "tr-tr" : "Iansan",
+      "vi-vn" : "Iansan",
+      "zh-cn" : "伊安珊",
+      "zh-tw" : "伊安珊"
+    },
+    "nameTextMapHash" : 3120492514,
+    "rank" : 4
+  },
+  "10000111" : {
+    "id" : 10000111,
+    "l10nMap" : {
+      "de-de" : "Varesa",
+      "en-us" : "Varesa",
+      "es-es" : "Varesa",
+      "fr-fr" : "Varesa",
+      "id-id" : "Varesa",
+      "it-it" : "Varesa",
+      "ja-jp" : "ヴァレサ",
+      "ko-kr" : "바레사",
+      "pt-pt" : "Varesa",
+      "ru-ru" : "Вареса",
+      "th-th" : "Varesa",
+      "tr-tr" : "Varesa",
+      "vi-vn" : "Varesa",
+      "zh-cn" : "瓦雷莎",
+      "zh-tw" : "瓦雷莎"
+    },
+    "nameTextMapHash" : 283438874,
     "rank" : 5
   }
 }
