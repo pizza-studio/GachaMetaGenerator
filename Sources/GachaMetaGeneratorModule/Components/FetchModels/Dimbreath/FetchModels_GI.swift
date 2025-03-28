@@ -15,7 +15,7 @@ extension GachaMetaGenerator {
         }
 
         required init(from decoder: any Decoder) throws {
-            let container = try decoder.container(keyedBy: CodingKeys505.self)
+            let container = try decoder.container(keyedBy: CodingKeys.self)
             self.id = try container.decode(Int.self, forKey: .id)
             let maybeRankLevel: Int? = try? container.decode(Int.self, forKey: .rankLevel)
             let maybeQualityType = try? container.decodeIfPresent(GIQualityType.self, forKey: .qualityType)
@@ -26,6 +26,7 @@ extension GachaMetaGenerator {
             }
             self.qualityType = try container.decodeIfPresent(GIQualityType.self, forKey: .qualityType)
             self.nameTextMapHash = try container.decode(UInt.self, forKey: .nameTextMapHash)
+            self.l10nMap = (try? container.decode([String: String].self, forKey: .l10nMap))
         }
 
         // MARK: Internal
@@ -49,13 +50,6 @@ extension GachaMetaGenerator {
                 case .v1: return 1
                 }
             }
-        }
-
-        enum CodingKeys505: String, CodingKey {
-            case id = "ELKKIAIGOBK"
-            case rankLevel = "IMNCLIODOBL"
-            case nameTextMapHash = "DNINKKHEILA"
-            case qualityType = "ADLDGBEKECJ"
         }
 
         let id: Int
