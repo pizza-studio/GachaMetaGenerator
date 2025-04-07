@@ -1259,6 +1259,46 @@
     "nameTextMapHash" : 13777984539817850592,
     "rank" : 5
   },
+  "1405" : {
+    "id" : 1405,
+    "l10nMap" : {
+      "de-de" : "Anaxa",
+      "en-us" : "Anaxa",
+      "es-es" : "Anaxa",
+      "fr-fr" : "Anaxa",
+      "id-id" : "Anaxa",
+      "ja-jp" : "アナイクス",
+      "ko-kr" : "아낙사",
+      "pt-pt" : "Anaxa",
+      "ru-ru" : "Анакса",
+      "th-th" : "Anaxa",
+      "vi-vn" : "Anaxa",
+      "zh-cn" : "那刻夏",
+      "zh-tw" : "那刻夏"
+    },
+    "nameTextMapHash" : 14399225845844956184,
+    "rank" : 5
+  },
+  "1407" : {
+    "id" : 1407,
+    "l10nMap" : {
+      "de-de" : "Castorice",
+      "en-us" : "Castorice",
+      "es-es" : "Castorice",
+      "fr-fr" : "Castorice",
+      "id-id" : "Castorice",
+      "ja-jp" : "キャストリス",
+      "ko-kr" : "카스토리스",
+      "pt-pt" : "Castorice",
+      "ru-ru" : "Кастория",
+      "th-th" : "Castorice",
+      "vi-vn" : "Castorice",
+      "zh-cn" : "遐蝶",
+      "zh-tw" : "遐蝶"
+    },
+    "nameTextMapHash" : 6284038990417808171,
+    "rank" : 5
+  },
   "8001" : {
     "id" : 8001,
     "l10nMap" : {
@@ -2999,6 +3039,26 @@
     "nameTextMapHash" : 3181001684884320491,
     "rank" : 4
   },
+  "22004" : {
+    "id" : 22004,
+    "l10nMap" : {
+      "de-de" : "Das große kosmische Geschäft",
+      "en-us" : "The Great Cosmic Enterprise",
+      "es-es" : "El gran negocio cósmico",
+      "fr-fr" : "La grande entreprise cosmique",
+      "id-id" : "The Great Cosmic Enterprise",
+      "ja-jp" : "宇宙一の大商い！",
+      "ko-kr" : "우주 대사업",
+      "pt-pt" : "O Grande Empreendimento Cósmico",
+      "ru-ru" : "Бизнес космических масштабов",
+      "th-th" : "The Great Cosmic Enterprise",
+      "vi-vn" : "Kinh Doanh Tầm Cỡ Vũ Trụ",
+      "zh-cn" : "宇宙大生意",
+      "zh-tw" : "宇宙大生意"
+    },
+    "nameTextMapHash" : 14528966166175872583,
+    "rank" : 4
+  },
   "23000" : {
     "id" : 23000,
     "l10nMap" : {
@@ -3797,6 +3857,46 @@
       "zh-tw" : "血火啊，燃燒前路"
     },
     "nameTextMapHash" : 10640455180150177057,
+    "rank" : 5
+  },
+  "23040" : {
+    "id" : 23040,
+    "l10nMap" : {
+      "de-de" : "Ein noch schönerer Abschied",
+      "en-us" : "Make Farewells More Beautiful",
+      "es-es" : "Despedidas más bellas",
+      "fr-fr" : "Des adieux encore plus beaux",
+      "id-id" : "Make Farewells More Beautiful",
+      "ja-jp" : "永訣よ美しくあれ",
+      "ko-kr" : "이별이 더 아름답도록",
+      "pt-pt" : "O Adeus Mais Belo",
+      "ru-ru" : "Пусть прощание будет прекрасным",
+      "th-th" : "Make Farewells More Beautiful",
+      "vi-vn" : "Để Lời Từ Biệt Đẹp Đẽ Hơn",
+      "zh-cn" : "让告别，更美一些",
+      "zh-tw" : "讓告別，更美一點"
+    },
+    "nameTextMapHash" : 17921507779222204537,
+    "rank" : 5
+  },
+  "23041" : {
+    "id" : 23041,
+    "l10nMap" : {
+      "de-de" : "Das Leben sollte in Flammen aufgehen",
+      "en-us" : "Life Should Be Cast to Flames",
+      "es-es" : "La vida en llamas",
+      "fr-fr" : "Une vie forgée dans les flammes",
+      "id-id" : "Life Should Be Cast to Flames",
+      "ja-jp" : "生命、焼滅すべし",
+      "ko-kr" : "생명은 불태워야 하는 것",
+      "pt-pt" : "A Vida Forjada em Chamas",
+      "ru-ru" : "Брошенная в пламя жизнь",
+      "th-th" : "Life Should Be Cast to Flames",
+      "vi-vn" : "Sinh Mệnh Đáng Bị Thiêu Rụi",
+      "zh-cn" : "生命当付之一炬",
+      "zh-tw" : "生命當付之一炬"
+    },
+    "nameTextMapHash" : 12290078682480906936,
     "rank" : 5
   },
   "24000" : {
