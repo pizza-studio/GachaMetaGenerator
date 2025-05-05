@@ -2661,6 +2661,28 @@
     "nameTextMapHash" : 1948935171,
     "rank" : 5
   },
+  "13514" : {
+    "id" : 13514,
+    "l10nMap" : {
+      "de-de" : "Sinfoniker der Düfte",
+      "en-us" : "Symphonist of Scents",
+      "es-es" : "Sinfonista de Aromas",
+      "fr-fr" : "Symphoniste des senteurs",
+      "id-id" : "Symphonist of Scents",
+      "it-it" : "Sinfonista di fragranze",
+      "ja-jp" : "香りのシンフォニスト",
+      "ko-kr" : "맛의 지휘자",
+      "pt-pt" : "Sinfonista de Aromas",
+      "ru-ru" : "Симфонист ароматов",
+      "th-th" : "Symphonist of Scents",
+      "tr-tr" : "Aromaların Ezgisi",
+      "vi-vn" : "Nhạc Sĩ Hương Thơm",
+      "zh-cn" : "香韵奏者",
+      "zh-tw" : "香韻奏者"
+    },
+    "nameTextMapHash" : 518077587,
+    "rank" : 5
+  },
   "14101" : {
     "id" : 14101,
     "l10nMap" : {
@@ -4331,6 +4353,28 @@
       "zh-tw" : "碎鏈"
     },
     "nameTextMapHash" : 565052971,
+    "rank" : 4
+  },
+  "15432" : {
+    "id" : 15432,
+    "l10nMap" : {
+      "de-de" : "Tonfolge der Einsamkeit",
+      "en-us" : "Sequence of Solitude",
+      "es-es" : "Cadencia de la Soledad",
+      "fr-fr" : "Séquence de solitude",
+      "id-id" : "Sequence of Solitude",
+      "it-it" : "Progressione della solitudine",
+      "ja-jp" : "冷寂の音",
+      "ko-kr" : "침묵의 사격",
+      "pt-pt" : "Ritmo da Solidão",
+      "ru-ru" : "Каденция одиночества",
+      "th-th" : "Sequence of Solitude",
+      "tr-tr" : "Sessizliğin Yankısı",
+      "vi-vn" : "Thanh Âm Lạnh Lẽo",
+      "zh-cn" : "冷寂迸音",
+      "zh-tw" : "冷寂迸音"
+    },
+    "nameTextMapHash" : 2846112523,
     "rank" : 4
   },
   "15501" : {
@@ -6708,5 +6752,49 @@
     },
     "nameTextMapHash" : 283438874,
     "rank" : 5
+  },
+  "10000112" : {
+    "id" : 10000112,
+    "l10nMap" : {
+      "de-de" : "Escoffier",
+      "en-us" : "Escoffier",
+      "es-es" : "Escoffier",
+      "fr-fr" : "Escoffier",
+      "id-id" : "Escoffier",
+      "it-it" : "Escoffier",
+      "ja-jp" : "エスコフィエ",
+      "ko-kr" : "에스코피에",
+      "pt-pt" : "Escoffier",
+      "ru-ru" : "Эскофье",
+      "th-th" : "Escoffier",
+      "tr-tr" : "Escoffier",
+      "vi-vn" : "Escoffier",
+      "zh-cn" : "爱可菲",
+      "zh-tw" : "愛可菲"
+    },
+    "nameTextMapHash" : 4035850498,
+    "rank" : 5
+  },
+  "10000113" : {
+    "id" : 10000113,
+    "l10nMap" : {
+      "de-de" : "Ifa",
+      "en-us" : "Ifa",
+      "es-es" : "Ifá",
+      "fr-fr" : "Ifa",
+      "id-id" : "Ifa",
+      "it-it" : "Ifa",
+      "ja-jp" : "イファ",
+      "ko-kr" : "이파",
+      "pt-pt" : "Ifa",
+      "ru-ru" : "Ифа",
+      "th-th" : "Ifa",
+      "tr-tr" : "Ifa",
+      "vi-vn" : "Ifa",
+      "zh-cn" : "伊法",
+      "zh-tw" : "伊法"
+    },
+    "nameTextMapHash" : 3398665018,
+    "rank" : 4
   }
 }
