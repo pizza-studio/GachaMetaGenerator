@@ -1279,6 +1279,26 @@
     "nameTextMapHash" : 14399225845844956184,
     "rank" : 5
   },
+  "1406" : {
+    "id" : 1406,
+    "l10nMap" : {
+      "de-de" : "Cipher",
+      "en-us" : "Cipher",
+      "es-es" : "Cífer",
+      "fr-fr" : "Cipher",
+      "id-id" : "Cipher",
+      "ja-jp" : "サフェル",
+      "ko-kr" : "사이퍼",
+      "pt-pt" : "Cipher",
+      "ru-ru" : "Цифер",
+      "th-th" : "Cipher",
+      "vi-vn" : "Cipher",
+      "zh-cn" : "赛飞儿",
+      "zh-tw" : "賽飛兒"
+    },
+    "nameTextMapHash" : 1283986297634256167,
+    "rank" : 5
+  },
   "1407" : {
     "id" : 1407,
     "l10nMap" : {
@@ -1297,6 +1317,26 @@
       "zh-tw" : "遐蝶"
     },
     "nameTextMapHash" : 6284038990417808171,
+    "rank" : 5
+  },
+  "1409" : {
+    "id" : 1409,
+    "l10nMap" : {
+      "de-de" : "Hyacine",
+      "en-us" : "Hyacine",
+      "es-es" : "Hyacine",
+      "fr-fr" : "Hyacine",
+      "id-id" : "Hyacine",
+      "ja-jp" : "ヒアンシー",
+      "ko-kr" : "히아킨",
+      "pt-pt" : "Hyacine",
+      "ru-ru" : "Гиацина",
+      "th-th" : "Hyacine",
+      "vi-vn" : "Hyacine",
+      "zh-cn" : "风堇",
+      "zh-tw" : "風堇"
+    },
+    "nameTextMapHash" : 14193361837482662840,
     "rank" : 5
   },
   "8001" : {
@@ -3897,6 +3937,46 @@
       "zh-tw" : "生命當付之一炬"
     },
     "nameTextMapHash" : 12290078682480906936,
+    "rank" : 5
+  },
+  "23042" : {
+    "id" : 23042,
+    "l10nMap" : {
+      "de-de" : "Mögen Regenbögen am Himmel bleiben",
+      "en-us" : "Long May Rainbows Adorn the Sky",
+      "es-es" : "Que el arcoíris siempre esté en el cielo",
+      "fr-fr" : "Éternels soient les arcs-en-ciel",
+      "id-id" : "Long May Rainbows Adorn the Sky",
+      "ja-jp" : "空の虹が消えぬように",
+      "ko-kr" : "무지개가 영원히 하늘에 머물길",
+      "pt-pt" : "Que o Arco-Íris Permaneça no Céu",
+      "ru-ru" : "Пусть радуга сияет вечно",
+      "th-th" : "Long May Rainbows Adorn the Sky",
+      "vi-vn" : "Mong Cầu Vồng Mãi Ở Trên Bầu Trời",
+      "zh-cn" : "愿虹光永驻天空",
+      "zh-tw" : "願虹光永駐天空"
+    },
+    "nameTextMapHash" : 1992513852031797087,
+    "rank" : 5
+  },
+  "23043" : {
+    "id" : 23043,
+    "l10nMap" : {
+      "de-de" : "Vom Winde verwehte Lügen",
+      "en-us" : "Lies Dance on the Breeze",
+      "es-es" : "Mentiras que vuelan en el viento",
+      "fr-fr" : "Mensonges au gré du vent",
+      "id-id" : "Lies Dance on the Breeze",
+      "ja-jp" : "風に揺蕩う虚言",
+      "ko-kr" : "바람에 흩날리는 거짓말",
+      "pt-pt" : "Mentiras Dançando ao Vento",
+      "ru-ru" : "Летящая по ветру ложь",
+      "th-th" : "Lies Dance on the Breeze",
+      "vi-vn" : "Lời Nói Dối Bay Trong Gió",
+      "zh-cn" : "谎言在风中飘扬",
+      "zh-tw" : "謊言在風中飄揚"
+    },
+    "nameTextMapHash" : 17437100551828055817,
     "rank" : 5
   },
   "24000" : {
