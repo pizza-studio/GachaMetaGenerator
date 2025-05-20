@@ -7,7 +7,7 @@ import Foundation
 extension GachaMetaGenerator {
     // MARK: - GachaItemMeta
 
-    public struct GachaItemMeta: Codable, Identifiable, Sendable {
+    public struct GachaItemMeta: Codable, Identifiable, Sendable, Hashable {
         // MARK: Lifecycle
 
         public init(id: Int, rank: Int, nameTextMapHash: UInt) {
