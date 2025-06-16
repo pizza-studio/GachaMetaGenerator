@@ -1033,6 +1033,28 @@
     "nameTextMapHash" : 3432339555,
     "rank" : 5
   },
+  "11517" : {
+    "id" : 11517,
+    "l10nMap" : {
+      "de-de" : "Azurglanz",
+      "en-us" : "Azurelight",
+      "es-es" : "Fulgor Cerúleo",
+      "fr-fr" : "Éclazur",
+      "id-id" : "Azurelight",
+      "it-it" : "Luce azzurra",
+      "ja-jp" : "蒼耀",
+      "ko-kr" : "창백한 섬광",
+      "pt-pt" : "Azul Brilhante",
+      "ru-ru" : "Лазурное сияние",
+      "th-th" : "Azurelight",
+      "tr-tr" : "Turkuaz Işık",
+      "vi-vn" : "Thương Diệu",
+      "zh-cn" : "苍耀",
+      "zh-tw" : "蒼耀"
+    },
+    "nameTextMapHash" : 1479741275,
+    "rank" : 5
+  },
   "12101" : {
     "id" : 12101,
     "l10nMap" : {
@@ -6795,6 +6817,50 @@
       "zh-tw" : "伊法"
     },
     "nameTextMapHash" : 3398665018,
+    "rank" : 4
+  },
+  "10000114" : {
+    "id" : 10000114,
+    "l10nMap" : {
+      "de-de" : "Skirk",
+      "en-us" : "Skirk",
+      "es-es" : "Skirk",
+      "fr-fr" : "Skirk",
+      "id-id" : "Skirk",
+      "it-it" : "Skirk",
+      "ja-jp" : "スカーク",
+      "ko-kr" : "스커크",
+      "pt-pt" : "Skirk",
+      "ru-ru" : "Скирк",
+      "th-th" : "Skirk",
+      "tr-tr" : "Skirk",
+      "vi-vn" : "Skirk",
+      "zh-cn" : "丝柯克",
+      "zh-tw" : "絲柯克"
+    },
+    "nameTextMapHash" : 123650890,
+    "rank" : 5
+  },
+  "10000115" : {
+    "id" : 10000115,
+    "l10nMap" : {
+      "de-de" : "Dahlia",
+      "en-us" : "Dahlia",
+      "es-es" : "Dahlia",
+      "fr-fr" : "Dahlia",
+      "id-id" : "Dahlia",
+      "it-it" : "Dahlia",
+      "ja-jp" : "ダリア",
+      "ko-kr" : "달리아",
+      "pt-pt" : "Dahlia",
+      "ru-ru" : "Далия",
+      "th-th" : "Dahlia",
+      "tr-tr" : "Dahlia",
+      "vi-vn" : "Dahlia",
+      "zh-cn" : "塔利雅",
+      "zh-tw" : "塔利雅"
+    },
+    "nameTextMapHash" : 2332664426,
     "rank" : 4
   }
 }
