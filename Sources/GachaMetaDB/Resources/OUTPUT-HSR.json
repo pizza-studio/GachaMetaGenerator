@@ -1319,6 +1319,26 @@
     "nameTextMapHash" : 6284038990417808171,
     "rank" : 5
   },
+  "1408" : {
+    "id" : 1408,
+    "l10nMap" : {
+      "de-de" : "Phainon",
+      "en-us" : "Phainon",
+      "es-es" : "Fainón",
+      "fr-fr" : "Phaénon",
+      "id-id" : "Phainon",
+      "ja-jp" : "ファイノン",
+      "ko-kr" : "파이논",
+      "pt-pt" : "Phainon",
+      "ru-ru" : "Фаенон",
+      "th-th" : "Phainon",
+      "vi-vn" : "Phainon",
+      "zh-cn" : "白厄",
+      "zh-tw" : "白厄"
+    },
+    "nameTextMapHash" : 2073865627579588830,
+    "rank" : 5
+  },
   "1409" : {
     "id" : 1409,
     "l10nMap" : {
@@ -2999,6 +3019,186 @@
     "nameTextMapHash" : 2812952012494006470,
     "rank" : 4
   },
+  "21053" : {
+    "id" : 21053,
+    "l10nMap" : {
+      "de-de" : "Mögen Reisen für immer friedlich sein",
+      "en-us" : "Journey, Forever Peaceful",
+      "es-es" : "Que tu viaje sea siempre pacífico",
+      "fr-fr" : "Une route à jamais paisible",
+      "id-id" : "Journey, Forever Peaceful",
+      "ja-jp" : "旅が平穏であるように",
+      "ko-kr" : "언제나 여정이 평탄하기를",
+      "pt-pt" : "Jornada, Eternamente Pacífica",
+      "ru-ru" : "Пусть твой путь всегда будет мирным",
+      "th-th" : "Journey, Forever Peaceful",
+      "vi-vn" : "Mong Hành Trình Mãi Mãi Bình An",
+      "zh-cn" : "愿旅途永远坦然",
+      "zh-tw" : "願旅途永遠坦然"
+    },
+    "nameTextMapHash" : 8374190943812153532,
+    "rank" : 4
+  },
+  "21054" : {
+    "id" : 21054,
+    "l10nMap" : {
+      "de-de" : "Die nächste Seite der Geschichte",
+      "en-us" : "The Story's Next Page",
+      "es-es" : "La siguiente página de la historia",
+      "fr-fr" : "Le prochain chapitre",
+      "id-id" : "The Story's Next Page",
+      "ja-jp" : "物語をめくって",
+      "ko-kr" : "이야기의 다음 페이지",
+      "pt-pt" : "A Próxima Página da História",
+      "ru-ru" : "Следующая страница истории",
+      "th-th" : "The Story's Next Page",
+      "vi-vn" : "Trang Tiếp Theo Của Câu Chuyện",
+      "zh-cn" : "故事的下一页",
+      "zh-tw" : "故事的下一頁"
+    },
+    "nameTextMapHash" : 925285841184946344,
+    "rank" : 4
+  },
+  "21055" : {
+    "id" : 21055,
+    "l10nMap" : {
+      "de-de" : "Bis zum Übermorgen",
+      "en-us" : "Unto Tomorrow's Morrow",
+      "es-es" : "Hasta pasado mañana",
+      "fr-fr" : "Jusqu'au lendemain",
+      "id-id" : "Unto Tomorrow's Morrow",
+      "ja-jp" : "明日の明日まで",
+      "ko-kr" : "내일의 내일이 올 때까지",
+      "pt-pt" : "Até o Amanhã do Amanhã",
+      "ru-ru" : "Пока не наступит послезавтра",
+      "th-th" : "Unto Tomorrow's Morrow",
+      "vi-vn" : "Cho Đến Ngày Mai Của Ngày Mai",
+      "zh-cn" : "直到明天的明天",
+      "zh-tw" : "直到明天的明天"
+    },
+    "nameTextMapHash" : 8234482625723588709,
+    "rank" : 4
+  },
+  "21056" : {
+    "id" : 21056,
+    "l10nMap" : {
+      "de-de" : "Bei der Jagd nach dem Wind",
+      "en-us" : "In Pursuit of the Wind",
+      "es-es" : "Al perseguir el viento",
+      "fr-fr" : "Poursuite du vent",
+      "id-id" : "In Pursuit of the Wind",
+      "ja-jp" : "風を追う時",
+      "ko-kr" : "바람을 쫓을 때",
+      "pt-pt" : "Em Busca do Vento",
+      "ru-ru" : "Гоняясь за ветром",
+      "th-th" : "In Pursuit of the Wind",
+      "vi-vn" : "Khi Đuổi Theo Gió",
+      "zh-cn" : "追逐风的时候",
+      "zh-tw" : "追逐風的時候"
+    },
+    "nameTextMapHash" : 13758363745381237568,
+    "rank" : 4
+  },
+  "21057" : {
+    "id" : 21057,
+    "l10nMap" : {
+      "de-de" : "Die Blumen werden nicht vergessen",
+      "en-us" : "The Flower Remembers",
+      "es-es" : "Las flores nunca olvidan",
+      "fr-fr" : "Les fleurs n'oublient pas",
+      "id-id" : "The Flower Remembers",
+      "ja-jp" : "花は忘れない",
+      "ko-kr" : "꽃은 잊지 않는다",
+      "pt-pt" : "A Flor se Recorda",
+      "ru-ru" : "Цветы не забывают",
+      "th-th" : "The Flower Remembers",
+      "vi-vn" : "Hoa Sẽ Không Quên",
+      "zh-cn" : "花儿不会忘记",
+      "zh-tw" : "花兒不會忘記"
+    },
+    "nameTextMapHash" : 9049859548954827221,
+    "rank" : 4
+  },
+  "21058" : {
+    "id" : 21058,
+    "l10nMap" : {
+      "de-de" : "Blutzeichen aus der Vergangenheit",
+      "en-us" : "A Trail of Bygone Blood",
+      "es-es" : "Sangre del pasado",
+      "fr-fr" : "Trace de sang du passé",
+      "id-id" : "A Trail of Bygone Blood",
+      "ja-jp" : "古より受け継がれる血",
+      "ko-kr" : "과거의 핏자국",
+      "pt-pt" : "Um Rastro de Sangue do Passado",
+      "ru-ru" : "Кровь прошлого",
+      "th-th" : "A Trail of Bygone Blood",
+      "vi-vn" : "Vệt Máu Ngày Cũ",
+      "zh-cn" : "一行往日的血",
+      "zh-tw" : "一行往日的血"
+    },
+    "nameTextMapHash" : 7494166407242075795,
+    "rank" : 4
+  },
+  "21060" : {
+    "id" : 21060,
+    "l10nMap" : {
+      "de-de" : "Träume von duftendem Weizen",
+      "en-us" : "A Dream Scented in Wheat",
+      "es-es" : "Sueños de trigo fragante",
+      "fr-fr" : "Rêve au parfum de blé",
+      "id-id" : "A Dream Scented in Wheat",
+      "ja-jp" : "麦の香り漂う夢",
+      "ko-kr" : "밀 내음이 가득한 꿈",
+      "pt-pt" : "Um Sonho Perfumado de Trigo",
+      "ru-ru" : "Пшеничные мечты",
+      "th-th" : "A Dream Scented in Wheat",
+      "vi-vn" : "Giấc Mơ Vấn Vương Hương Lúa",
+      "zh-cn" : "氤氲麦香的梦",
+      "zh-tw" : "氤氳麥香的夢"
+    },
+    "nameTextMapHash" : 2081896813700414495,
+    "rank" : 4
+  },
+  "21061" : {
+    "id" : 21061,
+    "l10nMap" : {
+      "de-de" : "Abenteuer der Urlaubsbäder",
+      "en-us" : "Holiday Thermae Escapade",
+      "es-es" : "Vacaciones en las termas",
+      "fr-fr" : "Virée festive aux thermes",
+      "id-id" : "Holiday Thermae Escapade",
+      "ja-jp" : "休日のバルネア大冒険",
+      "ko-kr" : "휴일의 목욕탕 대모험",
+      "pt-pt" : "Fuga Termal de Férias",
+      "ru-ru" : "Приключения в купальне",
+      "th-th" : "Holiday Thermae Escapade",
+      "vi-vn" : "Kỳ Nghỉ Phiêu Lưu Nhà Tắm Hơi",
+      "zh-cn" : "假日浴场大冒险",
+      "zh-tw" : "假日浴場大冒險"
+    },
+    "nameTextMapHash" : 6535201401877376706,
+    "rank" : 4
+  },
+  "21062" : {
+    "id" : 21062,
+    "l10nMap" : {
+      "de-de" : "Wiedersehen an der Ziellinie",
+      "en-us" : "See You at the End",
+      "es-es" : "Nos vemos al final",
+      "fr-fr" : "Retrouvons-nous à la fin",
+      "id-id" : "See You at the End",
+      "ja-jp" : "終点でまた会おう",
+      "ko-kr" : "그 종착지에서 다시 만나자",
+      "pt-pt" : "Te Vejo no Fim",
+      "ru-ru" : "Встреча в конце пути",
+      "th-th" : "See You at the End",
+      "vi-vn" : "Gặp Lại Ở Điểm Cuối Cùng",
+      "zh-cn" : "于那终点再见",
+      "zh-tw" : "於那終點再見"
+    },
+    "nameTextMapHash" : 5119764409776904864,
+    "rank" : 4
+  },
   "22000" : {
     "id" : 22000,
     "l10nMap" : {
@@ -3977,6 +4177,66 @@
       "zh-tw" : "謊言在風中飄揚"
     },
     "nameTextMapHash" : 17437100551828055817,
+    "rank" : 5
+  },
+  "23044" : {
+    "id" : 23044,
+    "l10nMap" : {
+      "de-de" : "Wie die Morgendämmerung brennt",
+      "en-us" : "Thus Burns the Dawn",
+      "es-es" : "Que arda el alba",
+      "fr-fr" : "Ainsi s'embrase l'aurore",
+      "id-id" : "Thus Burns the Dawn",
+      "ja-jp" : "燃え盛る黎明のように",
+      "ko-kr" : "이와 같이 타오르는 여명",
+      "pt-pt" : "Assim Arde a Alvorada",
+      "ru-ru" : "Так сгорает рассвет",
+      "th-th" : "Thus Burns the Dawn",
+      "vi-vn" : "Bình Minh Rực Cháy",
+      "zh-cn" : "黎明恰如此燃烧",
+      "zh-tw" : "黎明恰如此燃燒"
+    },
+    "nameTextMapHash" : 1669624186204340722,
+    "rank" : 5
+  },
+  "23045" : {
+    "id" : 23045,
+    "l10nMap" : {
+      "de-de" : "Eine Krönung ohne Dank",
+      "en-us" : "A Thankless Coronation",
+      "es-es" : "Coronación sin agradecimiento",
+      "fr-fr" : "Un couronnement sans joie",
+      "id-id" : "A Thankless Coronation",
+      "ja-jp" : "報われぬ戴冠",
+      "ko-kr" : "보답 없는 왕관",
+      "pt-pt" : "Uma Coroação Sem Gratidão",
+      "ru-ru" : "Коронация без воздаяния",
+      "th-th" : "A Thankless Coronation",
+      "vi-vn" : "Lễ Đăng Quang Không Hồi Đáp",
+      "zh-cn" : "没有回报的加冕",
+      "zh-tw" : "沒有回報的加冕"
+    },
+    "nameTextMapHash" : 2655752028575549155,
+    "rank" : 5
+  },
+  "23046" : {
+    "id" : 23046,
+    "l10nMap" : {
+      "de-de" : "Hölle der brennenden Ideale",
+      "en-us" : "The Hell Where Ideals Burn",
+      "es-es" : "Infierno donde arden los ideales",
+      "fr-fr" : "L'Enfer où brûlent les idéaux",
+      "id-id" : "The Hell Where Ideals Burn",
+      "ja-jp" : "理想を焼く奈落で",
+      "ko-kr" : "이상이 불타는 지옥",
+      "pt-pt" : "O Inferno Onde os Ideais Ardem",
+      "ru-ru" : "Ад горящих идеалов",
+      "th-th" : "The Hell Where Ideals Burn",
+      "vi-vn" : "Địa Ngục Thiêu Đốt Lý Tưởng",
+      "zh-cn" : "理想燃烧的地狱",
+      "zh-tw" : "理想燃燒的地獄"
+    },
+    "nameTextMapHash" : 17063264696383380947,
     "rank" : 5
   },
   "24000" : {
