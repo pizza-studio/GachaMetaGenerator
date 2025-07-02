@@ -179,6 +179,46 @@
     "nameTextMapHash" : 6548832256366079839,
     "rank" : 4
   },
+  "1014" : {
+    "id" : 1014,
+    "l10nMap" : {
+      "de-de" : "Saber",
+      "en-us" : "Saber",
+      "es-es" : "Saber",
+      "fr-fr" : "Saber",
+      "id-id" : "Saber",
+      "ja-jp" : "セイバー",
+      "ko-kr" : "세이버",
+      "pt-pt" : "Saber",
+      "ru-ru" : "Сэйбер",
+      "th-th" : "Saber",
+      "vi-vn" : "Saber",
+      "zh-cn" : "Saber",
+      "zh-tw" : "Saber"
+    },
+    "nameTextMapHash" : 11292532298779825003,
+    "rank" : 5
+  },
+  "1015" : {
+    "id" : 1015,
+    "l10nMap" : {
+      "de-de" : "Archer",
+      "en-us" : "Archer",
+      "es-es" : "Archer",
+      "fr-fr" : "Archer",
+      "id-id" : "Archer",
+      "ja-jp" : "アーチャー",
+      "ko-kr" : "아처",
+      "pt-pt" : "Archer",
+      "ru-ru" : "Арчер",
+      "th-th" : "Archer",
+      "vi-vn" : "Archer",
+      "zh-cn" : "Archer",
+      "zh-tw" : "Archer"
+    },
+    "nameTextMapHash" : 18287682968624271100,
+    "rank" : 5
+  },
   "1101" : {
     "id" : 1101,
     "l10nMap" : {
