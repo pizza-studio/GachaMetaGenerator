@@ -106,22 +106,32 @@ extension GachaMetaGenerator.SupportedGame {
 extension GachaMetaGenerator.SupportedGame {
     /// Only used for dealing with Dimbreath's repos.
     func fetchExcelConfigData(for type: DataURLType) async throws -> [GachaMetaGenerator.GachaItemMeta] {
+        let decoder = JSONDecoder()
         switch (self, type) {
         case (.genshinImpact, .weaponData):
             let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
-            let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
+            let response = try decoder.decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.genshinImpact, .characterData):
             let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
-            let response = try JSONDecoder().decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
+            let response = try decoder.decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.starRail, .weaponData):
             let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
-            let response = try JSONDecoder().decode([GachaMetaGenerator.HSRWeaponRawItem].self, from: data)
+            let response = try decoder.decode([GachaMetaGenerator.HSRWeaponRawItem].self, from: data)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.starRail, .characterData):
-            let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
-            let response = try JSONDecoder().decode([GachaMetaGenerator.HSRAvatarRawItem].self, from: data)
+            let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(
+                for: .characterData,
+                isCollab: false
+            ))
+            var response = try decoder.decode([GachaMetaGenerator.HSRAvatarRawItem].self, from: data)
+            let (data2, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(
+                for: .characterData,
+                isCollab: true
+            ))
+            response += try decoder.decode([GachaMetaGenerator.HSRAvatarRawItem].self, from: data2)
+            response.sort { $0.id < $1.id }
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         }
     }
@@ -173,13 +183,14 @@ extension GachaMetaGenerator.SupportedGame {
     }
 
     /// Only used for dealing with Dimbreath's repos.
-    func getExcelConfigDataURL(for type: DataURLType) -> URL {
+    func getExcelConfigDataURL(for type: DataURLType, isCollab: Bool = false) -> URL {
         var result = repoHeader + repoName
         switch (self, type) {
         case (.genshinImpact, .weaponData): result += "ExcelBinOutput/WeaponExcelConfigData.json"
         case (.genshinImpact, .characterData): result += "ExcelBinOutput/AvatarExcelConfigData.json"
         case (.starRail, .weaponData): result += "ExcelOutput/EquipmentConfig.json"
-        case (.starRail, .characterData): result += "ExcelOutput/AvatarConfig.json"
+        case (.starRail, .characterData):
+            result += "ExcelOutput/AvatarConfig\(isCollab ? "LD" : "").json"
         }
         return URL(string: result)!
     }
