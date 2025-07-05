@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "GachaMetaGenerator",
-    platforms: [.macOS(.v10_15), .iOS(.v13), .watchOS(.v7)],
+    platforms: [.iOS(.v13), .macOS(.v10_15), .macCatalyst(.v13), .watchOS(.v6), .visionOS(.v1)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
