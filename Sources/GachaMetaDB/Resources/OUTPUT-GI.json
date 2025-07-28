@@ -1715,6 +1715,28 @@
     "nameTextMapHash" : 2481464075,
     "rank" : 4
   },
+  "12432" : {
+    "id" : 12432,
+    "l10nMap" : {
+      "de-de" : "Geschmiedete Weisheit",
+      "en-us" : "Flame-Forged Insight",
+      "es-es" : "Sabiduría Fraguada",
+      "fr-fr" : "Perception forgée par les flammes",
+      "id-id" : "Flame-Forged Insight",
+      "it-it" : "Intuizione pirogenita",
+      "ja-jp" : "知恵の溶炎",
+      "ko-kr" : "불로 벼린 지혜",
+      "pt-pt" : "Forja da Sabedoria",
+      "ru-ru" : "Выкованное пламенем озарение",
+      "th-th" : "Flame-Forged Insight",
+      "tr-tr" : "Ateşte Dövülen Bilgelik",
+      "vi-vn" : "Trí Tuệ Dung Luyện",
+      "zh-cn" : "拾慧铸熔",
+      "zh-tw" : "拾慧鑄熔"
+    },
+    "nameTextMapHash" : 3573591875,
+    "rank" : 4
+  },
   "12501" : {
     "id" : 12501,
     "l10nMap" : {
@@ -2703,6 +2725,28 @@
       "zh-tw" : "香韻奏者"
     },
     "nameTextMapHash" : 518077587,
+    "rank" : 5
+  },
+  "13515" : {
+    "id" : 13515,
+    "l10nMap" : {
+      "de-de" : "Zerstreutes Licht",
+      "en-us" : "Fractured Halo",
+      "es-es" : "Halo Fracturado",
+      "fr-fr" : "Halo fracturé",
+      "id-id" : "Fractured Halo",
+      "it-it" : "Aureola frammentata",
+      "ja-jp" : "砕け散る光輪",
+      "ko-kr" : "파멸의 빛고리",
+      "pt-pt" : "Resplendor Fragmentado",
+      "ru-ru" : "Расколотый ореол",
+      "th-th" : "Fractured Halo",
+      "tr-tr" : "Kırık Hale",
+      "vi-vn" : "Hào Quang Tách Rời",
+      "zh-cn" : "支离轮光",
+      "zh-tw" : "支離輪光"
+    },
+    "nameTextMapHash" : 2878068027,
     "rank" : 5
   },
   "14101" : {
@@ -6862,5 +6906,27 @@
     },
     "nameTextMapHash" : 2332664426,
     "rank" : 4
+  },
+  "10000116" : {
+    "id" : 10000116,
+    "l10nMap" : {
+      "de-de" : "Ineffa",
+      "en-us" : "Ineffa",
+      "es-es" : "Ineffa",
+      "fr-fr" : "Ineffa",
+      "id-id" : "Ineffa",
+      "it-it" : "Ineffa",
+      "ja-jp" : "イネファ",
+      "ko-kr" : "이네파",
+      "pt-pt" : "Ineffa",
+      "ru-ru" : "Инеффа",
+      "th-th" : "Ineffa",
+      "tr-tr" : "Ineffa",
+      "vi-vn" : "Ineffa",
+      "zh-cn" : "伊涅芙",
+      "zh-tw" : "伊涅芙"
+    },
+    "nameTextMapHash" : 2759230658,
+    "rank" : 5
   }
 }
