@@ -1399,6 +1399,46 @@
     "nameTextMapHash" : 14193361837482662840,
     "rank" : 5
   },
+  "1410" : {
+    "id" : 1410,
+    "l10nMap" : {
+      "de-de" : "Hysilens",
+      "en-us" : "Hysilens",
+      "es-es" : "Hysilens",
+      "fr-fr" : "Hysilens",
+      "id-id" : "Hysilens",
+      "ja-jp" : "セイレンス",
+      "ko-kr" : "히실렌스",
+      "pt-pt" : "Hysilens",
+      "ru-ru" : "Гисиленса",
+      "th-th" : "Hysilens",
+      "vi-vn" : "Hysilens",
+      "zh-cn" : "海瑟音",
+      "zh-tw" : "海瑟音"
+    },
+    "nameTextMapHash" : 11044358311620332259,
+    "rank" : 5
+  },
+  "1412" : {
+    "id" : 1412,
+    "l10nMap" : {
+      "de-de" : "Cerydra",
+      "en-us" : "Cerydra",
+      "es-es" : "Céridra",
+      "fr-fr" : "Cérydra",
+      "id-id" : "Cerydra",
+      "ja-jp" : "ケリュドラ",
+      "ko-kr" : "케리드라",
+      "pt-pt" : "Cerydra",
+      "ru-ru" : "Керидра",
+      "th-th" : "Cerydra",
+      "vi-vn" : "Cerydra",
+      "zh-cn" : "刻律德菈",
+      "zh-tw" : "刻律德菈"
+    },
+    "nameTextMapHash" : 3528626799663072375,
+    "rank" : 5
+  },
   "8001" : {
     "id" : 8001,
     "l10nMap" : {
@@ -3339,6 +3379,26 @@
     "nameTextMapHash" : 14528966166175872583,
     "rank" : 4
   },
+  "22005" : {
+    "id" : 22005,
+    "l10nMap" : {
+      "de-de" : "Wirrgarten-Restaurant für immer",
+      "en-us" : "The Forever Victual",
+      "es-es" : "Viandas sin fin",
+      "fr-fr" : "Un goût d'éternité",
+      "id-id" : "The Forever Victual",
+      "ja-jp" : "永遠の迷境ごはん",
+      "ko-kr" : "영원한 미궁의 식사",
+      "pt-pt" : "O Víveres Eterno",
+      "ru-ru" : "Вечный ресторан лабиринта",
+      "th-th" : "The Forever Victual",
+      "vi-vn" : "Món Ăn Vĩnh Hằng",
+      "zh-cn" : "永远的迷境饭",
+      "zh-tw" : "永遠的迷境飯"
+    },
+    "nameTextMapHash" : 641298228203045566,
+    "rank" : 4
+  },
   "23000" : {
     "id" : 23000,
     "l10nMap" : {
@@ -4277,6 +4337,46 @@
       "zh-tw" : "理想燃燒的地獄"
     },
     "nameTextMapHash" : 17063264696383380947,
+    "rank" : 5
+  },
+  "23047" : {
+    "id" : 23047,
+    "l10nMap" : {
+      "de-de" : "Warum singt der Ozean",
+      "en-us" : "Why Does the Ocean Sing",
+      "es-es" : "Por qué canta el océano",
+      "fr-fr" : "Ce pourquoi chantent les océans",
+      "id-id" : "Why Does the Ocean Sing",
+      "ja-jp" : "海の歌は何がため",
+      "ko-kr" : "바다는 왜 노래하는가",
+      "pt-pt" : "Por que o Oceano Canta?",
+      "ru-ru" : "Почему поёт океан",
+      "th-th" : "Why Does the Ocean Sing",
+      "vi-vn" : "Vì Sao Biển Cả Ca Vang",
+      "zh-cn" : "海洋为何而歌",
+      "zh-tw" : "海洋為何而歌"
+    },
+    "nameTextMapHash" : 16402735087408937717,
+    "rank" : 5
+  },
+  "23048" : {
+    "id" : 23048,
+    "l10nMap" : {
+      "de-de" : "Zeitalter des goldenen Blutes",
+      "en-us" : "Epoch Etched in Golden Blood",
+      "es-es" : "Era grabada en sangre dorada",
+      "fr-fr" : "Une ère gravée dans le sang doré",
+      "id-id" : "Epoch Etched in Golden Blood",
+      "ja-jp" : "黄金の血で刻む時代",
+      "ko-kr" : "황금 피가 새긴 시대",
+      "pt-pt" : "Era Gravada pelo Sangue Dourado",
+      "ru-ru" : "Эпоха золотой крови",
+      "th-th" : "Epoch Etched in Golden Blood",
+      "vi-vn" : "Thời Đại Máu Vàng Khắc Ghi",
+      "zh-cn" : "金血铭刻的时代",
+      "zh-tw" : "金血銘刻的時代"
+    },
+    "nameTextMapHash" : 6685295983161490522,
     "rank" : 5
   },
   "24000" : {
