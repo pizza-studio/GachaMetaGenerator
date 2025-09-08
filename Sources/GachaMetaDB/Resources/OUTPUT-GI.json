@@ -2265,6 +2265,72 @@
     "nameTextMapHash" : 2759230658,
     "rank" : 5
   },
+  "10000119" : {
+    "id" : 10000119,
+    "l10nMap" : {
+      "de-de" : "Lauma",
+      "en-us" : "Lauma",
+      "es-es" : "Lauma",
+      "fr-fr" : "Lauma",
+      "id-id" : "Lauma",
+      "it-it" : "Lauma",
+      "ja-jp" : "ラウマ",
+      "ko-kr" : "라우마",
+      "pt-pt" : "Lauma",
+      "ru-ru" : "Лаума",
+      "th-th" : "Lauma",
+      "tr-tr" : "Lauma",
+      "vi-vn" : "Lauma",
+      "zh-cn" : "菈乌玛",
+      "zh-tw" : "菈烏瑪"
+    },
+    "nameTextMapHash" : 1776874018,
+    "rank" : 5
+  },
+  "10000120" : {
+    "id" : 10000120,
+    "l10nMap" : {
+      "de-de" : "Flins",
+      "en-us" : "Flins",
+      "es-es" : "Flins",
+      "fr-fr" : "Flins",
+      "id-id" : "Flins",
+      "it-it" : "Flins",
+      "ja-jp" : "フリンズ",
+      "ko-kr" : "플린스",
+      "pt-pt" : "Flins",
+      "ru-ru" : "Флинс",
+      "th-th" : "Flins",
+      "tr-tr" : "Flins",
+      "vi-vn" : "Flins",
+      "zh-cn" : "菲林斯",
+      "zh-tw" : "菲林斯"
+    },
+    "nameTextMapHash" : 1804674810,
+    "rank" : 5
+  },
+  "10000121" : {
+    "id" : 10000121,
+    "l10nMap" : {
+      "de-de" : "Aino",
+      "en-us" : "Aino",
+      "es-es" : "Aino",
+      "fr-fr" : "Aino",
+      "id-id" : "Aino",
+      "it-it" : "Aino",
+      "ja-jp" : "アイノ",
+      "ko-kr" : "아이노",
+      "pt-pt" : "Aino",
+      "ru-ru" : "Айно",
+      "th-th" : "Aino",
+      "tr-tr" : "Aino",
+      "vi-vn" : "Aino",
+      "zh-cn" : "爱诺",
+      "zh-tw" : "愛諾"
+    },
+    "nameTextMapHash" : 3887688410,
+    "rank" : 4
+  },
   "11101" : {
     "id" : 11101,
     "l10nMap" : {
@@ -3011,6 +3077,50 @@
       "zh-tw" : "厄水之禍"
     },
     "nameTextMapHash" : 590019915,
+    "rank" : 4
+  },
+  "11433" : {
+    "id" : 11433,
+    "l10nMap" : {
+      "de-de" : "Leises Pfeifen der Stille",
+      "en-us" : "Serenity's Call",
+      "es-es" : "Silbido Melifluo",
+      "fr-fr" : "Appel de sérénité",
+      "id-id" : "Serenity's Call",
+      "it-it" : "Richiamo della serenità",
+      "ja-jp" : "静謐の笛",
+      "ko-kr" : "고요한 휘파람",
+      "pt-pt" : "Chamado da Serenidade",
+      "ru-ru" : "Зов безмятежности",
+      "th-th" : "Serenity's Call",
+      "tr-tr" : "Sükunetin Çağrısı",
+      "vi-vn" : "Còi Yên Tĩnh",
+      "zh-cn" : "谧音吹哨",
+      "zh-tw" : "謐音吹哨"
+    },
+    "nameTextMapHash" : 3426916507,
+    "rank" : 4
+  },
+  "11434" : {
+    "id" : 11434,
+    "l10nMap" : {
+      "de-de" : "Dämmerlicht des Mondwebers",
+      "en-us" : "Moonweaver's Dawn",
+      "es-es" : "Alba de la Tejelunas",
+      "fr-fr" : "Aube du tisse-lune",
+      "id-id" : "Moonweaver's Dawn",
+      "it-it" : "Alba della Tessiluna",
+      "ja-jp" : "月紡ぎの曙光",
+      "ko-kr" : "달을 엮는 자의 새벽빛",
+      "pt-pt" : "Alvorada do Tecedor do Luar",
+      "ru-ru" : "Рассвет прядильщицы луны",
+      "th-th" : "Moonweaver's Dawn",
+      "tr-tr" : "Ay Dokuyanın Şafağı",
+      "vi-vn" : "Bình Minh Của Người Dệt Trăng",
+      "zh-cn" : "织月者的曙色",
+      "zh-tw" : "織月者的曙色"
+    },
+    "nameTextMapHash" : 357888539,
     "rank" : 4
   },
   "11501" : {
@@ -4003,6 +4113,28 @@
     "nameTextMapHash" : 3573591875,
     "rank" : 4
   },
+  "12433" : {
+    "id" : 12433,
+    "l10nMap" : {
+      "de-de" : "Universalschlüssel",
+      "en-us" : "Master Key",
+      "es-es" : "Llave Maestra",
+      "fr-fr" : "Clé universelle",
+      "id-id" : "Master Key",
+      "it-it" : "Chiave maestra",
+      "ja-jp" : "万能の鍵",
+      "ko-kr" : "만능 열쇠",
+      "pt-pt" : "Chave Mestra",
+      "ru-ru" : "Мастер-ключ",
+      "th-th" : "Master Key",
+      "tr-tr" : "Ana Anahtar",
+      "vi-vn" : "Chìa Khóa Vạn Năng",
+      "zh-cn" : "万能钥匙",
+      "zh-tw" : "萬能鑰匙"
+    },
+    "nameTextMapHash" : 3225522227,
+    "rank" : 4
+  },
   "12501" : {
     "id" : 12501,
     "l10nMap" : {
@@ -4773,6 +4905,28 @@
     "nameTextMapHash" : 486513155,
     "rank" : 4
   },
+  "13433" : {
+    "id" : 13433,
+    "l10nMap" : {
+      "de-de" : "Schaufel des Goldgräbers",
+      "en-us" : "Prospector's Shovel",
+      "es-es" : "Azada Excavatesoros",
+      "fr-fr" : "Pelle du prospecteur",
+      "id-id" : "Prospector's Shovel",
+      "it-it" : "Pala del prospettore",
+      "ja-jp" : "金掘りのシャベル",
+      "ko-kr" : "채굴의 삽",
+      "pt-pt" : "Pá do Escavador",
+      "ru-ru" : "Лопата старателя",
+      "th-th" : "Prospector's Shovel",
+      "tr-tr" : "Madenci Küreği",
+      "vi-vn" : "Xẻng Đào Vàng",
+      "zh-cn" : "掘金之锹",
+      "zh-tw" : "掘金之鍬"
+    },
+    "nameTextMapHash" : 2225698043,
+    "rank" : 4
+  },
   "13501" : {
     "id" : 13501,
     "l10nMap" : {
@@ -5013,6 +5167,28 @@
       "zh-tw" : "支離輪光"
     },
     "nameTextMapHash" : 2878068027,
+    "rank" : 5
+  },
+  "13516" : {
+    "id" : 13516,
+    "l10nMap" : {
+      "de-de" : "Blutbefleckte Stadt",
+      "en-us" : "Bloodsoaked Ruins",
+      "es-es" : "Ruinas Ensangrentadas",
+      "fr-fr" : "Ruines sanglantes",
+      "id-id" : "Bloodsoaked Ruins",
+      "it-it" : "Rovine insanguinate",
+      "ja-jp" : "血染めの荒れ地",
+      "ko-kr" : "피로 물든 성",
+      "pt-pt" : "Ruínas Ensanguentadas",
+      "ru-ru" : "Окровавленные руины",
+      "th-th" : "Bloodsoaked Ruins",
+      "tr-tr" : "Kanlı Harabe",
+      "vi-vn" : "Tàn Tích Nhuốm Máu",
+      "zh-cn" : "血染荒城",
+      "zh-tw" : "血染荒城"
+    },
+    "nameTextMapHash" : 3869745515,
     "rank" : 5
   },
   "14101" : {
@@ -5653,6 +5829,50 @@
     "nameTextMapHash" : 3092853059,
     "rank" : 4
   },
+  "14432" : {
+    "id" : 14432,
+    "l10nMap" : {
+      "de-de" : "Laute des Himmelslichts",
+      "en-us" : "Etherlight Spindlelute",
+      "es-es" : "Laúd de la Luz Celestial",
+      "fr-fr" : "Lyre du tisse-lumière",
+      "id-id" : "Etherlight Spindlelute",
+      "it-it" : "Liutofuso lucetereo",
+      "ja-jp" : "天光のリュート",
+      "ko-kr" : "금빛 류트",
+      "pt-pt" : "Lira do Tecedor da Luz",
+      "ru-ru" : "Лютня ткача света",
+      "th-th" : "Etherlight Spindlelute",
+      "tr-tr" : "Uhrevi Işığın Lavtası",
+      "vi-vn" : "Đàn Thiên Quang",
+      "zh-cn" : "天光的纺琴",
+      "zh-tw" : "天光的紡琴"
+    },
+    "nameTextMapHash" : 21074019,
+    "rank" : 4
+  },
+  "14433" : {
+    "id" : 14433,
+    "l10nMap" : {
+      "de-de" : "Laterne des schwarzen Marks",
+      "en-us" : "Blackmarrow Lantern",
+      "es-es" : "Lámpara Medulaoscura",
+      "fr-fr" : "Lanterne à moelle sombre",
+      "id-id" : "Blackmarrow Lantern",
+      "it-it" : "Lanterna del midollo nero",
+      "ja-jp" : "烏髄の孤灯",
+      "ko-kr" : "검은 골수의 등불",
+      "pt-pt" : "Lanterna do Tutano Preto",
+      "ru-ru" : "Фонарь чёрной сердцевины",
+      "th-th" : "Blackmarrow Lantern",
+      "tr-tr" : "Kara İlik Feneri",
+      "vi-vn" : "Đèn Tủy Đen",
+      "zh-cn" : "乌髓孑灯",
+      "zh-tw" : "烏髓孑燈"
+    },
+    "nameTextMapHash" : 658627627,
+    "rank" : 4
+  },
   "14501" : {
     "id" : 14501,
     "l10nMap" : {
@@ -5981,6 +6201,28 @@
       "zh-tw" : "溢彩心念"
     },
     "nameTextMapHash" : 2559426851,
+    "rank" : 5
+  },
+  "14520" : {
+    "id" : 14520,
+    "l10nMap" : {
+      "de-de" : "Spiegel des Nachtwebers",
+      "en-us" : "Nightweaver's Looking Glass",
+      "es-es" : "Espejo Tejenoches",
+      "fr-fr" : "Miroir du tisse-nuit",
+      "id-id" : "Nightweaver's Looking Glass",
+      "it-it" : "Specchio dell'Intessinotte",
+      "ja-jp" : "夜を紡ぐ天鏡",
+      "ko-kr" : "밤을 엮는 거울",
+      "pt-pt" : "Luneta do Tecedor da Noite",
+      "ru-ru" : "Зеркало прядильщицы ночи",
+      "th-th" : "Nightweaver's Looking Glass",
+      "tr-tr" : "Gece Dokuyanın Sırlar Aynası",
+      "vi-vn" : "Kính Dệt Màn Đêm",
+      "zh-cn" : "纺夜天镜",
+      "zh-tw" : "紡夜天鏡"
+    },
+    "nameTextMapHash" : 1198975171,
     "rank" : 5
   },
   "15101" : {
@@ -6707,6 +6949,28 @@
       "zh-tw" : "冷寂迸音"
     },
     "nameTextMapHash" : 2846112523,
+    "rank" : 4
+  },
+  "15433" : {
+    "id" : 15433,
+    "l10nMap" : {
+      "de-de" : "Netzhaken",
+      "en-us" : "Snare Hook",
+      "es-es" : "Gancho Trampero",
+      "fr-fr" : "Crochet de capture",
+      "id-id" : "Snare Hook",
+      "it-it" : "Gancio trappola",
+      "ja-jp" : "羅網の針",
+      "ko-kr" : "그물을 뚫는 화살",
+      "pt-pt" : "Gancho da Armadilha",
+      "ru-ru" : "Крюк силка",
+      "th-th" : "Snare Hook",
+      "tr-tr" : "Kapan Kancası",
+      "vi-vn" : "Móc Cạm Bẫy",
+      "zh-cn" : "罗网勾针",
+      "zh-tw" : "羅網勾針"
+    },
+    "nameTextMapHash" : 3380505211,
     "rank" : 4
   },
   "15501" : {
