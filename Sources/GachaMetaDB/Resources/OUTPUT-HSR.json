@@ -1439,6 +1439,46 @@
     "nameTextMapHash" : 3528626799663072375,
     "rank" : 5
   },
+  "1413" : {
+    "id" : 1413,
+    "l10nMap" : {
+      "de-de" : "Evernight",
+      "en-us" : "Evernight",
+      "es-es" : "Larganoche",
+      "fr-fr" : "Nocterna",
+      "id-id" : "Evernight",
+      "ja-jp" : "長夜月",
+      "ko-kr" : "에버나이트",
+      "pt-pt" : "Noite Eterna",
+      "ru-ru" : "Темень",
+      "th-th" : "Evernight",
+      "vi-vn" : "Evernight",
+      "zh-cn" : "长夜月",
+      "zh-tw" : "長夜月"
+    },
+    "nameTextMapHash" : 14327888430982372557,
+    "rank" : 5
+  },
+  "1414" : {
+    "id" : 1414,
+    "l10nMap" : {
+      "de-de" : "Dan Heng – Permansor Terrae",
+      "en-us" : "Dan Heng • Permansor Terrae",
+      "es-es" : "Dan Heng - Permansor Terrae",
+      "fr-fr" : "Dan Heng • Permansor Terrae",
+      "id-id" : "Dan Heng • Permansor Terrae",
+      "ja-jp" : "丹恒・騰荒",
+      "ko-kr" : "단항•등황",
+      "pt-pt" : "Dan Heng • Permansor Terrae",
+      "ru-ru" : "Дань Хэн: Освободитель Пустошей",
+      "th-th" : "Dan Heng - จ้าวทระนงคงปฐพี",
+      "vi-vn" : "Dan Heng - Permansor Terrae",
+      "zh-cn" : "丹恒•腾荒",
+      "zh-tw" : "丹恆•騰荒"
+    },
+    "nameTextMapHash" : 12485086905499638965,
+    "rank" : 5
+  },
   "20000" : {
     "id" : 20000,
     "l10nMap" : {
@@ -4217,6 +4257,46 @@
       "zh-tw" : "金血銘刻的時代"
     },
     "nameTextMapHash" : 6685295983161490522,
+    "rank" : 5
+  },
+  "23049" : {
+    "id" : 23049,
+    "l10nMap" : {
+      "de-de" : "Auf das Sternenlicht der langen Nacht",
+      "en-us" : "To Evernight's Stars",
+      "es-es" : "A la estrella de la larga noche",
+      "fr-fr" : "Jusqu'aux étoiles de l'Éternuitée",
+      "id-id" : "To Evernight's Stars",
+      "ja-jp" : "長き夜に輝く星へ",
+      "ko-kr" : "긴 밤의 별빛에게",
+      "pt-pt" : "Ao Brilho Estelar da Noite Eterna",
+      "ru-ru" : "Звёздному свету во тьме",
+      "th-th" : "To Evernight's Stars",
+      "vi-vn" : "Gửi Ánh Sao Của Đêm Dài",
+      "zh-cn" : "致长夜的星光",
+      "zh-tw" : "致長夜的星光"
+    },
+    "nameTextMapHash" : 4836366408334833891,
+    "rank" : 5
+  },
+  "23051" : {
+    "id" : 23051,
+    "l10nMap" : {
+      "de-de" : "Selbst über endlose Lande",
+      "en-us" : "Though Worlds Apart",
+      "es-es" : "A través de montañas y ríos",
+      "fr-fr" : "Par-delà les paysages infinis",
+      "id-id" : "Though Worlds Apart",
+      "ja-jp" : "万里の山河を越えて",
+      "ko-kr" : "끝없는 산과 강을 거치더라도",
+      "pt-pt" : "Ainda que o Caminho Seja Longo",
+      "ru-ru" : "Пусть простор бескраен",
+      "th-th" : "Though Worlds Apart",
+      "vi-vn" : "Dù Núi Sông Vạn Dặm",
+      "zh-cn" : "纵然山河万程",
+      "zh-tw" : "縱然山河萬程"
+    },
+    "nameTextMapHash" : 12008774210001466871,
     "rank" : 5
   },
   "24000" : {
