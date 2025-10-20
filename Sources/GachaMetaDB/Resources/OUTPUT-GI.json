@@ -2265,6 +2265,50 @@
     "nameTextMapHash" : 2759230658,
     "rank" : 5
   },
+  "10000117" : {
+    "id" : 10000117,
+    "l10nMap" : {
+      "de-de" : "Mannekin",
+      "en-us" : "Manekin",
+      "es-es" : "Manekín masculino",
+      "fr-fr" : "Manekin",
+      "id-id" : "Manekin Laki-Laki",
+      "it-it" : "Manekino",
+      "ja-jp" : "ドール（男）",
+      "ko-kr" : "별인형·남성",
+      "pt-pt" : "Manequim",
+      "ru-ru" : "Манекен (м)",
+      "th-th" : "หุ่นแดนอัศจรรย์ - ชาย",
+      "tr-tr" : "Manekin",
+      "vi-vn" : "Người Mẫu Nam",
+      "zh-cn" : "奇偶·男性",
+      "zh-tw" : "奇偶·男性"
+    },
+    "nameTextMapHash" : 1496871274,
+    "rank" : 5
+  },
+  "10000118" : {
+    "id" : 10000118,
+    "l10nMap" : {
+      "de-de" : "Mannekina",
+      "en-us" : "Manekina",
+      "es-es" : "Manekín femenino",
+      "fr-fr" : "Manekina",
+      "id-id" : "Manekin Perempuan",
+      "it-it" : "Manekina",
+      "ja-jp" : "ドール（女）",
+      "ko-kr" : "별인형·여성",
+      "pt-pt" : "Manequina",
+      "ru-ru" : "Манекен (ж)",
+      "th-th" : "หุ่นแดนอัศจรรย์ - หญิง",
+      "tr-tr" : "Manekina",
+      "vi-vn" : "Người Mẫu Nữ",
+      "zh-cn" : "奇偶·女性",
+      "zh-tw" : "奇偶·女性"
+    },
+    "nameTextMapHash" : 4125864442,
+    "rank" : 5
+  },
   "10000119" : {
     "id" : 10000119,
     "l10nMap" : {
@@ -2330,6 +2374,36 @@
     },
     "nameTextMapHash" : 3887688410,
     "rank" : 4
+  },
+  "10000122" : {
+    "id" : 10000122,
+    "l10nMap" : {
+      "de-de" : "Nefer",
+      "en-us" : "Nefer",
+      "es-es" : "Néfer",
+      "fr-fr" : "Nefer",
+      "id-id" : "Nefer",
+      "it-it" : "Nefer",
+      "ja-jp" : "ネフェル",
+      "ko-kr" : "네페르",
+      "pt-pt" : "Nefer",
+      "ru-ru" : "Нефер",
+      "th-th" : "Nefer",
+      "tr-tr" : "Nefer",
+      "vi-vn" : "Nefer",
+      "zh-cn" : "奈芙尔",
+      "zh-tw" : "奈芙爾"
+    },
+    "nameTextMapHash" : 2745786202,
+    "rank" : 5
+  },
+  "10009" : {
+    "id" : 10009,
+    "l10nMap" : {
+      "zh-cn" : "(test)空武器"
+    },
+    "nameTextMapHash" : 123009691,
+    "rank" : 1
   },
   "11101" : {
     "id" : 11101,
@@ -4927,6 +5001,28 @@
     "nameTextMapHash" : 2225698043,
     "rank" : 4
   },
+  "13434" : {
+    "id" : 13434,
+    "l10nMap" : {
+      "de-de" : "Leuchtstab des Geistlichen",
+      "en-us" : "Sacrificer's Staff",
+      "es-es" : "Báculo Rutilante de la Sacerdotisa",
+      "fr-fr" : "Bâton de sacrificateur",
+      "id-id" : "Sacrificer's Staff",
+      "it-it" : "Bastone del sacrificio",
+      "ja-jp" : "聖祭者の輝杖",
+      "ko-kr" : "신성한 제사의 지팡이",
+      "pt-pt" : "Cajado do Sacrificador",
+      "ru-ru" : "Посох жертвующей",
+      "th-th" : "Sacrificer's Staff",
+      "tr-tr" : "Kutsal Adak Asası",
+      "vi-vn" : "Quyền Trượng Kẻ Thánh Tế",
+      "zh-cn" : "圣祭者的辉杖",
+      "zh-tw" : "聖祭者的輝杖"
+    },
+    "nameTextMapHash" : 980370707,
+    "rank" : 4
+  },
   "13501" : {
     "id" : 13501,
     "l10nMap" : {
@@ -5873,6 +5969,28 @@
     "nameTextMapHash" : 658627627,
     "rank" : 4
   },
+  "14434" : {
+    "id" : 14434,
+    "l10nMap" : {
+      "de-de" : "Froststern",
+      "en-us" : "Dawning Frost",
+      "es-es" : "Escarcha del Albor",
+      "fr-fr" : "Frimas d'aube",
+      "id-id" : "Dawning Frost",
+      "it-it" : "Brina mattutina",
+      "ja-jp" : "霜辰",
+      "ko-kr" : "서릿빛 새벽",
+      "pt-pt" : "Estrela Gelada",
+      "ru-ru" : "Рассветный иней",
+      "th-th" : "Dawning Frost",
+      "tr-tr" : "Sabah Ayazı",
+      "vi-vn" : "Sương Mai",
+      "zh-cn" : "霜辰",
+      "zh-tw" : "霜辰"
+    },
+    "nameTextMapHash" : 3497155131,
+    "rank" : 4
+  },
   "14501" : {
     "id" : 14501,
     "l10nMap" : {
@@ -6223,6 +6341,28 @@
       "zh-tw" : "紡夜天鏡"
     },
     "nameTextMapHash" : 1198975171,
+    "rank" : 5
+  },
+  "14521" : {
+    "id" : 14521,
+    "l10nMap" : {
+      "de-de" : "Kästchen der Wahrheit",
+      "en-us" : "Reliquary of Truth",
+      "es-es" : "Relicario de la Verdad",
+      "fr-fr" : "Reliquaire de la vérité",
+      "id-id" : "Reliquary of Truth",
+      "it-it" : "Reliquiario della verità",
+      "ja-jp" : "真言の匣",
+      "ko-kr" : "진실의 함",
+      "pt-pt" : "Relicário da Verdade",
+      "ru-ru" : "Шкатулка истин",
+      "th-th" : "Reliquary of Truth",
+      "tr-tr" : "Hakikat Kutusu",
+      "vi-vn" : "Chân Ngôn Bí Hạp",
+      "zh-cn" : "真语秘匣",
+      "zh-tw" : "真語秘匣"
+    },
+    "nameTextMapHash" : 1566338363,
     "rank" : 5
   },
   "15101" : {
