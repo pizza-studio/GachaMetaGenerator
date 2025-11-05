@@ -1479,6 +1479,26 @@
     "nameTextMapHash" : 12485086905499638965,
     "rank" : 5
   },
+  "1415" : {
+    "id" : 1415,
+    "l10nMap" : {
+      "de-de" : "Cyrene",
+      "en-us" : "Cyrene",
+      "es-es" : "Cirene",
+      "fr-fr" : "Cyrène",
+      "id-id" : "Cyrene",
+      "ja-jp" : "キュレネ",
+      "ko-kr" : "키레네",
+      "pt-pt" : "Cyrene",
+      "ru-ru" : "Кирена",
+      "th-th" : "Cyrene",
+      "vi-vn" : "Cyrene",
+      "zh-cn" : "昔涟",
+      "zh-tw" : "昔漣"
+    },
+    "nameTextMapHash" : 7809981386909966580,
+    "rank" : 5
+  },
   "20000" : {
     "id" : 20000,
     "l10nMap" : {
@@ -3279,6 +3299,26 @@
     "nameTextMapHash" : 641298228203045566,
     "rank" : 4
   },
+  "22006" : {
+    "id" : 22006,
+    "l10nMap" : {
+      "de-de" : "Flug in einen rosaroten Morgen",
+      "en-us" : "Fly Into a Pink Tomorrow",
+      "es-es" : "Volando hacia un mañana rosado",
+      "fr-fr" : "Envol vers un lendemain rosé",
+      "id-id" : "Fly Into a Pink Tomorrow",
+      "ja-jp" : "ピンク色の明日へ",
+      "ko-kr" : "핑크빛 내일을 향해",
+      "pt-pt" : "Rumo ao Amanhã Cor-de-Rosa",
+      "ru-ru" : "Полёт к розовому завтра",
+      "th-th" : "Fly Into a Pink Tomorrow",
+      "vi-vn" : "Bay Đến Ngày Mai Màu Hồng",
+      "zh-cn" : "飞向粉色的明天",
+      "zh-tw" : "飛向粉紅色的明天"
+    },
+    "nameTextMapHash" : 15207548416483397866,
+    "rank" : 4
+  },
   "23000" : {
     "id" : 23000,
     "l10nMap" : {
@@ -4297,6 +4337,26 @@
       "zh-tw" : "縱然山河萬程"
     },
     "nameTextMapHash" : 12008774210001466871,
+    "rank" : 5
+  },
+  "23052" : {
+    "id" : 23052,
+    "l10nMap" : {
+      "de-de" : "Liebe, so ewig wie dieser Moment",
+      "en-us" : "This Love, Forever",
+      "es-es" : "Amor eterno como este momento",
+      "fr-fr" : "Éternel amour",
+      "id-id" : "This Love, Forever",
+      "ja-jp" : "愛はいま永遠に",
+      "ko-kr" : "이 순간처럼 영원한 사랑",
+      "pt-pt" : "Instante de Eterno Amor",
+      "ru-ru" : "Как этот миг вечна любовь",
+      "th-th" : "This Love, Forever",
+      "vi-vn" : "Nguyện Yêu Như Lúc Này, Mãi Mãi",
+      "zh-cn" : "爱如此刻永恒",
+      "zh-tw" : "愛如此刻永恆"
+    },
+    "nameTextMapHash" : 10407794298159211059,
     "rank" : 5
   },
   "24000" : {
