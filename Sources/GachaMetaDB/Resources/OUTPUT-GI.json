@@ -2397,6 +2397,50 @@
     "nameTextMapHash" : 2745786202,
     "rank" : 5
   },
+  "10000123" : {
+    "id" : 10000123,
+    "l10nMap" : {
+      "de-de" : "Durin",
+      "en-us" : "Durin",
+      "es-es" : "Durin",
+      "fr-fr" : "Durin",
+      "id-id" : "Durin",
+      "it-it" : "Durin",
+      "ja-jp" : "ドゥリン",
+      "ko-kr" : "두린",
+      "pt-pt" : "Durin",
+      "ru-ru" : "Дурин",
+      "th-th" : "Durin",
+      "tr-tr" : "Durin",
+      "vi-vn" : "Durin",
+      "zh-cn" : "杜林",
+      "zh-tw" : "杜林"
+    },
+    "nameTextMapHash" : 2801077538,
+    "rank" : 5
+  },
+  "10000124" : {
+    "id" : 10000124,
+    "l10nMap" : {
+      "de-de" : "Jahoda",
+      "en-us" : "Jahoda",
+      "es-es" : "Jahoda",
+      "fr-fr" : "Jahoda",
+      "id-id" : "Jahoda",
+      "it-it" : "Jahoda",
+      "ja-jp" : "ヤフォダ",
+      "ko-kr" : "야호다",
+      "pt-pt" : "Jahoda",
+      "ru-ru" : "Ягода",
+      "th-th" : "Jahoda",
+      "tr-tr" : "Jahoda",
+      "vi-vn" : "Jahoda",
+      "zh-cn" : "雅珂达",
+      "zh-tw" : "雅珂達"
+    },
+    "nameTextMapHash" : 1438964522,
+    "rank" : 4
+  },
   "10009" : {
     "id" : 10009,
     "l10nMap" : {
@@ -3503,6 +3547,28 @@
       "zh-tw" : "蒼耀"
     },
     "nameTextMapHash" : 1479741275,
+    "rank" : 5
+  },
+  "11518" : {
+    "id" : 11518,
+    "l10nMap" : {
+      "de-de" : "Athame Artis",
+      "en-us" : "Athame Artis",
+      "es-es" : "Athame Artis",
+      "fr-fr" : "Athame Artis",
+      "id-id" : "Athame Artis",
+      "it-it" : "Athame Artis",
+      "ja-jp" : "黒蝕",
+      "ko-kr" : "검은 침식",
+      "pt-pt" : "Corrupção Sombria",
+      "ru-ru" : "Атаме артис",
+      "th-th" : "Athame Artis",
+      "tr-tr" : "Karanlık Ayin Kılıcı",
+      "vi-vn" : "Hắc Ám Xâm Thực",
+      "zh-cn" : "黑蚀",
+      "zh-tw" : "黑蝕"
+    },
+    "nameTextMapHash" : 4099034547,
     "rank" : 5
   },
   "12101" : {
@@ -7113,6 +7179,28 @@
     "nameTextMapHash" : 3380505211,
     "rank" : 4
   },
+  "15434" : {
+    "id" : 15434,
+    "l10nMap" : {
+      "de-de" : "Regenakkorde der Regenbogenschlange",
+      "en-us" : "Rainbow Serpent's Rain Bow",
+      "es-es" : "Pluvioarco de la Serpiente Arcoíris",
+      "fr-fr" : "Arc pluvial du serpent arc-en-ciel",
+      "id-id" : "Rainbow Serpent's Rain Bow",
+      "it-it" : "Arco pluviale del serpente arcobaleno",
+      "ja-jp" : "虹蛇の雨弦",
+      "ko-kr" : "무지개뱀의 현",
+      "pt-pt" : "Cordas da Chuva da Serpente Arco-Íris",
+      "ru-ru" : "Струны дождя радужного змея",
+      "th-th" : "Rainbow Serpent's Rain Bow",
+      "tr-tr" : "Gökkuşağı Yılanının Yağmur Yayı",
+      "vi-vn" : "Dây Mưa Của Cầu Vồng",
+      "zh-cn" : "虹蛇的雨弦",
+      "zh-tw" : "虹蛇的雨弦"
+    },
+    "nameTextMapHash" : 2320082227,
+    "rank" : 4
+  },
   "15501" : {
     "id" : 15501,
     "l10nMap" : {
@@ -7331,6 +7419,28 @@
       "zh-tw" : "星鷲赤羽"
     },
     "nameTextMapHash" : 1363661611,
+    "rank" : 5
+  },
+  "15515" : {
+    "id" : 15515,
+    "l10nMap" : {
+      "de-de" : "Chroniken der Morgendämmerung",
+      "en-us" : "The Daybreak Chronicles",
+      "es-es" : "Albores de la Historia",
+      "fr-fr" : "Les chroniques de l'aube",
+      "id-id" : "The Daybreak Chronicles",
+      "it-it" : "Cronache dell'alba",
+      "ja-jp" : "暁を告げる歴史",
+      "ko-kr" : "여명이 트는 역사",
+      "pt-pt" : "As Crônicas do Amanhecer",
+      "ru-ru" : "Хроники рассвета",
+      "th-th" : "The Daybreak Chronicles",
+      "tr-tr" : "Şafak Günlükleri",
+      "vi-vn" : "Biên Niên Sử Bình Minh",
+      "zh-cn" : "黎明破晓之史",
+      "zh-tw" : "黎明破曉之史"
+    },
+    "nameTextMapHash" : 1235521427,
     "rank" : 5
   }
 }
