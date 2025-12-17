@@ -1219,6 +1219,26 @@
     "nameTextMapHash" : 9807064938372011036,
     "rank" : 5
   },
+  "1321" : {
+    "id" : 1321,
+    "l10nMap" : {
+      "de-de" : "Die Dahlie",
+      "en-us" : "The Dahlia",
+      "es-es" : "La Dalia",
+      "fr-fr" : "Le Dahlia",
+      "id-id" : "The Dahlia",
+      "ja-jp" : "ダリア",
+      "ko-kr" : "달리아",
+      "pt-pt" : "A Dália",
+      "ru-ru" : "Георгина",
+      "th-th" : "ดอกดาห์เลีย",
+      "vi-vn" : "Dahlia",
+      "zh-cn" : "大丽花",
+      "zh-tw" : "大理花"
+    },
+    "nameTextMapHash" : 16283352174817039417,
+    "rank" : 5
+  },
   "1401" : {
     "id" : 1401,
     "l10nMap" : {
@@ -4317,6 +4337,26 @@
       "zh-tw" : "致長夜的星光"
     },
     "nameTextMapHash" : 4836366408334833891,
+    "rank" : 5
+  },
+  "23050" : {
+    "id" : 23050,
+    "l10nMap" : {
+      "de-de" : "Vergiss ihre Flamme niemals",
+      "en-us" : "Never Forget Her Flame",
+      "es-es" : "No olvides su fuego",
+      "fr-fr" : "Une flamme à graver",
+      "id-id" : "Never Forget Her Flame",
+      "ja-jp" : "彼女の炎を忘れずに",
+      "ko-kr" : "그녀의 불꽃을 잊지 말라",
+      "pt-pt" : "Nunca Esqueça Sua Chama",
+      "ru-ru" : "Не забывай её пламя",
+      "th-th" : "Never Forget Her Flame",
+      "vi-vn" : "Đừng Quên Ngọn Lửa Của Cô Ấy",
+      "zh-cn" : "勿忘她的火焰",
+      "zh-tw" : "勿忘她的火焰"
+    },
+    "nameTextMapHash" : 9307349825241855113,
     "rank" : 5
   },
   "23051" : {
