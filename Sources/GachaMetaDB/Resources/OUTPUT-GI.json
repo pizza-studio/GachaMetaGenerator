@@ -2441,6 +2441,69 @@
     "nameTextMapHash" : 1438964522,
     "rank" : 4
   },
+  "10000125" : {
+    "id" : 10000125,
+    "l10nMap" : {
+      "de-de" : "Columbina",
+      "en-us" : "Columbina",
+      "es-es" : "Colombina",
+      "fr-fr" : "Columbina",
+      "id-id" : "Columbina",
+      "it-it" : "Colombina",
+      "ja-jp" : "コロンビーナ",
+      "ko-kr" : "콜롬비나",
+      "pt-pt" : "Columbina",
+      "th-th" : "Columbina",
+      "tr-tr" : "Columbina",
+      "vi-vn" : "Columbina",
+      "zh-cn" : "哥伦比娅",
+      "zh-tw" : "哥倫比婭"
+    },
+    "nameTextMapHash" : 1888371618,
+    "rank" : 5
+  },
+  "10000126" : {
+    "id" : 10000126,
+    "l10nMap" : {
+      "de-de" : "Zibai",
+      "en-us" : "Zibai",
+      "es-es" : "Zibai",
+      "fr-fr" : "Zibai",
+      "id-id" : "Zibai",
+      "it-it" : "Zibai",
+      "ja-jp" : "兹白",
+      "ko-kr" : "자백",
+      "pt-pt" : "Zibai",
+      "th-th" : "Zibai",
+      "tr-tr" : "Zibai",
+      "vi-vn" : "Zibai",
+      "zh-cn" : "兹白",
+      "zh-tw" : "茲白"
+    },
+    "nameTextMapHash" : 937533090,
+    "rank" : 5
+  },
+  "10000127" : {
+    "id" : 10000127,
+    "l10nMap" : {
+      "de-de" : "Illuga",
+      "en-us" : "Illuga",
+      "es-es" : "Illuga",
+      "fr-fr" : "Illuga",
+      "id-id" : "Illuga",
+      "it-it" : "Illuga",
+      "ja-jp" : "イルーガ",
+      "ko-kr" : "일루가",
+      "pt-pt" : "Illuga",
+      "th-th" : "Illuga",
+      "tr-tr" : "Illuga",
+      "vi-vn" : "Illuga",
+      "zh-cn" : "叶洛亚",
+      "zh-tw" : "葉洛亞"
+    },
+    "nameTextMapHash" : 102656986,
+    "rank" : 4
+  },
   "10009" : {
     "id" : 10009,
     "l10nMap" : {
@@ -3569,6 +3632,27 @@
       "zh-tw" : "黑蝕"
     },
     "nameTextMapHash" : 4099034547,
+    "rank" : 5
+  },
+  "11519" : {
+    "id" : 11519,
+    "l10nMap" : {
+      "de-de" : "Lichtbringende Mondscherbe",
+      "en-us" : "Lightbearing Moonshard",
+      "es-es" : "Refulgencia de la Luna",
+      "fr-fr" : "Éclat lunaire luminescent",
+      "id-id" : "Lightbearing Moonshard",
+      "it-it" : "Frammento lunare portaluce",
+      "ja-jp" : "三日月の含光",
+      "ko-kr" : "신월의 달빛",
+      "pt-pt" : "Fragmento Lunar da Luz",
+      "th-th" : "Lightbearing Moonshard",
+      "tr-tr" : "Işıldayan Ay Parçası",
+      "vi-vn" : "Mảnh Trăng Ánh Sáng",
+      "zh-cn" : "朏魄含光",
+      "zh-tw" : "朏魄含光"
+    },
+    "nameTextMapHash" : 1573692171,
     "rank" : 5
   },
   "12101" : {
@@ -6429,6 +6513,27 @@
       "zh-tw" : "真語秘匣"
     },
     "nameTextMapHash" : 1566338363,
+    "rank" : 5
+  },
+  "14522" : {
+    "id" : 14522,
+    "l10nMap" : {
+      "de-de" : "Nachtmusik im Schleier",
+      "en-us" : "Nocturne's Curtain Call",
+      "es-es" : "Nocturno tras el Velo",
+      "fr-fr" : "Rappel de la nocturne",
+      "id-id" : "Nocturne's Curtain Call",
+      "it-it" : "Sipario del notturno",
+      "ja-jp" : "帳の夜曲",
+      "ko-kr" : "막간의 야상곡",
+      "pt-pt" : "Cortinas Noturnas",
+      "th-th" : "Nocturne's Curtain Call",
+      "tr-tr" : "Son Perde Noktürnü",
+      "vi-vn" : "Dạ Khúc Hạ Màn",
+      "zh-cn" : "帷间夜曲",
+      "zh-tw" : "帷間夜曲"
+    },
+    "nameTextMapHash" : 1441327747,
     "rank" : 5
   },
   "15101" : {
