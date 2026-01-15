@@ -86,10 +86,11 @@ extension GachaMetaGenerator.SupportedGame {
                         }
                     }
                     buffer.append((items: rawStack, lang: locale))
+                } catch let decodingError as DecodingError {
+                    print("// Decoding failed for: \(url.absoluteString)")
+                    throw decodingError
                 } catch {
-                    // print(error.localizedDescription)
-                    // print(String(data: data, encoding: .utf8)!)
-                    throw (error)
+                    throw error
                 }
             }
         }
@@ -107,30 +108,37 @@ extension GachaMetaGenerator.SupportedGame {
     /// Only used for dealing with Dimbreath's repos.
     func fetchExcelConfigData(for type: DataURLType) async throws -> [GachaMetaGenerator.GachaItemMeta] {
         let decoder = JSONDecoder()
+        func decode<T: Decodable>(_ type: T.Type, from data: Data, url: URL) throws -> T {
+            do {
+                return try decoder.decode(type, from: data)
+            } catch let decodingError as DecodingError {
+                print("// Decoding failed for: \(url.absoluteString)")
+                throw decodingError
+            }
+        }
         switch (self, type) {
         case (.genshinImpact, .weaponData):
-            let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
-            let response = try decoder.decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
+            let url = getExcelConfigDataURL(for: .weaponData)
+            let (data, _) = try await URLSession.shared.asyncData(from: url)
+            let response = try decode([GachaMetaGenerator.GenshinRawItem].self, from: data, url: url)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.genshinImpact, .characterData):
-            let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .characterData))
-            let response = try decoder.decode([GachaMetaGenerator.GenshinRawItem].self, from: data)
+            let url = getExcelConfigDataURL(for: .characterData)
+            let (data, _) = try await URLSession.shared.asyncData(from: url)
+            let response = try decode([GachaMetaGenerator.GenshinRawItem].self, from: data, url: url)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.starRail, .weaponData):
-            let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(for: .weaponData))
-            let response = try decoder.decode([GachaMetaGenerator.HSRWeaponRawItem].self, from: data)
+            let url = getExcelConfigDataURL(for: .weaponData)
+            let (data, _) = try await URLSession.shared.asyncData(from: url)
+            let response = try decode([GachaMetaGenerator.HSRWeaponRawItem].self, from: data, url: url)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.starRail, .characterData):
-            let (data, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(
-                for: .characterData,
-                isCollab: false
-            ))
-            var response = try decoder.decode([GachaMetaGenerator.HSRAvatarRawItem].self, from: data)
-            let (data2, _) = try await URLSession.shared.asyncData(from: getExcelConfigDataURL(
-                for: .characterData,
-                isCollab: true
-            ))
-            response += try decoder.decode([GachaMetaGenerator.HSRAvatarRawItem].self, from: data2)
+            let url = getExcelConfigDataURL(for: .characterData, isCollab: false)
+            let (data, _) = try await URLSession.shared.asyncData(from: url)
+            var response = try decode([GachaMetaGenerator.HSRAvatarRawItem].self, from: data, url: url)
+            let collabURL = getExcelConfigDataURL(for: .characterData, isCollab: true)
+            let (data2, _) = try await URLSession.shared.asyncData(from: collabURL)
+            response += try decode([GachaMetaGenerator.HSRAvatarRawItem].self, from: data2, url: collabURL)
             response.sort { $0.id < $1.id }
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         }
@@ -142,7 +150,15 @@ extension GachaMetaGenerator.SupportedGame {
         neededHashIDs: Set<String>
     ) async throws
         -> [String: [String: String]] {
-        try await withThrowingTaskGroup(
+        func decodeLangDict(_ data: Data, url: URL) throws -> [String: String] {
+            do {
+                return try JSONDecoder().decode([String: String].self, from: data)
+            } catch let decodingError as DecodingError {
+                print("// Decoding failed for: \(url.absoluteString)")
+                throw decodingError
+            }
+        }
+        return try await withThrowingTaskGroup(
             of: (subDict: [String: String], lang: GachaMetaGenerator.GachaDictLang).self,
             returning: [String: [String: String]].self
         ) { taskGroup in
@@ -152,7 +168,7 @@ extension GachaMetaGenerator.SupportedGame {
                     var finalDict = [String: String]()
                     for url in urls {
                         let (data, _) = try await URLSession.shared.asyncData(from: url)
-                        var dict = try JSONDecoder().decode([String: String].self, from: data)
+                        var dict = try decodeLangDict(data, url: url)
                         let keysToRemove = Set<String>(dict.keys).subtracting(neededHashIDs)
                         keysToRemove.forEach { dict.removeValue(forKey: $0) }
                         if locale == .langJP {
