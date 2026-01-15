@@ -61,19 +61,16 @@ extension GachaMetaGenerator {
             rawValue.replacingOccurrences(of: "lang", with: "TextMap").appending(".json")
         }
 
+        var textMapFileStem: String {
+            rawValue.replacingOccurrences(of: "lang", with: "TextMap")
+        }
+
         var yattaLangID: String {
             rawValue.replacingOccurrences(of: "lang", with: "").lowercased()
         }
 
         func filenamesForChunks(for game: GachaMetaGenerator.SupportedGame) -> [String] {
-            guard game == .genshinImpact else { return [filename] }
-            return switch self {
-            case .langTH: [
-                    rawValue.replacingOccurrences(of: "lang", with: "TextMap").appending("_0.json"),
-                    rawValue.replacingOccurrences(of: "lang", with: "TextMap").appending("_1.json"),
-                ]
-            default: [filename]
-            }
+            [filename]
         }
 
         // MARK: Private
