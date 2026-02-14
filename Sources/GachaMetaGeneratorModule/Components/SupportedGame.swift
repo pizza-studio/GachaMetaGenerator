@@ -10,7 +10,7 @@ import FoundationNetworking
 // MARK: - GachaMetaGenerator.SupportedGame
 
 extension GachaMetaGenerator {
-    public enum SupportedGame: CaseIterable {
+    public enum SupportedGame: CaseIterable, Sendable {
         case genshinImpact
         case starRail
 

@@ -2,15 +2,19 @@
 // ====================
 // This code is released under the AGPL v3.0 License (SPDX-License-Identifier: AGPL-3.0)
 
-@testable import GachaMetaGeneratorModule
-import XCTest
+import Foundation
 #if canImport(FoundationNetworking)
 import FoundationNetworking
 #endif
+@testable import GachaMetaGeneratorModule
+import Testing
+import XCTest
 
 // MARK: - GachaMetaGeneratorTests
 
-final class GachaMetaGeneratorTests: XCTestCase {
+@Suite(.serialized)
+struct GachaMetaGeneratorTests {
+    @Test
     func testURLGenerationForDimbreathRepos() throws {
         GachaMetaGenerator.SupportedGame.allCases.forEach { game in
             GachaMetaGenerator.SupportedGame.DataURLType.allCases.forEach { dataType in
@@ -22,6 +26,7 @@ final class GachaMetaGeneratorTests: XCTestCase {
         }
     }
 
+    @Test
     func testGeneratingHSRFromDimbreathRepos() async throws {
         let dict = try await GachaMetaGenerator.fetchAndCompileFromDimbreath(for: .starRail)
         let encoder = JSONEncoder()
@@ -37,6 +42,7 @@ final class GachaMetaGeneratorTests: XCTestCase {
         }
     }
 
+    @Test
     func testGeneratingGIFromDimbreathRepos() async throws {
         let dict = try await GachaMetaGenerator.fetchAndCompileFromDimbreath(for: .genshinImpact)
         let encoder = JSONEncoder()
@@ -56,18 +62,21 @@ final class GachaMetaGeneratorTests: XCTestCase {
 // MARK: - Ambr Yatta API Tests.
 
 extension GachaMetaGeneratorTests {
+    @Test
     func testGeneratingHSRFromYattaAPI() async throws {
         let dataHSR = try await GachaMetaGenerator.fetchAndCompileFromYatta(for: .starRail)
         print(try dataHSR.encodedJSONString() ?? "FAILED.")
-        XCTAssertNotNil(!dataHSR.isEmpty)
+        #expect(!dataHSR.isEmpty)
     }
 
+    @Test
     func testGeneratingGIFromYattaAPI() async throws {
         let dataGI = try await GachaMetaGenerator.SupportedGame.genshinImpact.fetchYattaData()
         print(try dataGI.encodedJSONString() ?? "FAILED.")
-        XCTAssertNotNil(!dataGI.isEmpty)
+        #expect(!dataGI.isEmpty)
     }
 
+    @Test
     func testDecodingYattaData() async throws {
         for game in GachaMetaGenerator.SupportedGame.allCases {
             for dataType in GachaMetaGenerator.SupportedGame.DataURLType.allCases {
@@ -78,7 +87,7 @@ extension GachaMetaGeneratorTests {
                     let (data, _) = try await URLSession.shared.asyncData(from: url)
                     do {
                         let jsonParsed = try JSONDecoder().decode(GachaMetaGenerator.YattaResponse.self, from: data)
-                        XCTAssertFalse(jsonParsed.data?.items?.isEmpty ?? true)
+                        #expect(!(jsonParsed.data?.items?.isEmpty ?? true))
                     } catch {
                         print(error.localizedDescription)
                         print(String(data: data, encoding: .utf8)!)
