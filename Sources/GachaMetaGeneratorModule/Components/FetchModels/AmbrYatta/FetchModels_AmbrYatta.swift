@@ -82,7 +82,7 @@ extension [GachaMetaGenerator.GachaDictLang?: [GachaMetaGenerator.YattaFetchedIt
         var result = [GachaMetaGenerator.GachaItemMeta]()
         staticStack.enumerated().forEach { theIndex, _ in
             let staticEntry = staticStack[theIndex]
-            guard let nameHash = staticEntry.nameTextMapHash else { return }
+            guard let nameHash = staticEntry.nameTextMapHash ?? UInt(staticEntry.name) else { return }
             var newEntry = GachaMetaGenerator.GachaItemMeta(
                 id: staticEntry.id, rank: staticEntry.rank, nameTextMapHash: nameHash
             )
