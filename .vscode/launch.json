@@ -1,7 +1,7 @@
 {
 	"configurations": [
 		{
-			"type": "lldb",
+			"type": "swift",
 			"request": "launch",
 			"sourceLanguages": [
 				"swift"
@@ -9,11 +9,12 @@
 			"args": [],
 			"cwd": "${workspaceFolder:GachaMetaGenerator}",
 			"name": "Debug GachaMetaGenerator",
-			"program": "${workspaceFolder:GachaMetaGenerator}/.build/debug/GachaMetaGenerator",
-			"preLaunchTask": "swift: Build Debug GachaMetaGenerator"
+			"preLaunchTask": "swift: Build Debug GachaMetaGenerator",
+			"target": "GachaMetaGenerator",
+			"configuration": "debug"
 		},
 		{
-			"type": "lldb",
+			"type": "swift",
 			"request": "launch",
 			"sourceLanguages": [
 				"swift"
@@ -21,8 +22,9 @@
 			"args": [],
 			"cwd": "${workspaceFolder:GachaMetaGenerator}",
 			"name": "Release GachaMetaGenerator",
-			"program": "${workspaceFolder:GachaMetaGenerator}/.build/release/GachaMetaGenerator",
-			"preLaunchTask": "swift: Build Release GachaMetaGenerator"
+			"preLaunchTask": "swift: Build Release GachaMetaGenerator",
+			"target": "GachaMetaGenerator",
+			"configuration": "release"
 		}
 	]
 }
