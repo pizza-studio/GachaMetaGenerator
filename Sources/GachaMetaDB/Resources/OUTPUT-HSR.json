@@ -1519,6 +1519,46 @@
     "nameTextMapHash" : 7809981386909966580,
     "rank" : 5
   },
+  "1501" : {
+    "id" : 1501,
+    "l10nMap" : {
+      "de-de" : "Sparxie",
+      "en-us" : "Sparxie",
+      "es-es" : "Chispa",
+      "fr-fr" : "Sparxie",
+      "id-id" : "Sparxie",
+      "ja-jp" : "火花",
+      "ko-kr" : "스파키",
+      "pt-pt" : "Sparxie",
+      "ru-ru" : "Искра",
+      "th-th" : "Sparxie",
+      "vi-vn" : "Sparxie",
+      "zh-cn" : "火花",
+      "zh-tw" : "火花"
+    },
+    "nameTextMapHash" : 17862078353219696025,
+    "rank" : 5
+  },
+  "1502" : {
+    "id" : 1502,
+    "l10nMap" : {
+      "de-de" : "Yao Guang",
+      "en-us" : "Yao Guang",
+      "es-es" : "Yao Guang",
+      "fr-fr" : "Yao Guang",
+      "id-id" : "Yao Guang",
+      "ja-jp" : "爻光",
+      "ko-kr" : "효광",
+      "pt-pt" : "Yao Guang",
+      "ru-ru" : "Яо Гуан",
+      "th-th" : "Yao Guang",
+      "vi-vn" : "Yao Guang",
+      "zh-cn" : "爻光",
+      "zh-tw" : "爻光"
+    },
+    "nameTextMapHash" : 5676363387127417629,
+    "rank" : 5
+  },
   "20000" : {
     "id" : 20000,
     "l10nMap" : {
@@ -1977,6 +2017,46 @@
       "zh-tw" : "溯憶"
     },
     "nameTextMapHash" : 3133619668689285080,
+    "rank" : 3
+  },
+  "20023" : {
+    "id" : 20023,
+    "l10nMap" : {
+      "de-de" : "Höhnisches Lachen",
+      "en-us" : "Sneering",
+      "es-es" : "Risita burlona",
+      "fr-fr" : "Ricanement",
+      "id-id" : "Sneering",
+      "ja-jp" : "嗤笑",
+      "ko-kr" : "비웃음",
+      "pt-pt" : "Zombaria",
+      "ru-ru" : "Насмешка",
+      "th-th" : "Sneering",
+      "vi-vn" : "Cười Nhạo",
+      "zh-cn" : "嗤笑",
+      "zh-tw" : "嗤笑"
+    },
+    "nameTextMapHash" : 17981808852139106353,
+    "rank" : 3
+  },
+  "20024" : {
+    "id" : 20024,
+    "l10nMap" : {
+      "de-de" : "Verweilende Träne",
+      "en-us" : "Lingering Tear",
+      "es-es" : "Las lágrimas que quedan",
+      "fr-fr" : "Larmes persistantes",
+      "id-id" : "Lingering Tears",
+      "ja-jp" : "残涙",
+      "ko-kr" : "눈물의 흔적",
+      "pt-pt" : "Lágrima Persistente",
+      "ru-ru" : "Безудержные слёзы",
+      "th-th" : "Lingering Tear",
+      "vi-vn" : "Lệ Tàn",
+      "zh-cn" : "残泪",
+      "zh-tw" : "殘淚"
+    },
+    "nameTextMapHash" : 14442278216073659952,
     "rank" : 3
   },
   "21000" : {
@@ -3199,6 +3279,46 @@
     "nameTextMapHash" : 5119764409776904864,
     "rank" : 4
   },
+  "21064" : {
+    "id" : 21064,
+    "l10nMap" : {
+      "de-de" : "Die Abenteuer des pilzigen Pilzes",
+      "en-us" : "Mushy Shroomy's Adventures",
+      "es-es" : "Las aventuras de Champigaga",
+      "fr-fr" : "L'Odyssée de Champi",
+      "id-id" : "Mushy Shroomy's Adventures",
+      "ja-jp" : "タケタケ冒険記",
+      "ko-kr" : "슈룸 모험기",
+      "pt-pt" : "As Aventuras do Cogumelinho Fofinho",
+      "ru-ru" : "Приключения грибочков",
+      "th-th" : "Mushy Shroomy's Adventures",
+      "vi-vn" : "Cuộc Phiêu Lưu Của Nấm Núng Nính",
+      "zh-cn" : "菇菇嘎嘎历险记",
+      "zh-tw" : "菇菇嘎嘎歷險記"
+    },
+    "nameTextMapHash" : 3318507436183091065,
+    "rank" : 4
+  },
+  "21065" : {
+    "id" : 21065,
+    "l10nMap" : {
+      "de-de" : "Glück des Tages",
+      "en-us" : "Today's Good Luck",
+      "es-es" : "La buena suerte de hoy",
+      "fr-fr" : "Un jour de chance",
+      "id-id" : "Today's Good Luck",
+      "ja-jp" : "今日は好運",
+      "ko-kr" : "오늘의 행운",
+      "pt-pt" : "Boa Sorte de Hoje",
+      "ru-ru" : "Благоприятный день",
+      "th-th" : "Today's Good Luck",
+      "vi-vn" : "Hôm Nay May Mắn Đấy",
+      "zh-cn" : "今日好手气",
+      "zh-tw" : "今日好手氣"
+    },
+    "nameTextMapHash" : 9454774255307972807,
+    "rank" : 4
+  },
   "22000" : {
     "id" : 22000,
     "l10nMap" : {
@@ -4397,6 +4517,46 @@
       "zh-tw" : "愛如此刻永恆"
     },
     "nameTextMapHash" : 10407794298159211059,
+    "rank" : 5
+  },
+  "23053" : {
+    "id" : 23053,
+    "l10nMap" : {
+      "de-de" : "Bezaubert von einer blumigen Welt",
+      "en-us" : "Dazzled by a Flowery World",
+      "es-es" : "El cautivador mundochispa",
+      "fr-fr" : "Écran d'artifice",
+      "id-id" : "Dazzled by a Flowery World",
+      "ja-jp" : "きらびやかな世界",
+      "ko-kr" : "눈부신 파키의 세상",
+      "pt-pt" : "Deslumbramento Por Um Mundo Florido",
+      "ru-ru" : "Зачарованные царством огоньков",
+      "th-th" : "Dazzled by a Flowery World",
+      "vi-vn" : "Thế Giới Hoa Lệ Choáng Ngợp",
+      "zh-cn" : "花花世界迷人眼",
+      "zh-tw" : "花花世界迷人眼"
+    },
+    "nameTextMapHash" : 6574050664224309043,
+    "rank" : 5
+  },
+  "23054" : {
+    "id" : 23054,
+    "l10nMap" : {
+      "de-de" : "Der Entschluss zu sehen",
+      "en-us" : "When She Decided to See",
+      "es-es" : "Cuando se decidió a ver",
+      "fr-fr" : "Lorsqu'elle décida de voir",
+      "id-id" : "When She Decided to See",
+      "ja-jp" : "彼女が視ると決めた時",
+      "ko-kr" : "그녀가 보기로 결심했을 때",
+      "pt-pt" : "Quando Ela Decidiu Ver",
+      "ru-ru" : "Когда она решилась увидеть",
+      "th-th" : "When She Decided to See",
+      "vi-vn" : "Khi Cô Ấy Quyết Định Nhìn Thấy",
+      "zh-cn" : "当她决定看见",
+      "zh-tw" : "當她決定看見"
+    },
+    "nameTextMapHash" : 5484320404804108704,
     "rank" : 5
   },
   "24000" : {
