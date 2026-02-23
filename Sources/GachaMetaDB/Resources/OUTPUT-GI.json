@@ -2507,6 +2507,28 @@
     "nameTextMapHash" : 102656986,
     "rank" : 4
   },
+  "10000128" : {
+    "id" : 10000128,
+    "l10nMap" : {
+      "de-de" : "Varka",
+      "en-us" : "Varka",
+      "es-es" : "Varka",
+      "fr-fr" : "Varka",
+      "id-id" : "Varka",
+      "it-it" : "Varka",
+      "ja-jp" : "ファルカ",
+      "ko-kr" : "바르카",
+      "pt-pt" : "Varka",
+      "ru-ru" : "Варка",
+      "th-th" : "Varka",
+      "tr-tr" : "Varka",
+      "vi-vn" : "Varka",
+      "zh-cn" : "法尔伽",
+      "zh-tw" : "法爾伽"
+    },
+    "nameTextMapHash" : 963351866,
+    "rank" : 5
+  },
   "10009" : {
     "id" : 10009,
     "l10nMap" : {
@@ -4559,6 +4581,28 @@
       "zh-tw" : "焚曜千陽"
     },
     "nameTextMapHash" : 1876377995,
+    "rank" : 5
+  },
+  "12515" : {
+    "id" : 12515,
+    "l10nMap" : {
+      "de-de" : "Kampflied des Wolfs",
+      "en-us" : "Gest of the Mighty Wolf",
+      "es-es" : "Cantar de Gesta del Lobo",
+      "fr-fr" : "Geste du loup puissant",
+      "id-id" : "Gest of the Mighty Wolf",
+      "it-it" : "Gesta del Lupo maestoso",
+      "ja-jp" : "狼の武勲詩",
+      "ko-kr" : "늑대의 무용담",
+      "pt-pt" : "Balada do Poderoso Lobo",
+      "ru-ru" : "Подвиг могучего волка",
+      "th-th" : "Gest of the Mighty Wolf",
+      "tr-tr" : "Kudretli Kurdun Destanı",
+      "vi-vn" : "Chiến Hùng Ca Của Sói",
+      "zh-cn" : "狼的武功歌",
+      "zh-tw" : "狼的武功歌"
+    },
+    "nameTextMapHash" : 3121311955,
     "rank" : 5
   },
   "13101" : {
