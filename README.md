@@ -25,4 +25,20 @@ This repository is for generating GachaMetaDB to serve those apps conforming to 
 
 > Support for ZZZ (Zenless Zone Zero) is currently not planned regardless Dimbreath has made its ExcelConfigData repository (ZenlessData) available to the public. It's just too hard for me to figure out how to spot and organize intels needed to summarize GachaMetaDB from ZenlessData repo. Voluntary PRs are welcomed as long as you keep the generated JSON file structure consistent with existing ones for Genshin and StarRail, regardless the scripting language you familiar with (e.g. Python, etc.).
 
-$ EOF.
+### License & Legal Notice
+
+**⚠️ IMPORTANT:** Please review all legal documentation in the [LEGAL](./LEGAL/) directory before using this software package.
+
+> Copyright (excl. the Swift program part of this app): (c) All rights reserved by miHoYo and its subsidiaries. Other properties and any right, title, and interest thereof and therein (intellectual property rights included) not derived from miHoYo's game titles ("Star Rail", "Genshin Impact", "Zenless Zone Zero", etc.) belong to their respective owners.
+
+> Copyright (the Swift program part of this app, excluding the data models used for decoding external JSON files): (c) 2024 and onwards Pizza Studio (AGPL v3.0 License or later).
+
+All Swift program files (but not the data structures used for decoding & encoding data) are licensed under AGPLv3 or later. See [LEGAL/LICENSE](./LEGAL/LICENSE) for full terms.
+
+**Prohibited Use:** This software package is **NOT DESIGNED** to decode, analyze, or process any game data derived from confidential, non-public sources protected by Non-Disclosure Agreements (NDAs). See [LEGAL/NDA_RESTRICTION.md](./LEGAL/NDA_RESTRICTION.md) for details.
+
+```
+// (c) 2024 and onwards Pizza Studio (AGPL v3.0 License or later).
+// ====================
+// This code is released under the SPDX-License-Identifier: `AGPL-3.0-or-later`.
+```
