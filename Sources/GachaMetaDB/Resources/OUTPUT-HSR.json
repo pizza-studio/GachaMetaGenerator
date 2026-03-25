@@ -1559,6 +1559,26 @@
     "nameTextMapHash" : 5676363387127417629,
     "rank" : 5
   },
+  "1504" : {
+    "id" : 1504,
+    "l10nMap" : {
+      "de-de" : "Ashveil",
+      "en-us" : "Ashveil",
+      "es-es" : "Ashveil",
+      "fr-fr" : "Ashveil",
+      "id-id" : "Ashveil",
+      "ja-jp" : "不死途",
+      "ko-kr" : "애쉬베일",
+      "pt-pt" : "Ashveil",
+      "ru-ru" : "Эшвейл",
+      "th-th" : "Ashveil",
+      "vi-vn" : "Ashveil",
+      "zh-cn" : "不死途",
+      "zh-tw" : "不死途"
+    },
+    "nameTextMapHash" : 16507315893888115872,
+    "rank" : 5
+  },
   "20000" : {
     "id" : 20000,
     "l10nMap" : {
@@ -4559,6 +4579,26 @@
     "nameTextMapHash" : 5484320404804108704,
     "rank" : 5
   },
+  "23056" : {
+    "id" : 23056,
+    "l10nMap" : {
+      "de-de" : "Das Finale einer Lüge",
+      "en-us" : "The Finale of a Lie",
+      "es-es" : "El final de una mentira",
+      "fr-fr" : "Bas les masques",
+      "id-id" : "The Finale of a Lie",
+      "ja-jp" : "或る嘘の終幕",
+      "ko-kr" : "거짓말의 종막",
+      "pt-pt" : "O Fim de uma Mentira",
+      "ru-ru" : "Эпилог лжи",
+      "th-th" : "The Finale of a Lie",
+      "vi-vn" : "Màn Kết Của Một Lời Nói Dối",
+      "zh-cn" : "一场谎言的终幕",
+      "zh-tw" : "一場謊言的終幕"
+    },
+    "nameTextMapHash" : 580008868750168993,
+    "rank" : 5
+  },
   "24000" : {
     "id" : 24000,
     "l10nMap" : {
@@ -4677,6 +4717,26 @@
       "zh-tw" : "記憶永不落幕"
     },
     "nameTextMapHash" : 10592306546445443705,
+    "rank" : 5
+  },
+  "24006" : {
+    "id" : 24006,
+    "l10nMap" : {
+      "de-de" : "Hochgefühl voller Segen",
+      "en-us" : "Elation Brimming With Blessings",
+      "es-es" : "Exultación desbordante de bendiciones",
+      "fr-fr" : "Eau bénite de l'Allégresse",
+      "id-id" : "Elation Brimming With Blessings",
+      "ja-jp" : "愉悦溢れる祝福",
+      "ko-kr" : "넘치는 환락의 축복",
+      "pt-pt" : "Euforia Repleta de Bênçãos",
+      "ru-ru" : "Переполненная благословением Радость",
+      "th-th" : "Elation Brimming With Blessings",
+      "vi-vn" : "Chúc Phúc Tràn Đầy Vui Vẻ",
+      "zh-cn" : "欢愉满溢祝福",
+      "zh-tw" : "歡愉滿溢祝福"
+    },
+    "nameTextMapHash" : 13065036285849747195,
     "rank" : 5
   },
   "8001" : {
