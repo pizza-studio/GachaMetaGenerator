@@ -23,7 +23,7 @@ extension GachaMetaGenerator {
     }
 
     public static func fetchAndCompileFromDimbreath(
-        for game: SupportedGame, lang: [GachaDictLang]? = nil
+        for game: SupportedGame, lang: [GachaDictLang]? = nil, localPath: String? = nil
     ) async throws
         -> CompilationResult {
         var lang = lang ?? []
@@ -36,8 +36,8 @@ extension GachaMetaGenerator {
         var items = try await withThrowingTaskGroup(
             of: [GachaItemMeta].self, returning: [GachaItemMeta].self
         ) { taskGroup in
-            taskGroup.addTask { try await game.fetchExcelConfigData(for: .characterData) }
-            taskGroup.addTask { try await game.fetchExcelConfigData(for: .weaponData) }
+            taskGroup.addTask { try await game.fetchExcelConfigData(for: .characterData, localPath: localPath) }
+            taskGroup.addTask { try await game.fetchExcelConfigData(for: .weaponData, localPath: localPath) }
             var images = [GachaItemMeta]()
             for try await result in taskGroup {
                 images.append(contentsOf: result)
@@ -48,7 +48,9 @@ extension GachaMetaGenerator {
         // MARK: Get Raw Translation Data for Matched Languages.
 
         let neededHashIDs = Set<String>(items.map(\.nameTextMapHash.description))
-        let dictAll = try await game.fetchRawLangData(lang: lang, neededHashIDs: neededHashIDs)
+        let dictAll = try await game.fetchRawLangData(
+            lang: lang, neededHashIDs: neededHashIDs, localPath: localPath
+        )
 
         // MARK: Apply translations.
 

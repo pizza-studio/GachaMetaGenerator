@@ -5,11 +5,18 @@
 import Foundation
 import GachaMetaGeneratorModule
 
-let cmdParameters = CommandLine.arguments.dropFirst(1)
+var cmdArgs = Array(CommandLine.arguments.dropFirst(1))
 
-switch cmdParameters.count {
+// Parse optional named arguments.
+var localPath: String?
+if let idx = cmdArgs.firstIndex(of: "-localPath"), idx + 1 < cmdArgs.count {
+    localPath = cmdArgs[idx + 1]
+    cmdArgs.removeSubrange(idx ... idx + 1)
+}
+
+switch cmdArgs.count {
 case 1, 2:
-    guard let firstArgument = cmdParameters.first,
+    guard let firstArgument = cmdArgs.first,
           let game = GachaMetaGenerator.SupportedGame(arg: firstArgument)
     else {
         let errText = "!! Please give only one argument among `-GI`, `-HSR`, `-GID`, `-HSRD`."
@@ -17,10 +24,13 @@ case 1, 2:
         assertionFailure(errText)
         exit(1)
     }
+    if let localPath {
+        print("// Using local data path: \(localPath)")
+    }
     do {
         let useDimBreath: Bool = firstArgument.suffix(1).lowercased() == "d"
         let dict = useDimBreath
-            ? try await GachaMetaGenerator.fetchAndCompileFromDimbreath(for: game)
+            ? try await GachaMetaGenerator.fetchAndCompileFromDimbreath(for: game, localPath: localPath)
             : try await GachaMetaGenerator.fetchAndCompileFromYatta(for: game)
         let encoder = JSONEncoder()
         encoder.outputFormatting = [.sortedKeys, .prettyPrinted]
@@ -38,7 +48,7 @@ case 1, 2:
         throw (error)
     }
 default:
-    let errText = "!! Wrong number of arguments. Please give only one argument among `-GI`, `-HSR`, `-GID`, `-HSRD`."
+    let errText = "!! Wrong number of arguments. Use: `-GI`, `-HSR`, `-GID`, `-HSRD`. Optional: `-localPath /path/to/data`."
     print("{\"errMsg\": \"\(errText)\"}\n")
     assertionFailure(errText)
     exit(1)

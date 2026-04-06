@@ -106,7 +106,10 @@ extension GachaMetaGenerator.SupportedGame {
 
 extension GachaMetaGenerator.SupportedGame {
     /// Only used for dealing with Dimbreath's repos.
-    func fetchExcelConfigData(for type: DataURLType) async throws -> [GachaMetaGenerator.GachaItemMeta] {
+    func fetchExcelConfigData(
+        for type: DataURLType,
+        localPath: String? = nil
+    ) async throws -> [GachaMetaGenerator.GachaItemMeta] {
         let decoder = JSONDecoder()
         func decode<T: Decodable>(_ type: T.Type, from data: Data, url: URL) throws -> T {
             do {
@@ -116,28 +119,37 @@ extension GachaMetaGenerator.SupportedGame {
                 throw decodingError
             }
         }
+        func fetchData(from url: URL) async throws -> Data {
+            if url.isFileURL {
+                print("// Reading local: \(url.path)")
+                return try Data(contentsOf: url)
+            }
+            print("// Fetching: \(url.absoluteString)")
+            let (data, _) = try await URLSession.shared.asyncData(from: url)
+            return data
+        }
         switch (self, type) {
         case (.genshinImpact, .weaponData):
-            let url = getExcelConfigDataURL(for: .weaponData)
-            let (data, _) = try await URLSession.shared.asyncData(from: url)
+            let url = getExcelConfigDataURL(for: .weaponData, localPath: localPath)
+            let data = try await fetchData(from: url)
             let response = try decode([GachaMetaGenerator.GenshinRawItem].self, from: data, url: url)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.genshinImpact, .characterData):
-            let url = getExcelConfigDataURL(for: .characterData)
-            let (data, _) = try await URLSession.shared.asyncData(from: url)
+            let url = getExcelConfigDataURL(for: .characterData, localPath: localPath)
+            let data = try await fetchData(from: url)
             let response = try decode([GachaMetaGenerator.GenshinRawItem].self, from: data, url: url)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.starRail, .weaponData):
-            let url = getExcelConfigDataURL(for: .weaponData)
-            let (data, _) = try await URLSession.shared.asyncData(from: url)
+            let url = getExcelConfigDataURL(for: .weaponData, localPath: localPath)
+            let data = try await fetchData(from: url)
             let response = try decode([GachaMetaGenerator.HSRWeaponRawItem].self, from: data, url: url)
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
         case (.starRail, .characterData):
-            let url = getExcelConfigDataURL(for: .characterData, isCollab: false)
-            let (data, _) = try await URLSession.shared.asyncData(from: url)
+            let url = getExcelConfigDataURL(for: .characterData, isCollab: false, localPath: localPath)
+            let data = try await fetchData(from: url)
             var response = try decode([GachaMetaGenerator.HSRAvatarRawItem].self, from: data, url: url)
-            let collabURL = getExcelConfigDataURL(for: .characterData, isCollab: true)
-            let (data2, _) = try await URLSession.shared.asyncData(from: collabURL)
+            let collabURL = getExcelConfigDataURL(for: .characterData, isCollab: true, localPath: localPath)
+            let data2 = try await fetchData(from: collabURL)
             response += try decode([GachaMetaGenerator.HSRAvatarRawItem].self, from: data2, url: collabURL)
             response.sort { $0.id < $1.id }
             return response.filter(\.isValid).map { $0.toGachaItemMeta() }
@@ -147,7 +159,8 @@ extension GachaMetaGenerator.SupportedGame {
     /// Only used for dealing with Dimbreath's repos.
     func fetchRawLangData(
         lang: [GachaMetaGenerator.GachaDictLang]? = nil,
-        neededHashIDs: Set<String>
+        neededHashIDs: Set<String>,
+        localPath: String? = nil
     ) async throws
         -> [String: [String: String]] {
         func decodeLangDict(_ data: Data, url: URL) throws -> [String: String] {
@@ -164,10 +177,18 @@ extension GachaMetaGenerator.SupportedGame {
         ) { taskGroup in
             lang?.forEach { locale in
                 taskGroup.addTask {
-                    let urls = getLangDataURLs(for: locale)
+                    let urls = self.getLangDataURLs(for: locale, localPath: localPath)
                     var finalDict = [String: String]()
                     for url in urls {
-                        let (data, _) = try await URLSession.shared.asyncData(from: url)
+                        let data: Data
+                        if url.isFileURL {
+                            print("// Reading local: \(url.path)")
+                            data = try Data(contentsOf: url)
+                        } else {
+                            print("// Fetching: \(url.absoluteString)")
+                            let (d, _) = try await URLSession.shared.asyncData(from: url)
+                            data = d
+                        }
                         var dict = try decodeLangDict(data, url: url)
                         let keysToRemove = Set<String>(dict.keys).subtracting(neededHashIDs)
                         keysToRemove.forEach { dict.removeValue(forKey: $0) }
@@ -199,22 +220,30 @@ extension GachaMetaGenerator.SupportedGame {
     }
 
     /// Only used for dealing with Dimbreath's repos.
-    func getExcelConfigDataURL(for type: DataURLType, isCollab: Bool = false) -> URL {
-        var result = repoHeader + repoName
+    func getExcelConfigDataURL(for type: DataURLType, isCollab: Bool = false, localPath: String? = nil) -> URL {
+        var relativePath: String
         switch (self, type) {
-        case (.genshinImpact, .weaponData): result += "ExcelBinOutput/WeaponExcelConfigData.json"
-        case (.genshinImpact, .characterData): result += "ExcelBinOutput/AvatarExcelConfigData.json"
-        case (.starRail, .weaponData): result += "ExcelOutput/EquipmentConfig.json"
+        case (.genshinImpact, .weaponData): relativePath = "ExcelBinOutput/WeaponExcelConfigData.json"
+        case (.genshinImpact, .characterData): relativePath = "ExcelBinOutput/AvatarExcelConfigData.json"
+        case (.starRail, .weaponData): relativePath = "ExcelOutput/EquipmentConfig.json"
         case (.starRail, .characterData):
-            result += "ExcelOutput/AvatarConfig\(isCollab ? "LD" : "").json"
+            relativePath = "ExcelOutput/AvatarConfig\(isCollab ? "LD" : "").json"
         }
-        return URL(string: result)!
+        if let localPath {
+            return URL(fileURLWithPath: localPath).appendingPathComponent(relativePath)
+        }
+        return URL(string: repoHeader + repoName + relativePath)!
     }
 
     /// Only used for dealing with Dimbreath's repos.
-    func getLangDataURLs(for lang: GachaMetaGenerator.GachaDictLang) -> [URL] {
+    func getLangDataURLs(for lang: GachaMetaGenerator.GachaDictLang, localPath: String? = nil) -> [URL] {
         lang.filenamesForChunks(for: self).map { filename in
-            URL(string: repoHeader + repoName + "TextMap/\(filename)")!
+            if let localPath {
+                return URL(fileURLWithPath: localPath)
+                    .appendingPathComponent("TextMap")
+                    .appendingPathComponent(filename)
+            }
+            return URL(string: repoHeader + repoName + "TextMap/\(filename)")!
         }
     }
 
