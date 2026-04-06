@@ -1,3 +1,22 @@
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/ExcelOutput/AvatarConfig.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/ExcelOutput/EquipmentConfig.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/ExcelOutput/AvatarConfigLD.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapDE.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapEN.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapCHT.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapCHS.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapES.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapFR.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapID.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapJP.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapKR_0.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapPT.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapRU_0.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapTH_0.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapVI.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapKR_1.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapRU_1.json
+// Fetching: https://gitlab.com/Dimbreath/TurnBasedGameData/-/raw/main/TextMap/TextMapTH_1.json
 {
   "1001" : {
     "id" : 1001,
