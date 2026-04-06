@@ -109,7 +109,8 @@ extension GachaMetaGenerator.SupportedGame {
     func fetchExcelConfigData(
         for type: DataURLType,
         localPath: String? = nil
-    ) async throws -> [GachaMetaGenerator.GachaItemMeta] {
+    ) async throws
+        -> [GachaMetaGenerator.GachaItemMeta] {
         let decoder = JSONDecoder()
         func decode<T: Decodable>(_ type: T.Type, from data: Data, url: URL) throws -> T {
             do {

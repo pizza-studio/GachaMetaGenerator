@@ -48,7 +48,8 @@ case 1, 2:
         throw (error)
     }
 default:
-    let errText = "!! Wrong number of arguments. Use: `-GI`, `-HSR`, `-GID`, `-HSRD`. Optional: `-localPath /path/to/data`."
+    let errText =
+        "!! Wrong number of arguments. Use: `-GI`, `-HSR`, `-GID`, `-HSRD`. Optional: `-localPath /path/to/data`."
     print("{\"errMsg\": \"\(errText)\"}\n")
     assertionFailure(errText)
     exit(1)
