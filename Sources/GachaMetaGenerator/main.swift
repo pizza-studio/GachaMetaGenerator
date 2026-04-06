@@ -25,7 +25,7 @@ case 1, 2:
         exit(1)
     }
     if let localPath {
-        print("// Using local data path: \(localPath)")
+        fputs("// Using local data path: \(localPath)\n", stderr)
     }
     do {
         let useDimBreath: Bool = firstArgument.suffix(1).lowercased() == "d"
