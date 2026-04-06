@@ -7,6 +7,10 @@ import Foundation
 import FoundationNetworking
 #endif
 
+package func printStderr(_ msg: String) {
+    FileHandle.standardError.write(Data((msg + "\n").utf8))
+}
+
 /// An extension that provides async support for fetching a URL
 ///
 /// Needed because the Linux version of Swift does not support async URLSession yet.

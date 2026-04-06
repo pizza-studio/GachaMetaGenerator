@@ -87,7 +87,7 @@ extension GachaMetaGenerator.SupportedGame {
                     }
                     buffer.append((items: rawStack, lang: locale))
                 } catch let decodingError as DecodingError {
-                    fputs("// Decoding failed for: \(url.absoluteString)\n", stderr)
+                    printStderr("// Decoding failed for: \(url.absoluteString)")
                     throw decodingError
                 } catch {
                     throw error
@@ -116,16 +116,16 @@ extension GachaMetaGenerator.SupportedGame {
             do {
                 return try decoder.decode(type, from: data)
             } catch let decodingError as DecodingError {
-                fputs("// Decoding failed for: \(url.absoluteString)\n", stderr)
+                printStderr("// Decoding failed for: \(url.absoluteString)")
                 throw decodingError
             }
         }
         func fetchData(from url: URL) async throws -> Data {
             if url.isFileURL {
-                fputs("// Reading local: \(url.path)\n", stderr)
+                printStderr("// Reading local: \(url.path)")
                 return try Data(contentsOf: url)
             }
-            fputs("// Fetching: \(url.absoluteString)\n", stderr)
+            printStderr("// Fetching: \(url.absoluteString)")
             let (data, _) = try await URLSession.shared.asyncData(from: url)
             return data
         }
@@ -168,7 +168,7 @@ extension GachaMetaGenerator.SupportedGame {
             do {
                 return try JSONDecoder().decode([String: String].self, from: data)
             } catch let decodingError as DecodingError {
-                fputs("// Decoding failed for: \(url.absoluteString)\n", stderr)
+                printStderr("// Decoding failed for: \(url.absoluteString)")
                 throw decodingError
             }
         }
@@ -183,10 +183,10 @@ extension GachaMetaGenerator.SupportedGame {
                     for url in urls {
                         let data: Data
                         if url.isFileURL {
-                            fputs("// Reading local: \(url.path)\n", stderr)
+                            printStderr("// Reading local: \(url.path)")
                             data = try Data(contentsOf: url)
                         } else {
-                            fputs("// Fetching: \(url.absoluteString)\n", stderr)
+                            printStderr("// Fetching: \(url.absoluteString)")
                             let (d, _) = try await URLSession.shared.asyncData(from: url)
                             data = d
                         }
