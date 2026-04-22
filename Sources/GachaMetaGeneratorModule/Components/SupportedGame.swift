@@ -37,6 +37,27 @@ extension GachaMetaGenerator {
 // MARK: - Dealing with Yatta.moe API Results.
 
 extension GachaMetaGenerator.SupportedGame {
+    func sanitizeTextMapValue(
+        _ value: String,
+        lang: GachaMetaGenerator.GachaDictLang?
+    )
+        -> String {
+        guard self == .starRail else { return value }
+        var sanitized = value
+        if lang == .langJP, sanitized.contains("{RUBY"), sanitized.contains("{") {
+            sanitized = sanitized.replacingOccurrences(
+                of: #"\{RUBY.*?\}"#,
+                with: "",
+                options: .regularExpression
+            )
+        }
+        if sanitized.contains("<unbreak>") || sanitized.contains("</unbreak>") {
+            sanitized = sanitized.replacingOccurrences(of: "<unbreak>", with: "")
+            sanitized = sanitized.replacingOccurrences(of: "</unbreak>", with: "")
+        }
+        return sanitized
+    }
+
     /// Only used for dealing with Yatta.moe API Results.
     ///
     /// If the lang is given null, then the parameter raw value will be `static`.
@@ -75,15 +96,8 @@ extension GachaMetaGenerator.SupportedGame {
                 do {
                     let jsonParsed = try JSONDecoder().decode(GachaMetaGenerator.YattaResponse.self, from: data)
                     var rawStack = jsonParsed.items
-                    if locale == .langJP {
-                        rubyTest: for i in 0 ..< rawStack.count {
-                            guard rawStack[i].name.contains("{RUBY") else { continue rubyTest }
-                            rawStack[i].name = rawStack[i].name.replacingOccurrences(
-                                of: #"\{RUBY.*?\}"#,
-                                with: "",
-                                options: .regularExpression
-                            )
-                        }
+                    for i in 0 ..< rawStack.count {
+                        rawStack[i].name = sanitizeTextMapValue(rawStack[i].name, lang: locale)
                     }
                     buffer.append((items: rawStack, lang: locale))
                 } catch let decodingError as DecodingError {
@@ -193,18 +207,7 @@ extension GachaMetaGenerator.SupportedGame {
                         var dict = try decodeLangDict(data, url: url)
                         let keysToRemove = Set<String>(dict.keys).subtracting(neededHashIDs)
                         keysToRemove.forEach { dict.removeValue(forKey: $0) }
-                        if locale == .langJP {
-                            dict.keys.forEach { theKey in
-                                guard dict[theKey]?.contains("{RUBY") ?? false else { return }
-                                if let rawStrToHandle = dict[theKey], rawStrToHandle.contains("{") {
-                                    dict[theKey] = rawStrToHandle.replacingOccurrences(
-                                        of: #"\{RUBY.*?\}"#,
-                                        with: "",
-                                        options: .regularExpression
-                                    )
-                                }
-                            }
-                        }
+                        dict = dict.mapValues { sanitizeTextMapValue($0, lang: locale) }
                         dict.forEach { key, value in
                             finalDict[key] = value
                         }

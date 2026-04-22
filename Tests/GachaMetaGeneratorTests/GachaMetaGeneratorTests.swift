@@ -27,6 +27,20 @@ struct GachaMetaGeneratorTests {
     }
 
     @Test
+    func testNormalizingHSRTextMapMarkup() {
+        let cleanedJP = GachaMetaGenerator.SupportedGame.starRail.sanitizeTextMapValue(
+            "回復量+<unbreak>#1[f1]%</unbreak>{RUBY_B#注音}",
+            lang: .langJP
+        )
+        let cleanedEN = GachaMetaGenerator.SupportedGame.starRail.sanitizeTextMapValue(
+            "Incoming Healing increases by <unbreak>#1[f1]%</unbreak>",
+            lang: .langEN
+        )
+        #expect(cleanedJP == "回復量+#1[f1]%")
+        #expect(cleanedEN == "Incoming Healing increases by #1[f1]%")
+    }
+
+    @Test
     func testGeneratingHSRFromDimbreathRepos() async throws {
         let dict = try await GachaMetaGenerator.fetchAndCompileFromDimbreath(for: .starRail)
         let encoder = JSONEncoder()
