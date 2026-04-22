@@ -1579,6 +1579,46 @@
     "nameTextMapHash" : 16507315893888115872,
     "rank" : 5
   },
+  "1505" : {
+    "id" : 1505,
+    "l10nMap" : {
+      "de-de" : "Evanescia",
+      "en-us" : "Evanescia",
+      "es-es" : "Evanescia",
+      "fr-fr" : "Evanescia",
+      "id-id" : "Evanescia",
+      "ja-jp" : "緋英",
+      "ko-kr" : "에바네시아",
+      "pt-pt" : "Evanescia",
+      "ru-ru" : "Эванесса",
+      "th-th" : "Evanescia",
+      "vi-vn" : "Evanescia",
+      "zh-cn" : "绯英",
+      "zh-tw" : "緋英"
+    },
+    "nameTextMapHash" : 9927439444416271873,
+    "rank" : 5
+  },
+  "1506" : {
+    "id" : 1506,
+    "l10nMap" : {
+      "de-de" : "Silberwolf St. 999",
+      "en-us" : "Silver Wolf LV.999",
+      "es-es" : "Silver Wolf Niv. 999",
+      "fr-fr" : "Louve d'argent Niv. 999",
+      "id-id" : "Silver Wolf LV.999",
+      "ja-jp" : "銀狼LV.999",
+      "ko-kr" : "은랑 LV.999",
+      "pt-pt" : "Loba Prateada Nv. 999",
+      "ru-ru" : "Серебряный Волк ур. 999",
+      "th-th" : "Silver Wolf LV.999",
+      "vi-vn" : "Sói Bạc LV.999",
+      "zh-cn" : "银狼LV.999",
+      "zh-tw" : "銀狼LV.999"
+    },
+    "nameTextMapHash" : 11557317042334401025,
+    "rank" : 5
+  },
   "20000" : {
     "id" : 20000,
     "l10nMap" : {
@@ -3479,6 +3519,26 @@
     "nameTextMapHash" : 15207548416483397866,
     "rank" : 4
   },
+  "22007" : {
+    "id" : 22007,
+    "l10nMap" : {
+      "de-de" : "Gemeinsam in die Zukunft",
+      "en-us" : "Tomorrow, Together",
+      "es-es" : "Juntos hacia el futuro",
+      "fr-fr" : "L'avenir nous verra réunis",
+      "id-id" : "Tomorrow, Together",
+      "ja-jp" : "みんなで一緒に未来へ",
+      "ko-kr" : "미래엔 우리가 함께할 거야",
+      "pt-pt" : "Juntos no Futuro",
+      "ru-ru" : "Будущее вместе",
+      "th-th" : "Tomorrow, Together",
+      "vi-vn" : "Tương Lai, Có Chúng Ta Cùng Nhau",
+      "zh-cn" : "未来，有我们一起",
+      "zh-tw" : "未來，有我們一起"
+    },
+    "nameTextMapHash" : 1470137069313109545,
+    "rank" : 4
+  },
   "23000" : {
     "id" : 23000,
     "l10nMap" : {
@@ -4599,6 +4659,46 @@
     "nameTextMapHash" : 580008868750168993,
     "rank" : 5
   },
+  "23057" : {
+    "id" : 23057,
+    "l10nMap" : {
+      "de-de" : "Willkommen in der kosmischen Stadt",
+      "en-us" : "Welcome to the Cosmic City",
+      "es-es" : "Bienvenidos a la ciudad cósmica",
+      "fr-fr" : "Terrain de jeu universel",
+      "id-id" : "Welcome to the Cosmic City",
+      "ja-jp" : "銀河シティへようこそ",
+      "ko-kr" : "갤럭시 시티에 오신 것을 환영합니다",
+      "pt-pt" : "Bem-vindo à Cidade Cósmica",
+      "ru-ru" : "Добро пожаловать в космический город",
+      "th-th" : "Welcome to the Cosmic City",
+      "vi-vn" : "Chào Mừng Đến Với Thành Phố Vũ Trụ",
+      "zh-cn" : "欢迎来到银河城",
+      "zh-tw" : "歡迎來到銀河城"
+    },
+    "nameTextMapHash" : 18067789291542392699,
+    "rank" : 5
+  },
+  "23058" : {
+    "id" : 23058,
+    "l10nMap" : {
+      "de-de" : "Begegnung in der nächsten Blütezeit",
+      "en-us" : "Until the Flowers Bloom Again",
+      "es-es" : "Encuentro en la próxima primavera",
+      "fr-fr" : "Printemps des retrouvailles",
+      "id-id" : "Until the Flowers Bloom Again",
+      "ja-jp" : "再び花が咲く季節に",
+      "ko-kr" : "다음 꽃피는 계절의 만남",
+      "pt-pt" : "Um Encontro na Próxima Primavera",
+      "ru-ru" : "Пока не распустятся цветы",
+      "th-th" : "Until the Flowers Bloom Again",
+      "vi-vn" : "Hẹn Gặp Mùa Hoa Tới",
+      "zh-cn" : "邂逅于下一个花季",
+      "zh-tw" : "邂逅於下一個花季"
+    },
+    "nameTextMapHash" : 12250452824306430514,
+    "rank" : 5
+  },
   "24000" : {
     "id" : 24000,
     "l10nMap" : {
@@ -4897,6 +4997,46 @@
       "zh-tw" : "星"
     },
     "nameTextMapHash" : 4088185837206355760,
+    "rank" : 5
+  },
+  "8009" : {
+    "id" : 8009,
+    "l10nMap" : {
+      "de-de" : "Caelus",
+      "en-us" : "Caelus",
+      "es-es" : "Caelus",
+      "fr-fr" : "Caelus",
+      "id-id" : "Caelus",
+      "ja-jp" : "穹",
+      "ko-kr" : "카일루스",
+      "pt-pt" : "Caelus",
+      "ru-ru" : "Келус",
+      "th-th" : "Caelus",
+      "vi-vn" : "Caelus",
+      "zh-cn" : "穹",
+      "zh-tw" : "穹"
+    },
+    "nameTextMapHash" : 7663307095624772319,
+    "rank" : 5
+  },
+  "8010" : {
+    "id" : 8010,
+    "l10nMap" : {
+      "de-de" : "Stella",
+      "en-us" : "Stelle",
+      "es-es" : "Estela",
+      "fr-fr" : "Stelle",
+      "id-id" : "Stelle",
+      "ja-jp" : "星",
+      "ko-kr" : "스텔레",
+      "pt-pt" : "Stelle",
+      "ru-ru" : "Стелла",
+      "th-th" : "Stelle",
+      "vi-vn" : "Stelle",
+      "zh-cn" : "星",
+      "zh-tw" : "星"
+    },
+    "nameTextMapHash" : 11669351296701672101,
     "rank" : 5
   }
 }
