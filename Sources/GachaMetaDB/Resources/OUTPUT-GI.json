@@ -2529,6 +2529,28 @@
     "nameTextMapHash" : 963351866,
     "rank" : 5
   },
+  "10000129" : {
+    "id" : 10000129,
+    "l10nMap" : {
+      "de-de" : "Lohen",
+      "en-us" : "Lohen",
+      "es-es" : "Lohen",
+      "fr-fr" : "Lohen",
+      "id-id" : "Lohen",
+      "it-it" : "Lohen",
+      "ja-jp" : "ローエン",
+      "ko-kr" : "로엔",
+      "pt-pt" : "Lohen",
+      "ru-ru" : "Лоэн",
+      "th-th" : "Lohen",
+      "tr-tr" : "Lohen",
+      "vi-vn" : "Lohen",
+      "zh-cn" : "洛恩",
+      "zh-tw" : "洛恩"
+    },
+    "nameTextMapHash" : 2872823194,
+    "rank" : 5
+  },
   "10000130" : {
     "id" : 10000130,
     "l10nMap" : {
@@ -2550,6 +2572,50 @@
     },
     "nameTextMapHash" : 1961019898,
     "rank" : 5
+  },
+  "10000131" : {
+    "id" : 10000131,
+    "l10nMap" : {
+      "de-de" : "Nicole",
+      "en-us" : "Nicole",
+      "es-es" : "Nicole",
+      "fr-fr" : "Nicole",
+      "id-id" : "Nicole",
+      "it-it" : "Nicole",
+      "ja-jp" : "ニコ",
+      "ko-kr" : "니콜",
+      "pt-pt" : "Nicole",
+      "ru-ru" : "Николь",
+      "th-th" : "Nicole",
+      "tr-tr" : "Nicole",
+      "vi-vn" : "Nicole",
+      "zh-cn" : "尼可",
+      "zh-tw" : "尼可"
+    },
+    "nameTextMapHash" : 1711582634,
+    "rank" : 5
+  },
+  "10000132" : {
+    "id" : 10000132,
+    "l10nMap" : {
+      "de-de" : "Prune",
+      "en-us" : "Prune",
+      "es-es" : "Prune",
+      "fr-fr" : "Prune",
+      "id-id" : "Prune",
+      "it-it" : "Prune",
+      "ja-jp" : "プルーネ",
+      "ko-kr" : "프루네",
+      "pt-pt" : "Prune",
+      "ru-ru" : "Прюн",
+      "th-th" : "Prune",
+      "tr-tr" : "Prune",
+      "vi-vn" : "Prune",
+      "zh-cn" : "布伦妮",
+      "zh-tw" : "布倫妮"
+    },
+    "nameTextMapHash" : 2787504450,
+    "rank" : 4
   },
   "10009" : {
     "id" : 10009,
@@ -5507,6 +5573,28 @@
     "nameTextMapHash" : 3869745515,
     "rank" : 5
   },
+  "13517" : {
+    "id" : 13517,
+    "l10nMap" : {
+      "de-de" : "Katastrophe und Reue",
+      "en-us" : "Disaster and Remorse",
+      "es-es" : "Desastre y Arrepentimiento",
+      "fr-fr" : "Désastre et remords",
+      "id-id" : "Disaster and Remorse",
+      "it-it" : "Disastro e rimorso",
+      "ja-jp" : "災憾",
+      "ko-kr" : "재앙",
+      "pt-pt" : "Desastre e Remorso",
+      "ru-ru" : "Бедствие и раскаяние",
+      "th-th" : "Disaster and Remorse",
+      "tr-tr" : "Felaket ve Pişmanlık",
+      "vi-vn" : "Tai Họa Và Hối Hận",
+      "zh-cn" : "灾悔",
+      "zh-tw" : "災悔"
+    },
+    "nameTextMapHash" : 3376210043,
+    "rank" : 5
+  },
   "14101" : {
     "id" : 14101,
     "l10nMap" : {
@@ -6605,6 +6693,28 @@
       "zh-tw" : "帷間夜曲"
     },
     "nameTextMapHash" : 1441327235,
+    "rank" : 5
+  },
+  "14523" : {
+    "id" : 14523,
+    "l10nMap" : {
+      "de-de" : "Sieben Gebote von Staub und Licht",
+      "en-us" : "Angelos' Heptades",
+      "es-es" : "Heptadas de los Ángeles",
+      "fr-fr" : "Heptades des anges",
+      "id-id" : "Angelos' Heptades",
+      "it-it" : "Eptadi dell'angelo",
+      "ja-jp" : "塵と光の七つの誓約",
+      "ko-kr" : "일곱빛 계시",
+      "pt-pt" : "Os Sete Éditos da Poeira e Luz",
+      "ru-ru" : "Гептада ангела",
+      "th-th" : "Angelos' Heptades",
+      "tr-tr" : "Meleğin Yedi Fermanı",
+      "vi-vn" : "Trần Quang Thất Dụ",
+      "zh-cn" : "尘光七谕",
+      "zh-tw" : "塵光七諭"
+    },
+    "nameTextMapHash" : 1871665507,
     "rank" : 5
   },
   "15101" : {
