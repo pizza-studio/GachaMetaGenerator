@@ -1619,6 +1619,26 @@
     "nameTextMapHash" : 11557317042334401025,
     "rank" : 5
   },
+  "1507" : {
+    "id" : 1507,
+    "l10nMap" : {
+      "de-de" : "Mortenax Blade",
+      "en-us" : "Mortenax Blade",
+      "es-es" : "Mortenax Blade",
+      "fr-fr" : "Blade Mortenax",
+      "id-id" : "Mortenax Blade",
+      "ja-jp" : "千冶・刃",
+      "ko-kr" : "천야•블레이드",
+      "pt-pt" : "Mortenax Blade",
+      "ru-ru" : "Мортенакс Блэйд",
+      "th-th" : "ผู้ฝ่าบ่วงมฤตยู Blade",
+      "vi-vn" : "Mortenax Blade",
+      "zh-cn" : "千冶•刃",
+      "zh-tw" : "千冶•刃"
+    },
+    "nameTextMapHash" : 13319237045724646398,
+    "rank" : 5
+  },
   "20000" : {
     "id" : 20000,
     "l10nMap" : {
@@ -4697,6 +4717,26 @@
       "zh-tw" : "邂逅於下一個花季"
     },
     "nameTextMapHash" : 12250452824306430514,
+    "rank" : 5
+  },
+  "23059" : {
+    "id" : 23059,
+    "l10nMap" : {
+      "de-de" : "Neue Überreste des versengenden Fegefeuers",
+      "en-us" : "Reforged in Hellfire",
+      "es-es" : "Nuevo cuerpo del averno ardiente",
+      "fr-fr" : "Refonte infernale",
+      "id-id" : "Reforged in Hellfire",
+      "ja-jp" : "煉獄に焼かれし新身",
+      "ko-kr" : "연옥을 불사른 새로운 몸",
+      "pt-pt" : "Reforjado nas Chamas do Inferno",
+      "ru-ru" : "Перерождённый в пламени",
+      "th-th" : "Reforged in Hellfire",
+      "vi-vn" : "Hình Hài Tái Sinh Từ Hỏa Ngục",
+      "zh-cn" : "灼尽炼狱的新骸",
+      "zh-tw" : "灼盡煉獄的新骸"
+    },
+    "nameTextMapHash" : 5178844806898592560,
     "rank" : 5
   },
   "24000" : {
