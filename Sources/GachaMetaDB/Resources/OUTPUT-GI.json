@@ -2617,6 +2617,28 @@
     "nameTextMapHash" : 2787504450,
     "rank" : 4
   },
+  "10000133" : {
+    "id" : 10000133,
+    "l10nMap" : {
+      "de-de" : "Sandrone",
+      "en-us" : "Sandrone",
+      "es-es" : "Sandrone",
+      "fr-fr" : "Sandrone",
+      "id-id" : "Sandrone",
+      "it-it" : "Sandrone",
+      "ja-jp" : "サンドローネ",
+      "ko-kr" : "산드로네",
+      "pt-pt" : "Sandrone",
+      "ru-ru" : "Сандроне",
+      "th-th" : "Sandrone",
+      "tr-tr" : "Sandrone",
+      "vi-vn" : "Sandrone",
+      "zh-cn" : "桑多涅",
+      "zh-tw" : "桑多涅"
+    },
+    "nameTextMapHash" : 108893506,
+    "rank" : 5
+  },
   "10009" : {
     "id" : 10009,
     "l10nMap" : {
@@ -4691,6 +4713,28 @@
       "zh-tw" : "狼的武功歌"
     },
     "nameTextMapHash" : 3121311955,
+    "rank" : 5
+  },
+  "12516" : {
+    "id" : 12516,
+    "l10nMap" : {
+      "de-de" : "Schlüssel der Überbietung",
+      "en-us" : "A Teaspoon of Transcendence",
+      "es-es" : "Llave de la Trascendencia",
+      "fr-fr" : "Une cuillerée de transcendance",
+      "id-id" : "A Teaspoon of Transcendence",
+      "it-it" : "Un cucchiaino di trascendenza",
+      "ja-jp" : "超越の鍵",
+      "ko-kr" : "초월의 열쇠",
+      "pt-pt" : "Chave da Transcendência",
+      "ru-ru" : "Чайная ложка трансцендентности",
+      "th-th" : "A Teaspoon of Transcendence",
+      "tr-tr" : "Bir Kaşık Üstünlük",
+      "vi-vn" : "Muỗng Trà Siêu Việt",
+      "zh-cn" : "超越之匙",
+      "zh-tw" : "超越之匙"
+    },
+    "nameTextMapHash" : 3034568739,
     "rank" : 5
   },
   "13101" : {
