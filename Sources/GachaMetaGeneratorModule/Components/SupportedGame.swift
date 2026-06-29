@@ -264,7 +264,7 @@ extension GachaMetaGenerator.SupportedGame {
     /// Only used for dealing with Dimbreath's repos.
     private var repoName: String {
         switch self {
-        case .genshinImpact: return "Dimbreath/AnimeGameData/-/raw/master/"
+        case .genshinImpact: return "Dimbreath/AnimeGameData2/-/raw/main/"
         case .starRail: return "Dimbreath/TurnBasedGameData/-/raw/main/"
         }
     }
