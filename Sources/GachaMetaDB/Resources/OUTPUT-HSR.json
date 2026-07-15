@@ -1639,6 +1639,66 @@
     "nameTextMapHash" : 13319237045724646398,
     "rank" : 5
   },
+  "1508" : {
+    "id" : 1508,
+    "l10nMap" : {
+      "de-de" : "Rin Tohsaka",
+      "en-us" : "Rin Tohsaka",
+      "es-es" : "Rin Tohsaka",
+      "fr-fr" : "Rin Tohsaka",
+      "id-id" : "Rin Tohsaka",
+      "ja-jp" : "遠坂凛",
+      "ko-kr" : "토오사카 린",
+      "pt-pt" : "Rin Tohsaka",
+      "ru-ru" : "Рин Тосака",
+      "th-th" : "Rin Tohsaka",
+      "vi-vn" : "Rin Tohsaka",
+      "zh-cn" : "远坂凛",
+      "zh-tw" : "遠坂凜"
+    },
+    "nameTextMapHash" : 15249535273064221797,
+    "rank" : 5
+  },
+  "1509" : {
+    "id" : 1509,
+    "l10nMap" : {
+      "de-de" : "Gilgamesh",
+      "en-us" : "Gilgamesh",
+      "es-es" : "Gilgamesh",
+      "fr-fr" : "Gilgamesh",
+      "id-id" : "Gilgamesh",
+      "ja-jp" : "ギルガメッシュ",
+      "ko-kr" : "길가메시",
+      "pt-pt" : "Gilgamesh",
+      "ru-ru" : "Гильгамеш",
+      "th-th" : "Gilgamesh",
+      "vi-vn" : "Gilgamesh",
+      "zh-cn" : "吉尔伽美什",
+      "zh-tw" : "吉爾伽美什"
+    },
+    "nameTextMapHash" : 195746835239934719,
+    "rank" : 5
+  },
+  "1510" : {
+    "id" : 1510,
+    "l10nMap" : {
+      "de-de" : "Himeko – Nova",
+      "en-us" : "Himeko • Nova",
+      "es-es" : "Himeko Nova",
+      "fr-fr" : "Himeko • Nova",
+      "id-id" : "Himeko • Nova",
+      "ja-jp" : "姫子・旅立ち",
+      "ko-kr" : "히메코•노바",
+      "pt-pt" : "Himeko - Nova",
+      "ru-ru" : "Химеко: Нова",
+      "th-th" : "Himeko - นวดารา",
+      "vi-vn" : "Himeko - Nova",
+      "zh-cn" : "姬子•启行",
+      "zh-tw" : "姬子•啟行"
+    },
+    "nameTextMapHash" : 12653203655511224443,
+    "rank" : 5
+  },
   "20000" : {
     "id" : 20000,
     "l10nMap" : {
@@ -4737,6 +4797,66 @@
       "zh-tw" : "灼盡煉獄的新骸"
     },
     "nameTextMapHash" : 5178844806898592560,
+    "rank" : 5
+  },
+  "23060" : {
+    "id" : 23060,
+    "l10nMap" : {
+      "de-de" : "Wenn ein Stern den Nachthimmel erhellt",
+      "en-us" : "A Star That Lights the Night",
+      "es-es" : "Cuando una estrella ilumina la noche",
+      "fr-fr" : "Une étoile illuminant la nuit",
+      "id-id" : "A Star That Lights the Night",
+      "ja-jp" : "夜を照らす導きの星",
+      "ko-kr" : "별이 밤하늘을 밝힐 때",
+      "pt-pt" : "Quando uma Estrela Ilumina o Céu Noturno",
+      "ru-ru" : "Когда звезда озаряет ночное небо",
+      "th-th" : "A Star That Lights the Night",
+      "vi-vn" : "Khi Một Vì Sao Chiếu Sáng Trời Đêm",
+      "zh-cn" : "当一颗星照亮夜空",
+      "zh-tw" : "當一顆星照亮夜空"
+    },
+    "nameTextMapHash" : 7768214880470327395,
+    "rank" : 5
+  },
+  "23061" : {
+    "id" : 23061,
+    "l10nMap" : {
+      "de-de" : "Die leise flackernde Sternenflamme",
+      "en-us" : "Flickering Stars",
+      "es-es" : "Destelleos silentes",
+      "fr-fr" : "Étoiles scintillantes",
+      "id-id" : "Flickering Stars",
+      "ja-jp" : "静かに瞬く小さな火",
+      "ko-kr" : "고요히 빛나는 불티",
+      "pt-pt" : "Estrelas Cintilantes",
+      "ru-ru" : "Мерцающие звёзды",
+      "th-th" : "Flickering Stars",
+      "vi-vn" : "Ngọn Lửa Nhỏ Thầm Lặng Tỏa Sáng",
+      "zh-cn" : "星火悄然闪耀",
+      "zh-tw" : "星火悄然閃耀"
+    },
+    "nameTextMapHash" : 12878612287235138706,
+    "rank" : 5
+  },
+  "23062" : {
+    "id" : 23062,
+    "l10nMap" : {
+      "de-de" : "Ich bin, wie du mich siehst",
+      "en-us" : "I Am As You Behold",
+      "es-es" : "Soy lo que ves",
+      "fr-fr" : "Je suis tel que tu me vois",
+      "id-id" : "I Am As You Behold",
+      "ja-jp" : "在るがままの我",
+      "ko-kr" : "보이는 것이 곧 나",
+      "pt-pt" : "Eu Sou Como Tu Me Vês",
+      "ru-ru" : "Я - всё, что пред взором",
+      "th-th" : "I Am As You Behold",
+      "vi-vn" : "Ngươi Thấy Chính Là Ta",
+      "zh-cn" : "所见即我",
+      "zh-tw" : "所見即我"
+    },
+    "nameTextMapHash" : 13693150873761509240,
     "rank" : 5
   },
   "24000" : {
