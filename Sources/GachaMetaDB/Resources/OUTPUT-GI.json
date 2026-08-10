@@ -43,28 +43,6 @@
     "nameTextMapHash" : 3221565738,
     "rank" : 5
   },
-  "10000005" : {
-    "id" : 10000005,
-    "l10nMap" : {
-      "de-de" : "Aether",
-      "en-us" : "Aether",
-      "es-es" : "Éter",
-      "fr-fr" : "Aether",
-      "id-id" : "Aether",
-      "it-it" : "Aether",
-      "ja-jp" : "空",
-      "ko-kr" : "아이테르",
-      "pt-pt" : "Aether",
-      "ru-ru" : "Итэр",
-      "th-th" : "Aether",
-      "tr-tr" : "Aether",
-      "vi-vn" : "Aether",
-      "zh-cn" : "空",
-      "zh-tw" : "空"
-    },
-    "nameTextMapHash" : 1533656306,
-    "rank" : 5
-  },
   "10000006" : {
     "id" : 10000006,
     "l10nMap" : {
@@ -86,28 +64,6 @@
     },
     "nameTextMapHash" : 3344622722,
     "rank" : 4
-  },
-  "10000007" : {
-    "id" : 10000007,
-    "l10nMap" : {
-      "de-de" : "Lumine",
-      "en-us" : "Lumine",
-      "es-es" : "Lumina",
-      "fr-fr" : "Lumine",
-      "id-id" : "Lumine",
-      "it-it" : "Lumine",
-      "ja-jp" : "蛍",
-      "ko-kr" : "루미네",
-      "pt-pt" : "Lumine",
-      "ru-ru" : "Люмин",
-      "th-th" : "Lumine",
-      "tr-tr" : "Lumine",
-      "vi-vn" : "Lumine",
-      "zh-cn" : "荧",
-      "zh-tw" : "熒"
-    },
-    "nameTextMapHash" : 3816664530,
-    "rank" : 5
   },
   "10000014" : {
     "id" : 10000014,
@@ -2639,13 +2595,49 @@
     "nameTextMapHash" : 108893506,
     "rank" : 5
   },
-  "10009" : {
-    "id" : 10009,
+  "10000148" : {
+    "id" : 10000148,
     "l10nMap" : {
-      "zh-cn" : "(test)空武器"
+      "de-de" : "Alyosha",
+      "en-us" : "Alyosha",
+      "es-es" : "Aliosha",
+      "fr-fr" : "Alyosha",
+      "id-id" : "Alyosha",
+      "it-it" : "Alyosha",
+      "ja-jp" : "アリョーシャ",
+      "ko-kr" : "알료샤",
+      "pt-pt" : "Alyosha",
+      "ru-ru" : "Алёша",
+      "th-th" : "Alyosha",
+      "tr-tr" : "Alyosha",
+      "vi-vn" : "Alyosha",
+      "zh-cn" : "阿罗夏",
+      "zh-tw" : "阿羅夏"
     },
-    "nameTextMapHash" : 123009179,
-    "rank" : 1
+    "nameTextMapHash" : 2727450010,
+    "rank" : 4
+  },
+  "10000150" : {
+    "id" : 10000150,
+    "l10nMap" : {
+      "de-de" : "Odette",
+      "en-us" : "Odette",
+      "es-es" : "Odette",
+      "fr-fr" : "Odette",
+      "id-id" : "Odette",
+      "it-it" : "Odette",
+      "ja-jp" : "オデット",
+      "ko-kr" : "오데트",
+      "pt-pt" : "Odette",
+      "ru-ru" : "Одетта",
+      "th-th" : "Odette",
+      "tr-tr" : "Odette",
+      "vi-vn" : "Odette",
+      "zh-cn" : "奥黛塔",
+      "zh-tw" : "奧黛塔"
+    },
+    "nameTextMapHash" : 2417850,
+    "rank" : 5
   },
   "11101" : {
     "id" : 11101,
@@ -3439,6 +3431,50 @@
     "nameTextMapHash" : 357888027,
     "rank" : 4
   },
+  "11435" : {
+    "id" : 11435,
+    "l10nMap" : {
+      "de-de" : "Klinge des Ketzerjägers",
+      "en-us" : "Heretic's Molten Blade",
+      "es-es" : "Filo de la Caza de los Herejes",
+      "fr-fr" : "Lame de lave de l'hérétique",
+      "id-id" : "Heretic's Molten Blade",
+      "it-it" : "Lama incandescente dell'eretico",
+      "ja-jp" : "異端を狩る熔刃",
+      "ko-kr" : "이단을 가르는 불꽃",
+      "pt-pt" : "Lâmina Derretida do Herege",
+      "ru-ru" : "Расплавленный клинок еретика",
+      "th-th" : "Heretic's Molten Blade",
+      "tr-tr" : "Kafirin Kızgın Kılıcı",
+      "vi-vn" : "Lưỡi Kiếm Dung Luyện Dị Đoan",
+      "zh-cn" : "熔猎异端之刃",
+      "zh-tw" : "熔獵異端之刃"
+    },
+    "nameTextMapHash" : 924032139,
+    "rank" : 4
+  },
+  "11436" : {
+    "id" : 11436,
+    "l10nMap" : {
+      "de-de" : "Flammenquelle",
+      "en-us" : "Emberwell",
+      "es-es" : "Fuente de Ignición",
+      "fr-fr" : "Puits-de-braises",
+      "id-id" : "Emberwell",
+      "it-it" : "Fonte ignea",
+      "ja-jp" : "導炎の源",
+      "ko-kr" : "불꽃의 인도자",
+      "pt-pt" : "Fonte da Ignição",
+      "ru-ru" : "Источник пламени",
+      "th-th" : "Emberwell",
+      "tr-tr" : "Kor Pınarı",
+      "vi-vn" : "Ngọn Nguồn Dẫn Lửa",
+      "zh-cn" : "引火之源",
+      "zh-tw" : "引火之源"
+    },
+    "nameTextMapHash" : 210291963,
+    "rank" : 4
+  },
   "11501" : {
     "id" : 11501,
     "l10nMap" : {
@@ -3789,6 +3825,50 @@
       "zh-tw" : "朏魄含光"
     },
     "nameTextMapHash" : 1573691659,
+    "rank" : 5
+  },
+  "11520" : {
+    "id" : 11520,
+    "l10nMap" : {
+      "de-de" : "Winterfeder des weißen Sees",
+      "en-us" : "Whitelake Frostfeather",
+      "es-es" : "Pluma Invernal Lagoblanco",
+      "fr-fr" : "Plume hivernale du lac blanc",
+      "id-id" : "Whitelake Frostfeather",
+      "it-it" : "Piuma gelata del lago bianco",
+      "ja-jp" : "白銀の湖を舞う翼",
+      "ko-kr" : "백조의 호수",
+      "pt-pt" : "Asa Gelada do Lago Branco",
+      "ru-ru" : "Морозное перо белого озера",
+      "th-th" : "Whitelake Frostfeather",
+      "tr-tr" : "Beyaz Gölün Buz Tüyü",
+      "vi-vn" : "Bạch Hồ Đông Vũ",
+      "zh-cn" : "白湖冬羽",
+      "zh-tw" : "白湖冬羽"
+    },
+    "nameTextMapHash" : 4113623219,
+    "rank" : 5
+  },
+  "11521" : {
+    "id" : 11521,
+    "l10nMap" : {
+      "de-de" : "Sternspitzen-Klinge",
+      "en-us" : "Exaiphanes Blade",
+      "es-es" : "Hoja de Exáifanes",
+      "fr-fr" : "Lame exaphane",
+      "id-id" : "Exaiphanes Blade",
+      "it-it" : "Lama exaiphanes",
+      "ja-jp" : "星鋒の剣",
+      "ko-kr" : "별빛검",
+      "pt-pt" : "Sabre da Ponta Estelar",
+      "ru-ru" : "Клинок озарения",
+      "th-th" : "Exaiphanes Blade",
+      "tr-tr" : "Exaiphanes Kılıcı",
+      "vi-vn" : "Thanh Kiếm Exaiphanes",
+      "zh-cn" : "星锋剑",
+      "zh-tw" : "星鋒劍"
+    },
+    "nameTextMapHash" : 1896898739,
     "rank" : 5
   },
   "12101" : {
@@ -4493,6 +4573,50 @@
       "zh-tw" : "萬能鑰匙"
     },
     "nameTextMapHash" : 3225522227,
+    "rank" : 4
+  },
+  "12435" : {
+    "id" : 12435,
+    "l10nMap" : {
+      "de-de" : "Geschmiedet durch das goldene Gesetz",
+      "en-us" : "Forged by the Golden Melody",
+      "es-es" : "Sombra de la Melodía Dorada",
+      "fr-fr" : "Forgée par la loi d'or",
+      "id-id" : "Forged by the Golden Melody",
+      "it-it" : "Forgiata dalla Melodia dorata",
+      "ja-jp" : "シンフォニーの鋳影",
+      "ko-kr" : "황금빛 선율",
+      "pt-pt" : "Forjada pela Lei Dourada",
+      "ru-ru" : "Творение золотой мелодии",
+      "th-th" : "Forged by the Golden Melody",
+      "tr-tr" : "Altın Melodiyle Dövülen",
+      "vi-vn" : "Kim Luật Đúc Ảnh",
+      "zh-cn" : "金律铸影",
+      "zh-tw" : "金律鑄影"
+    },
+    "nameTextMapHash" : 2136397971,
+    "rank" : 4
+  },
+  "12436" : {
+    "id" : 12436,
+    "l10nMap" : {
+      "de-de" : "Klinge der Erlösung",
+      "en-us" : "Blade of Atonement",
+      "es-es" : "Tajo Redentor",
+      "fr-fr" : "Lame de rédemption",
+      "id-id" : "Blade of Atonement",
+      "it-it" : "Lama dell'espiazione",
+      "ja-jp" : "救済の剣",
+      "ko-kr" : "구원의 대검",
+      "pt-pt" : "Lâmina da Redenção",
+      "ru-ru" : "Клинок искупления",
+      "th-th" : "Blade of Atonement",
+      "tr-tr" : "Kefaret Kılıcı",
+      "vi-vn" : "Nhát Chém Cứu Rỗi",
+      "zh-cn" : "救赎之斩",
+      "zh-tw" : "救贖之斬"
+    },
+    "nameTextMapHash" : 3259124203,
     "rank" : 4
   },
   "12501" : {
@@ -5351,6 +5475,50 @@
       "zh-tw" : "聖祭者的輝杖"
     },
     "nameTextMapHash" : 980370707,
+    "rank" : 4
+  },
+  "13435" : {
+    "id" : 13435,
+    "l10nMap" : {
+      "de-de" : "Frostatem",
+      "en-us" : "Frostbreath",
+      "es-es" : "Hálito Glacial",
+      "fr-fr" : "Souffle de givre",
+      "id-id" : "Frostbreath",
+      "it-it" : "Gelorespiro",
+      "ja-jp" : "氷の吐息",
+      "ko-kr" : "서리 숨결",
+      "pt-pt" : "Sopro Gélido",
+      "ru-ru" : "Морозное дыхание",
+      "th-th" : "Frostbreath",
+      "tr-tr" : "Buznefes",
+      "vi-vn" : "Hàn Khí",
+      "zh-cn" : "寒息",
+      "zh-tw" : "寒息"
+    },
+    "nameTextMapHash" : 3884163131,
+    "rank" : 4
+  },
+  "13436" : {
+    "id" : 13436,
+    "l10nMap" : {
+      "de-de" : "Wächterlied",
+      "en-us" : "Song of the Vigil",
+      "es-es" : "Balada de la Custodia",
+      "fr-fr" : "Chant de la veillée",
+      "id-id" : "Song of the Vigil",
+      "it-it" : "Ballata della veglia",
+      "ja-jp" : "遠望の歌",
+      "ko-kr" : "수호의 노래",
+      "pt-pt" : "Canção da Vigília",
+      "ru-ru" : "Песнь бдения",
+      "th-th" : "Song of the Vigil",
+      "tr-tr" : "Nöbet Türküsü",
+      "vi-vn" : "Ca Dao Hy Vọng",
+      "zh-cn" : "戍望谣歌",
+      "zh-tw" : "戍望謠歌"
+    },
+    "nameTextMapHash" : 3271318547,
     "rank" : 4
   },
   "13501" : {
@@ -6341,6 +6509,50 @@
       "zh-tw" : "霜辰"
     },
     "nameTextMapHash" : 3497154619,
+    "rank" : 4
+  },
+  "14435" : {
+    "id" : 14435,
+    "l10nMap" : {
+      "de-de" : "Spiel der Könige",
+      "en-us" : "Clash of Kings",
+      "es-es" : "Choque de Reyes",
+      "fr-fr" : "Choc des rois",
+      "id-id" : "Clash of Kings",
+      "it-it" : "Scontro tra re",
+      "ja-jp" : "諸王の対局",
+      "ko-kr" : "왕들의 대국",
+      "pt-pt" : "Duelo de Reis",
+      "ru-ru" : "Игры королей",
+      "th-th" : "Clash of Kings",
+      "tr-tr" : "Kralların Çarpışması",
+      "vi-vn" : "Trò Chơi Của Các Nhà Vua",
+      "zh-cn" : "群王局戏",
+      "zh-tw" : "群王局戲"
+    },
+    "nameTextMapHash" : 3881404531,
+    "rank" : 4
+  },
+  "14436" : {
+    "id" : 14436,
+    "l10nMap" : {
+      "de-de" : "Echo des Herzens",
+      "en-us" : "Echoes of the Heart",
+      "es-es" : "Eco del Corazón",
+      "fr-fr" : "Écho du cœur",
+      "id-id" : "Echoes of the Heart",
+      "it-it" : "Echi del cuore",
+      "ja-jp" : "胸中の谺",
+      "ko-kr" : "충성의 메아리",
+      "pt-pt" : "Ecos do Coração",
+      "ru-ru" : "Отголоски сердца",
+      "th-th" : "Echoes of the Heart",
+      "tr-tr" : "Kalbin Yankıları",
+      "vi-vn" : "Dư Âm Tấm Lòng",
+      "zh-cn" : "寸心余响",
+      "zh-tw" : "寸心餘響"
+    },
+    "nameTextMapHash" : 3594490091,
     "rank" : 4
   },
   "14501" : {
@@ -7529,6 +7741,50 @@
       "zh-tw" : "虹蛇的雨弦"
     },
     "nameTextMapHash" : 2320082227,
+    "rank" : 4
+  },
+  "15435" : {
+    "id" : 15435,
+    "l10nMap" : {
+      "de-de" : "Urzeitlicher Jadebogen",
+      "en-us" : "Jade Vista",
+      "es-es" : "Visión de Jade",
+      "fr-fr" : "Vue de jade",
+      "id-id" : "Jade Vista",
+      "it-it" : "Visione di giada",
+      "ja-jp" : "千鈞懸黎",
+      "ko-kr" : "옥빛 장궁",
+      "pt-pt" : "Vista da Jade Primordial",
+      "ru-ru" : "Поникшая артемизия",
+      "th-th" : "Jade Vista",
+      "tr-tr" : "Yeşim Ufuklar",
+      "vi-vn" : "Cung Huyền Lê",
+      "zh-cn" : "悬黎千钧",
+      "zh-tw" : "懸黎千鈞"
+    },
+    "nameTextMapHash" : 3783773579,
+    "rank" : 4
+  },
+  "15436" : {
+    "id" : 15436,
+    "l10nMap" : {
+      "de-de" : "Frostschneeschwur",
+      "en-us" : "Covenant of Frost and Snow",
+      "es-es" : "Juramento de la Escarcha",
+      "fr-fr" : "Alliance du givre et de la neige",
+      "id-id" : "Covenant of Frost and Snow",
+      "it-it" : "Patto del gelo e della neve",
+      "ja-jp" : "霜雪の契",
+      "ko-kr" : "서리의 서약",
+      "pt-pt" : "Pacto do Gelo e Neve",
+      "ru-ru" : "Завет льда и снега",
+      "th-th" : "Covenant of Frost and Snow",
+      "tr-tr" : "Kar ve Ayazın Yemini",
+      "vi-vn" : "Thệ Ước Sương Tuyết",
+      "zh-cn" : "霜雪誓约",
+      "zh-tw" : "霜雪誓約"
+    },
+    "nameTextMapHash" : 3730903067,
     "rank" : 4
   },
   "15501" : {
