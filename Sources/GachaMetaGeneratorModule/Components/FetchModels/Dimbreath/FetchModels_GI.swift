@@ -64,11 +64,15 @@ extension GachaMetaGenerator {
         var isValid: Bool {
             guard !Self.forbiddenNameTextMapHashes.contains(nameTextMapHash) else { return false }
             if isCharacter {
+                // Travelers are not gacha items.
+                guard ![10000134, 10000135, 10000005, 10000007].contains(id) else { return false }
                 guard id.description.prefix(2) != "11" else { return false }
                 guard id < 10000900 else { return false }
                 return true
             } else {
-                return true // Temporarily assume that all weapons are vaid.
+                // Weapons are 5-digit IDs; anything below 11100 is not a gacha item.
+                guard id >= 11100 else { return false }
+                return true
             }
         }
 
