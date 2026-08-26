@@ -1699,6 +1699,46 @@
     "nameTextMapHash" : 12653203655511224443,
     "rank" : 5
   },
+  "1512" : {
+    "id" : 1512,
+    "l10nMap" : {
+      "de-de" : "Robin – Summeretto",
+      "en-us" : "Robin • Summeretto",
+      "es-es" : "Robin Estival",
+      "fr-fr" : "Robin • Estivaria",
+      "id-id" : "Robin • Summeretto",
+      "ja-jp" : "ロビン・夏空の歌",
+      "ko-kr" : "로빈•서머레토",
+      "pt-pt" : "Robin - Summeretto",
+      "ru-ru" : "Зарянка: Яснопея",
+      "th-th" : "Robin - คีตะคิมหันต์",
+      "vi-vn" : "Robin - Summeretto",
+      "zh-cn" : "知更鸟•晴歌",
+      "zh-tw" : "知更鳥•晴歌"
+    },
+    "nameTextMapHash" : 9781128254395420869,
+    "rank" : 5
+  },
+  "1513" : {
+    "id" : 1513,
+    "l10nMap" : {
+      "de-de" : "Aventurin – Wellenflair",
+      "en-us" : "Aventurine • Waveflair",
+      "es-es" : "Aventurino Oleaje",
+      "fr-fr" : "Aventurine • Croisette",
+      "id-id" : "Aventurine • Waveflair",
+      "ja-jp" : "アベンチュリン・波と戯れる夏",
+      "ko-kr" : "어벤츄린•웨이브",
+      "pt-pt" : "Aventurine - Veraneio",
+      "ru-ru" : "Авантюрин: Прибой",
+      "th-th" : "Aventurine - คลื่นสำราญ",
+      "vi-vn" : "Aventurine - Waveflair",
+      "zh-cn" : "砂金•戏浪",
+      "zh-tw" : "砂金•戲浪"
+    },
+    "nameTextMapHash" : 5591079138023962224,
+    "rank" : 5
+  },
   "20000" : {
     "id" : 20000,
     "l10nMap" : {
@@ -3459,6 +3499,26 @@
     "nameTextMapHash" : 9454774255307972807,
     "rank" : 4
   },
+  "21066" : {
+    "id" : 21066,
+    "l10nMap" : {
+      "de-de" : "Kleiner Kurzurlaub",
+      "en-us" : "A Little Getaway",
+      "es-es" : "Un breve descanso",
+      "fr-fr" : "Une pause bien méritée",
+      "id-id" : "A Little Getaway",
+      "ja-jp" : "バカンスのひと時",
+      "ko-kr" : "짧은 휴가",
+      "pt-pt" : "Um Breve Descanso",
+      "ru-ru" : "Короткий отпуск",
+      "th-th" : "A Little Getaway",
+      "vi-vn" : "Kỳ Nghỉ Ngắn Ngủi",
+      "zh-cn" : "放个短假",
+      "zh-tw" : "放個小假"
+    },
+    "nameTextMapHash" : 3394179651702416076,
+    "rank" : 4
+  },
   "22000" : {
     "id" : 22000,
     "l10nMap" : {
@@ -3617,6 +3677,26 @@
       "zh-tw" : "未來，有我們一起"
     },
     "nameTextMapHash" : 1470137069313109545,
+    "rank" : 4
+  },
+  "22008" : {
+    "id" : 22008,
+    "l10nMap" : {
+      "de-de" : "Wettrennen zum Horizont",
+      "en-us" : "Race to the Horizon",
+      "es-es" : "Hacia el final del horizonte",
+      "fr-fr" : "Course vers l'horizon",
+      "id-id" : "Race to the Horizon",
+      "ja-jp" : "地平線のゴールへ",
+      "ko-kr" : "지평선의 끝을 향해",
+      "pt-pt" : "Corrida ao Horizonte",
+      "ru-ru" : "Гонка к горизонту",
+      "th-th" : "Race to the Horizon",
+      "vi-vn" : "Hướng Tới Tận Cùng Đường Chân Trời",
+      "zh-cn" : "向着地平线的终点",
+      "zh-tw" : "向著地平線的終點"
+    },
+    "nameTextMapHash" : 14250856990396693091,
     "rank" : 4
   },
   "23000" : {
@@ -4857,6 +4937,46 @@
       "zh-tw" : "所見即我"
     },
     "nameTextMapHash" : 13693150873761509240,
+    "rank" : 5
+  },
+  "23063" : {
+    "id" : 23063,
+    "l10nMap" : {
+      "de-de" : "Steh auf und sing",
+      "en-us" : "Rise and Sing",
+      "es-es" : "Levántate y canta",
+      "fr-fr" : "À vous !",
+      "id-id" : "Rise and Sing",
+      "ja-jp" : "立ち上がり高らかな歌を",
+      "ko-kr" : "그대는 나아가 노래하리니",
+      "pt-pt" : "Levanta e Canta",
+      "ru-ru" : "Встань и пой",
+      "th-th" : "Rise and Sing",
+      "vi-vn" : "Bạn Sẽ Đứng Dậy Cất Tiếng Hát",
+      "zh-cn" : "你将起身歌唱",
+      "zh-tw" : "你將起身歌唱"
+    },
+    "nameTextMapHash" : 1179447360796025287,
+    "rank" : 5
+  },
+  "23064" : {
+    "id" : 23064,
+    "l10nMap" : {
+      "de-de" : "Hochsommer auf den Wellen",
+      "en-us" : "Summer Rides the Surf",
+      "es-es" : "Verano entre olas",
+      "fr-fr" : "Un déferlement d'été",
+      "id-id" : "Summer Rides the Surf",
+      "ja-jp" : "波しぶきが躍る夏へ",
+      "ko-kr" : "파도에 내던진 한여름",
+      "pt-pt" : "Surfando a Onda do Verão",
+      "ru-ru" : "Лето в волнах",
+      "th-th" : "Summer Rides the Surf",
+      "vi-vn" : "Ném Mùa Hè Vào Bọt Sóng",
+      "zh-cn" : "向浪花掷下盛夏",
+      "zh-tw" : "向浪花擲下盛夏"
+    },
+    "nameTextMapHash" : 14974151069627830085,
     "rank" : 5
   },
   "24000" : {
