@@ -2595,6 +2595,50 @@
     "nameTextMapHash" : 108893506,
     "rank" : 5
   },
+  "10000140" : {
+    "id" : 10000140,
+    "l10nMap" : {
+      "de-de" : "Vodyanitsa",
+      "en-us" : "Vodyanitsa",
+      "es-es" : "Vodyanitsa",
+      "fr-fr" : "Vodyanitsa",
+      "id-id" : "Vodyanitsa",
+      "it-it" : "Vodyanitsa",
+      "ja-jp" : "ヴォジャニーツァ",
+      "ko-kr" : "보댜니차",
+      "pt-pt" : "Vodyanitsa",
+      "ru-ru" : "Водяница",
+      "th-th" : "Vodyanitsa",
+      "tr-tr" : "Vodyanitsa",
+      "vi-vn" : "Vodyanitsa",
+      "zh-cn" : "沃雅妮莎",
+      "zh-tw" : "沃雅妮莎"
+    },
+    "nameTextMapHash" : 1692132714,
+    "rank" : 5
+  },
+  "10000143" : {
+    "id" : 10000143,
+    "l10nMap" : {
+      "de-de" : "Vesna",
+      "en-us" : "Vesna",
+      "es-es" : "Vesna",
+      "fr-fr" : "Vesna",
+      "id-id" : "Vesna",
+      "it-it" : "Vesna",
+      "ja-jp" : "ヴェスナ",
+      "ko-kr" : "베스나",
+      "pt-pt" : "Vesna",
+      "ru-ru" : "Весна",
+      "th-th" : "Vesna",
+      "tr-tr" : "Vesna",
+      "vi-vn" : "Vesna",
+      "zh-cn" : "薇斯纳",
+      "zh-tw" : "薇斯納"
+    },
+    "nameTextMapHash" : 3992521194,
+    "rank" : 5
+  },
   "10000148" : {
     "id" : 10000148,
     "l10nMap" : {
@@ -3475,6 +3519,50 @@
     "nameTextMapHash" : 210291963,
     "rank" : 4
   },
+  "11437" : {
+    "id" : 11437,
+    "l10nMap" : {
+      "de-de" : "Neuer Zweig",
+      "en-us" : "New Bough",
+      "es-es" : "Nueva Rama",
+      "fr-fr" : "Nouvelle branche",
+      "id-id" : "New Bough",
+      "it-it" : "Nuovo ramo",
+      "ja-jp" : "新たなる枝",
+      "ko-kr" : "새순",
+      "pt-pt" : "Ramo Novo",
+      "ru-ru" : "Новая ветвь",
+      "th-th" : "New Bough",
+      "tr-tr" : "Yeni Dal",
+      "vi-vn" : "Cành Mới",
+      "zh-cn" : "新枝",
+      "zh-tw" : "新枝"
+    },
+    "nameTextMapHash" : 1359826123,
+    "rank" : 4
+  },
+  "11438" : {
+    "id" : 11438,
+    "l10nMap" : {
+      "de-de" : "Silberlampe",
+      "en-us" : "Silver Light",
+      "es-es" : "Luz Plateada",
+      "fr-fr" : "Lumière argentée",
+      "id-id" : "Silver Light",
+      "it-it" : "Luce argentea",
+      "ja-jp" : "銀灯",
+      "ko-kr" : "은강검",
+      "pt-pt" : "Lâmpada Prateada",
+      "ru-ru" : "Серебряный свет",
+      "th-th" : "Silver Light",
+      "tr-tr" : "Gümüş Işık",
+      "vi-vn" : "Ngân Cang",
+      "zh-cn" : "银釭",
+      "zh-tw" : "銀釭"
+    },
+    "nameTextMapHash" : 2153081171,
+    "rank" : 4
+  },
   "11501" : {
     "id" : 11501,
     "l10nMap" : {
@@ -3869,6 +3957,28 @@
       "zh-tw" : "星鋒劍"
     },
     "nameTextMapHash" : 1896898739,
+    "rank" : 5
+  },
+  "11522" : {
+    "id" : 11522,
+    "l10nMap" : {
+      "de-de" : "Schmetterlingswandel",
+      "en-us" : "Beyond the Chrysalis",
+      "es-es" : "Allende la Crisálida",
+      "fr-fr" : "Au-delà de la chrysalide",
+      "id-id" : "Beyond the Chrysalis",
+      "it-it" : "Oltre la crisalide",
+      "ja-jp" : "蝶の羽化",
+      "ko-kr" : "나비의 우화",
+      "pt-pt" : "Borboleta Transformadora",
+      "ru-ru" : "За пределами кокона",
+      "th-th" : "Beyond the Chrysalis",
+      "tr-tr" : "Kozanın Ötesi",
+      "vi-vn" : "Cánh Bướm Biến Hóa",
+      "zh-cn" : "蝶变",
+      "zh-tw" : "蝶變"
+    },
+    "nameTextMapHash" : 4086029419,
     "rank" : 5
   },
   "12101" : {
@@ -6555,6 +6665,28 @@
     "nameTextMapHash" : 3594490091,
     "rank" : 4
   },
+  "14437" : {
+    "id" : 14437,
+    "l10nMap" : {
+      "de-de" : "Schweres Herz des Winters",
+      "en-us" : "Winter's Heavy Heart",
+      "es-es" : "Corazón del Invierno",
+      "fr-fr" : "Le cœur lourd de l'hiver",
+      "id-id" : "Winter's Heavy Heart",
+      "it-it" : "Cuore pesante dell'inverno",
+      "ja-jp" : "雪に沈む心",
+      "ko-kr" : "얼어붙은 심장",
+      "pt-pt" : "Coração Congelado",
+      "ru-ru" : "Застывшее сердце зимы",
+      "th-th" : "Winter's Heavy Heart",
+      "tr-tr" : "Kışın Ağır Kalbi",
+      "vi-vn" : "Trái Tim Ngưng Tuyết",
+      "zh-cn" : "凝雪沉心",
+      "zh-tw" : "凝雪沉心"
+    },
+    "nameTextMapHash" : 2998374891,
+    "rank" : 4
+  },
   "14501" : {
     "id" : 14501,
     "l10nMap" : {
@@ -6971,6 +7103,28 @@
       "zh-tw" : "塵光七諭"
     },
     "nameTextMapHash" : 1871665507,
+    "rank" : 5
+  },
+  "14524" : {
+    "id" : 14524,
+    "l10nMap" : {
+      "de-de" : "Loblied des Strudels",
+      "en-us" : "Hymn of the Maelstrom",
+      "es-es" : "Himno del Vórtice",
+      "fr-fr" : "Hymne dans le maelström",
+      "id-id" : "Hymn of the Maelstrom",
+      "it-it" : "Inno del gorgo",
+      "ja-jp" : "旋流の讃美歌",
+      "ko-kr" : "파도의 찬송가",
+      "pt-pt" : "Cântico Rodopiante",
+      "ru-ru" : "Ода водоворота",
+      "th-th" : "Hymn of the Maelstrom",
+      "tr-tr" : "Girdap İlahisi",
+      "vi-vn" : "Thánh Ca Vòng Xoáy",
+      "zh-cn" : "漩流颂歌",
+      "zh-tw" : "漩流頌歌"
+    },
+    "nameTextMapHash" : 2677592067,
     "rank" : 5
   },
   "15101" : {
@@ -7787,6 +7941,28 @@
     "nameTextMapHash" : 3730903067,
     "rank" : 4
   },
+  "15437" : {
+    "id" : 15437,
+    "l10nMap" : {
+      "de-de" : "Lüftchen und Saitenspiel",
+      "en-us" : "Breezeborne Refrain",
+      "es-es" : "Estribillo del Viento",
+      "fr-fr" : "Refrain dans le vent",
+      "id-id" : "Breezeborne Refrain",
+      "it-it" : "Ritornello della brezza",
+      "ja-jp" : "風に遊ぶ弦",
+      "ko-kr" : "산들바람 활",
+      "pt-pt" : "Cordas Suaves",
+      "ru-ru" : "Напевы нежного ветра",
+      "th-th" : "Breezeborne Refrain",
+      "tr-tr" : "Rüzgarın Ezgisi",
+      "vi-vn" : "Giai Điệu Gió Thoảng",
+      "zh-cn" : "柔风游弦",
+      "zh-tw" : "柔風遊弦"
+    },
+    "nameTextMapHash" : 3763051755,
+    "rank" : 4
+  },
   "15501" : {
     "id" : 15501,
     "l10nMap" : {
@@ -7821,7 +7997,7 @@
       "ja-jp" : "アモスの弓",
       "ko-kr" : "아모스의 활",
       "pt-pt" : "Arco de Amos",
-      "ru-ru" : "Лук Амоса",
+      "ru-ru" : "Лук Амос",
       "th-th" : "Amos' Bow",
       "tr-tr" : "Amos'un Yayı",
       "vi-vn" : "Cung Amos",
