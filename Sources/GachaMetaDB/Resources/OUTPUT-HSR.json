@@ -1559,6 +1559,26 @@
     "nameTextMapHash" : 5676363387127417629,
     "rank" : 5
   },
+  "1503" : {
+    "id" : 1503,
+    "l10nMap" : {
+      "de-de" : "Pearl",
+      "en-us" : "Pearl",
+      "es-es" : "Perla",
+      "fr-fr" : "Perle",
+      "id-id" : "Pearl",
+      "ja-jp" : "パール",
+      "ko-kr" : "펄",
+      "pt-pt" : "Pearl",
+      "ru-ru" : "Жемчуг",
+      "th-th" : "Pearl",
+      "vi-vn" : "Pearl",
+      "zh-cn" : "真珠",
+      "zh-tw" : "真珠"
+    },
+    "nameTextMapHash" : 17971979440145228372,
+    "rank" : 5
+  },
   "1504" : {
     "id" : 1504,
     "l10nMap" : {
@@ -4797,6 +4817,26 @@
       "zh-tw" : "當她決定看見"
     },
     "nameTextMapHash" : 5484320404804108704,
+    "rank" : 5
+  },
+  "23055" : {
+    "id" : 23055,
+    "l10nMap" : {
+      "de-de" : "Farben für morgen",
+      "en-us" : "Colors for Tomorrow",
+      "es-es" : "Colores para el mañana",
+      "fr-fr" : "Couleurs dédiées au lendemain",
+      "id-id" : "Colors for Tomorrow",
+      "ja-jp" : "明日に捧げる色",
+      "ko-kr" : "내일에 바치는 색채",
+      "pt-pt" : "Cores para o Amanhã",
+      "ru-ru" : "Цвета для завтрашнего дня",
+      "th-th" : "Colors for Tomorrow",
+      "vi-vn" : "Sắc Màu Dành Tặng Cho Ngày Mai",
+      "zh-cn" : "献给明日的色彩",
+      "zh-tw" : "獻給明日的色彩"
+    },
+    "nameTextMapHash" : 5383274067590643422,
     "rank" : 5
   },
   "23056" : {
