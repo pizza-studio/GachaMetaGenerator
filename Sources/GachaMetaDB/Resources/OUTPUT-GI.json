@@ -2595,6 +2595,50 @@
     "nameTextMapHash" : 108893506,
     "rank" : 5
   },
+  "10000136" : {
+    "id" : 10000136,
+    "l10nMap" : {
+      "de-de" : "Mitya",
+      "en-us" : "Mitya",
+      "es-es" : "Mitya",
+      "fr-fr" : "Mitya",
+      "id-id" : "Mitya",
+      "it-it" : "Mitya",
+      "ja-jp" : "ミティヤ",
+      "ko-kr" : "미탸",
+      "pt-pt" : "Mitya",
+      "ru-ru" : "Митя",
+      "th-th" : "Mitya",
+      "tr-tr" : "Mitya",
+      "vi-vn" : "Mitya",
+      "zh-cn" : "米提亚",
+      "zh-tw" : "米提亞"
+    },
+    "nameTextMapHash" : 2607187986,
+    "rank" : 5
+  },
+  "10000137" : {
+    "id" : 10000137,
+    "l10nMap" : {
+      "de-de" : "Valeriy",
+      "en-us" : "Valeriy",
+      "es-es" : "Valeri",
+      "fr-fr" : "Valeriy",
+      "id-id" : "Valeriy",
+      "it-it" : "Valeriy",
+      "ja-jp" : "バレリー",
+      "ko-kr" : "발레리",
+      "pt-pt" : "Valeriy",
+      "ru-ru" : "Валерий",
+      "th-th" : "Valeriy",
+      "tr-tr" : "Valeriy",
+      "vi-vn" : "Valeriy",
+      "zh-cn" : "瓦列里",
+      "zh-tw" : "瓦列里"
+    },
+    "nameTextMapHash" : 3993177338,
+    "rank" : 4
+  },
   "10000140" : {
     "id" : 10000140,
     "l10nMap" : {
@@ -7125,6 +7169,28 @@
       "zh-tw" : "漩流頌歌"
     },
     "nameTextMapHash" : 2677592067,
+    "rank" : 5
+  },
+  "14525" : {
+    "id" : 14525,
+    "l10nMap" : {
+      "de-de" : "Geheimes Sternorakel",
+      "en-us" : "Starsealed Edict",
+      "es-es" : "Edicto Selloastral",
+      "fr-fr" : "Édit d'astre secret",
+      "id-id" : "Starsealed Edict",
+      "it-it" : "Editto sigillato dalle stelle",
+      "ja-jp" : "秘星の聖典",
+      "ko-kr" : "별빛 계시",
+      "pt-pt" : "Ordens Canônicas Estelares",
+      "ru-ru" : "Звёздный указ",
+      "th-th" : "Starsealed Edict",
+      "tr-tr" : "Yıldız Yazgısı Hükmü",
+      "vi-vn" : "Sắc Lệnh Tinh Tú",
+      "zh-cn" : "秘星典谕",
+      "zh-tw" : "秘星典諭"
+    },
+    "nameTextMapHash" : 4206156163,
     "rank" : 5
   },
   "15101" : {
