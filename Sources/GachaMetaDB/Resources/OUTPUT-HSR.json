@@ -1719,6 +1719,26 @@
     "nameTextMapHash" : 12653203655511224443,
     "rank" : 5
   },
+  "1511" : {
+    "id" : 1511,
+    "l10nMap" : {
+      "de-de" : "Äonin ★ Aha",
+      "en-us" : "Aeon ★ Aha",
+      "es-es" : "Eón ★ Aha",
+      "fr-fr" : "Aiôn ★ Aha",
+      "id-id" : "Aeon ★ Aha",
+      "ja-jp" : "星神★アッハ",
+      "ko-kr" : "에이언즈★아하",
+      "pt-pt" : "Aeon ★ Aha",
+      "ru-ru" : "Эон ★ Аха",
+      "th-th" : "เทพดารา ★ Aha",
+      "vi-vn" : "Aeon ★ Aha",
+      "zh-cn" : "星神★阿哈",
+      "zh-tw" : "星神★阿哈"
+    },
+    "nameTextMapHash" : 14922431951980054096,
+    "rank" : 5
+  },
   "1512" : {
     "id" : 1512,
     "l10nMap" : {
@@ -3719,6 +3739,26 @@
     "nameTextMapHash" : 14250856990396693091,
     "rank" : 4
   },
+  "22009" : {
+    "id" : 22009,
+    "l10nMap" : {
+      "de-de" : "Wir sehen uns am Ende der Welt!",
+      "en-us" : "See You at the World's End!",
+      "es-es" : "¡Nos vemos en El Fin del Mundo!",
+      "fr-fr" : "Retrouvons-nous au bout du monde !",
+      "id-id" : "See You at the World's End!",
+      "ja-jp" : "世界の果てで会おう！",
+      "ko-kr" : "세상 끝에서 만나자!",
+      "pt-pt" : "Te Vejo no Fim do Mundo!",
+      "ru-ru" : "Встретимся на краю света!",
+      "th-th" : "See You at the World's End!",
+      "vi-vn" : "Hẹn Gặp Lại Tại Tận Thế Nhé!",
+      "zh-cn" : "在世界尽头相会吧！",
+      "zh-tw" : "在世界盡頭相會吧！"
+    },
+    "nameTextMapHash" : 3323979517703201137,
+    "rank" : 4
+  },
   "23000" : {
     "id" : 23000,
     "l10nMap" : {
@@ -5017,6 +5057,26 @@
       "zh-tw" : "向浪花擲下盛夏"
     },
     "nameTextMapHash" : 14974151069627830085,
+    "rank" : 5
+  },
+  "23065" : {
+    "id" : 23065,
+    "l10nMap" : {
+      "de-de" : "Beim ersten Echo von Aha",
+      "en-us" : "Upon the First Echo of \"Aha\"",
+      "es-es" : "Al primer eco de Aha",
+      "fr-fr" : "Au premier écho d'Aha",
+      "id-id" : "Upon the First Echo of \"Aha\"",
+      "ja-jp" : "はじめの「アッハ」が響く時",
+      "ko-kr" : "「아하」가 처음 울리는 순간",
+      "pt-pt" : "Sobre o Primeiro Eco de \"Aha\"",
+      "ru-ru" : "Когда раздаётся первое «аха»",
+      "th-th" : "Upon the First Echo of \"Aha\"",
+      "vi-vn" : "Khi Tiếng \"Aha\" Đầu Tiên Vang Lên",
+      "zh-cn" : "当第一声「阿哈」响起",
+      "zh-tw" : "當第一聲「阿哈」響起"
+    },
+    "nameTextMapHash" : 13185461907927069549,
     "rank" : 5
   },
   "24000" : {
