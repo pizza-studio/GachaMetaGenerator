@@ -21,8 +21,7 @@ case 1, 2:
     else {
         let errText = "!! Please give only one argument among `-GI`, `-HSR`, `-GID`, `-HSRD`."
         print("{\"errMsg\": \"\(errText)\"}\n")
-        assertionFailure(errText)
-        exit(1)
+        fatalError(errText)
     }
     if let localPath {
         printStderr("// Using local data path: \(localPath)")
@@ -40,8 +39,7 @@ case 1, 2:
         } else {
             let errText = "!! Error on encoding JSON files."
             print("{\"errMsg\": \"\(errText)\"}\n")
-            assertionFailure(errText)
-            exit(1)
+            fatalError(errText)
         }
     } catch {
         print("{\"errMsg\": \"\(error)\"}\n")
@@ -51,6 +49,5 @@ default:
     let errText =
         "!! Wrong number of arguments. Use: `-GI`, `-HSR`, `-GID`, `-HSRD`. Optional: `-localPath /path/to/data`."
     print("{\"errMsg\": \"\(errText)\"}\n")
-    assertionFailure(errText)
-    exit(1)
+    fatalError(errText)
 }
